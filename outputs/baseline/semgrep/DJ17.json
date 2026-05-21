@@ -1,0 +1,608 @@
+{
+  "version": "1.162.0",
+  "results": [
+    {
+      "check_id": "python.django.security.injection.open-redirect.open-redirect",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/views.py",
+      "start": {
+        "line": 127,
+        "col": 13,
+        "offset": 4280
+      },
+      "end": {
+        "line": 127,
+        "col": 42,
+        "offset": 4309
+      },
+      "extra": {
+        "message": "Data from request ($DATA) is passed to redirect(). This is an open redirect and could be exploited. Ensure you are redirecting to safe URLs by using django.utils.http.is_safe_url(). See https://cwe.mitre.org/data/definitions/601.html for more information.",
+        "metadata": {
+          "cwe": [
+            "CWE-601: URL Redirection to Untrusted Site ('Open Redirect')"
+          ],
+          "owasp": [
+            "A01:2021 - Broken Access Control",
+            "A01:2025 - Broken Access Control"
+          ],
+          "references": [
+            "https://www.djm.org.uk/posts/djangos-little-protections-word-redirect-dangers/",
+            "https://github.com/django/django/blob/d1b7bd030b1db111e1a3505b1fc029ab964382cc/django/utils/http.py#L231"
+          ],
+          "category": "security",
+          "technology": [
+            "django"
+          ],
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "LOW",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Open Redirect"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.injection.open-redirect.open-redirect",
+          "shortlink": "https://sg.run/Ave2"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.injection.open-redirect.open-redirect",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/views.py",
+      "start": {
+        "line": 127,
+        "col": 20,
+        "offset": 4287
+      },
+      "end": {
+        "line": 127,
+        "col": 42,
+        "offset": 4309
+      },
+      "extra": {
+        "message": "Data from request ($DATA) is passed to redirect(). This is an open redirect and could be exploited. Ensure you are redirecting to safe URLs by using django.utils.http.is_safe_url(). See https://cwe.mitre.org/data/definitions/601.html for more information.",
+        "metadata": {
+          "cwe": [
+            "CWE-601: URL Redirection to Untrusted Site ('Open Redirect')"
+          ],
+          "owasp": [
+            "A01:2021 - Broken Access Control",
+            "A01:2025 - Broken Access Control"
+          ],
+          "references": [
+            "https://www.djm.org.uk/posts/djangos-little-protections-word-redirect-dangers/",
+            "https://github.com/django/django/blob/d1b7bd030b1db111e1a3505b1fc029ab964382cc/django/utils/http.py#L231"
+          ],
+          "category": "security",
+          "technology": [
+            "django"
+          ],
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "LOW",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Open Redirect"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.injection.open-redirect.open-redirect",
+          "shortlink": "https://sg.run/Ave2"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.injection.open-redirect.open-redirect",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/views.py",
+      "start": {
+        "line": 18,
+        "col": 5,
+        "offset": 458
+      },
+      "end": {
+        "line": 18,
+        "col": 34,
+        "offset": 487
+      },
+      "extra": {
+        "message": "Data from request ($DATA) is passed to redirect(). This is an open redirect and could be exploited. Ensure you are redirecting to safe URLs by using django.utils.http.is_safe_url(). See https://cwe.mitre.org/data/definitions/601.html for more information.",
+        "metadata": {
+          "cwe": [
+            "CWE-601: URL Redirection to Untrusted Site ('Open Redirect')"
+          ],
+          "owasp": [
+            "A01:2021 - Broken Access Control",
+            "A01:2025 - Broken Access Control"
+          ],
+          "references": [
+            "https://www.djm.org.uk/posts/djangos-little-protections-word-redirect-dangers/",
+            "https://github.com/django/django/blob/d1b7bd030b1db111e1a3505b1fc029ab964382cc/django/utils/http.py#L231"
+          ],
+          "category": "security",
+          "technology": [
+            "django"
+          ],
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "LOW",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Open Redirect"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.injection.open-redirect.open-redirect",
+          "shortlink": "https://sg.run/Ave2"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.injection.open-redirect.open-redirect",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/views.py",
+      "start": {
+        "line": 18,
+        "col": 12,
+        "offset": 465
+      },
+      "end": {
+        "line": 18,
+        "col": 34,
+        "offset": 487
+      },
+      "extra": {
+        "message": "Data from request ($DATA) is passed to redirect(). This is an open redirect and could be exploited. Ensure you are redirecting to safe URLs by using django.utils.http.is_safe_url(). See https://cwe.mitre.org/data/definitions/601.html for more information.",
+        "metadata": {
+          "cwe": [
+            "CWE-601: URL Redirection to Untrusted Site ('Open Redirect')"
+          ],
+          "owasp": [
+            "A01:2021 - Broken Access Control",
+            "A01:2025 - Broken Access Control"
+          ],
+          "references": [
+            "https://www.djm.org.uk/posts/djangos-little-protections-word-redirect-dangers/",
+            "https://github.com/django/django/blob/d1b7bd030b1db111e1a3505b1fc029ab964382cc/django/utils/http.py#L231"
+          ],
+          "category": "security",
+          "technology": [
+            "django"
+          ],
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "LOW",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Open Redirect"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.injection.open-redirect.open-redirect",
+          "shortlink": "https://sg.run/Ave2"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/login.html",
+      "start": {
+        "line": 13,
+        "col": 5,
+        "offset": 348
+      },
+      "end": {
+        "line": 28,
+        "col": 12,
+        "offset": 1054
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.injection.open-redirect.open-redirect",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/views.py",
+      "start": {
+        "line": 51,
+        "col": 13,
+        "offset": 1579
+      },
+      "end": {
+        "line": 51,
+        "col": 42,
+        "offset": 1608
+      },
+      "extra": {
+        "message": "Data from request ($DATA) is passed to redirect(). This is an open redirect and could be exploited. Ensure you are redirecting to safe URLs by using django.utils.http.is_safe_url(). See https://cwe.mitre.org/data/definitions/601.html for more information.",
+        "metadata": {
+          "cwe": [
+            "CWE-601: URL Redirection to Untrusted Site ('Open Redirect')"
+          ],
+          "owasp": [
+            "A01:2021 - Broken Access Control",
+            "A01:2025 - Broken Access Control"
+          ],
+          "references": [
+            "https://www.djm.org.uk/posts/djangos-little-protections-word-redirect-dangers/",
+            "https://github.com/django/django/blob/d1b7bd030b1db111e1a3505b1fc029ab964382cc/django/utils/http.py#L231"
+          ],
+          "category": "security",
+          "technology": [
+            "django"
+          ],
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "LOW",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Open Redirect"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.injection.open-redirect.open-redirect",
+          "shortlink": "https://sg.run/Ave2"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.injection.open-redirect.open-redirect",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/views.py",
+      "start": {
+        "line": 51,
+        "col": 20,
+        "offset": 1586
+      },
+      "end": {
+        "line": 51,
+        "col": 42,
+        "offset": 1608
+      },
+      "extra": {
+        "message": "Data from request ($DATA) is passed to redirect(). This is an open redirect and could be exploited. Ensure you are redirecting to safe URLs by using django.utils.http.is_safe_url(). See https://cwe.mitre.org/data/definitions/601.html for more information.",
+        "metadata": {
+          "cwe": [
+            "CWE-601: URL Redirection to Untrusted Site ('Open Redirect')"
+          ],
+          "owasp": [
+            "A01:2021 - Broken Access Control",
+            "A01:2025 - Broken Access Control"
+          ],
+          "references": [
+            "https://www.djm.org.uk/posts/djangos-little-protections-word-redirect-dangers/",
+            "https://github.com/django/django/blob/d1b7bd030b1db111e1a3505b1fc029ab964382cc/django/utils/http.py#L231"
+          ],
+          "category": "security",
+          "technology": [
+            "django"
+          ],
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "LOW",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Open Redirect"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.injection.open-redirect.open-redirect",
+          "shortlink": "https://sg.run/Ave2"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    }
+  ],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/config/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/config/asgi.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/config/settings/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/config/settings/base.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/config/settings/local.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/config/settings/log.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/config/settings/production.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/config/settings/test.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/config/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/manage.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/server.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/allauth/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/allauth/adapter.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/allauth/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/allauth/forms.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/allauth/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/api/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/api/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/api/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/db_utils.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/forms.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/migrations/0001_initial.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/migrations/0002_initial.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/migrations/0003_remove_post_image_remove_postcomment_image_and_more.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/migrations/0004_rename_date_post_date_created_and_more.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/migrations/0005_alter_post_date_created_and_more.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/migrations/0006_rename_user_post_author_and_more.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/migrations/0007_alter_post_author_alter_postcomment_author.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/migrations/0008_rename_text_post_content_and_more.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/migrations/0009_alter_post_content_alter_postcomment_content.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/migrations/0010_post_date_updated_postcomment_date_updated.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/migrations/0011_alter_post_content_alter_postcomment_content.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/migrations/0012_comment_delete_postcomment.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/migrations/0013_post_allow_commenting_alter_comment_content_and_more.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/migrations/0014_auto_20230609_1840.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/blog/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/db_utils.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/decorators.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/fields.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/log.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/management/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/management/commands/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/management/commands/mock_data.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/middleware.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/templatetags/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/templatetags/markdownify.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/templatetags/obj_admin_url.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/types.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/utils.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/core/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/consumers.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/forms.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/migrations/0001_initial.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/migrations/0002_initial.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/migrations/0003_rename_date_message_date_created.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/migrations/0004_alter_message_date_created.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/migrations/0005_rename_user_message_sender.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/migrations/0006_alter_message_sender.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/migrations/0007_rename_text_message_content.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/migrations/0008_alter_message_content.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/migrations/0009_rename_participants_chat_members.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/migrations/0010_alter_chat_members.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/migrations/0011_alter_message_content.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/migrations/0012_remove_message_chat_message_recipient_delete_chat.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/migrations/0013_alter_message_content.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/migrations/0014_message_messenger_m_id_b96158_idx.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/migrations/0015_remove_message_messenger_m_id_b96158_idx.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/routing.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/messenger/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/400.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/403.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/403_csrf.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/404.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/429.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/500.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/account_inactive.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/email.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/email_change.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/email_confirm.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/login.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/logout.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/password_change.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/password_reset.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/password_reset_done.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/password_reset_from_key.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/password_reset_from_key_done.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/password_set.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/reauthenticate.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/signup.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/signup_closed.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/snippets/already_logged_in.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/snippets/warn_no_email.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/verification_sent.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/account/verified_email_required.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/admin/base_site.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/blog/comment_update.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/blog/inc/comments.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/blog/inc/post_body.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/blog/inc/post_css.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/blog/inc/post_js.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/blog/inc/posts_preview.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/blog/inc/timestamp.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/blog/liked_posts.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/blog/post.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/blog/post_create.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/blog/post_update.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/blog/posts.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/blog/subscribers.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/blog/subscriptions.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/blog/user.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/blog/user_posts.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/card.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/col.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/inc/favicon.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/inc/pagination.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/list_group.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/messenger/chat.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/messenger/chats.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/messenger/messages_search.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/mfa/authenticate.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/mfa/index.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/mfa/recovery_codes/base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/mfa/recovery_codes/generate.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/mfa/recovery_codes/index.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/mfa/totp/activate_form.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/mfa/totp/base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/mfa/totp/deactivate_form.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/users/account_security.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/users/delete_account.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/users/edit_profile.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/users/inc/search_users.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/templates/users/search_users.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/exceptions.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/forms.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/migrations/0001_initial.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/migrations/0002_remove_user_date_joined_remove_user_first_name_and_more.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/migrations/0003_alter_user_username.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/migrations/0004_alter_user_username.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/migrations/0005_alter_user_username.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/migrations/0006_alter_user_email.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/migrations/0007_case_insensitive_collation_squashed_0009_drop_extension_citext.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/migrations/0010_alter_user_image.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/migrations/0011_alter_user_image.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/migrations/0012_user_date_joined_user_last_login_and_more.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/migrations/0013_alter_user_username.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/migrations/0014_auto_20230609_2041.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/signals.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/validators.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet/users/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ17/socnet_rs/socnet_rs.pyi"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.04969310760498047,
+    "profiling_times": {
+      "config_time": 0.5749270915985107,
+      "core_time": 2.023041009902954,
+      "ignores_time": 0.0003330707550048828,
+      "total_time": 2.6228222846984863
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 8.605403900146484,
+      "per_file_time": {
+        "mean": 0.049173736572265564,
+        "std_dev": 0.01030600542260475
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.015354459327017315,
+      "rules_matched_ratio": 0.015354459327017315
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 283669888
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

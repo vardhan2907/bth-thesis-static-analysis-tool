@@ -1,0 +1,271 @@
+{
+  "errors": [],
+  "njsscan_version": "0.4.2",
+  "nodejs": {
+    "generic_cors": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/app.js",
+          "match_lines": [
+            43,
+            43
+          ],
+          "match_position": [
+            1,
+            25
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-346: Origin Validation Error",
+        "description": "Access-Control-Allow-Origin response header is set to \"*\". This will disable CORS Same Origin Policy restrictions.",
+        "owasp-web": "A6: Security Misconfiguration",
+        "severity": "WARNING"
+      }
+    },
+    "node_insecure_random_generator": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/models/userModel.js",
+          "match_lines": [
+            89,
+            89
+          ],
+          "match_position": [
+            42,
+            55
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/bundle.js",
+          "match_lines": [
+            234,
+            234
+          ],
+          "match_position": [
+            10,
+            23
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/bundle.js",
+          "match_lines": [
+            2216,
+            2216
+          ],
+          "match_position": [
+            11,
+            24
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/utils/generateOTP.js",
+          "match_lines": [
+            5,
+            5
+          ],
+          "match_position": [
+            42,
+            55
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-327: Use of a Broken or Risky Cryptographic Algorithm",
+        "description": "crypto.pseudoRandomBytes()/Math.random() is a cryptographically weak random number generator.",
+        "owasp-web": "A9: Using Components with Known Vulnerabilities",
+        "severity": "WARNING"
+      }
+    },
+    "node_nosqli_injection": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/controllers/authController.js",
+          "match_lines": [
+            77,
+            80
+          ],
+          "match_position": [
+            3,
+            45
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/controllers/authController.js",
+          "match_lines": [
+            97,
+            105
+          ],
+          "match_position": [
+            3,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/controllers/authController.js",
+          "match_lines": [
+            102,
+            105
+          ],
+          "match_position": [
+            22,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/controllers/authController.js",
+          "match_lines": [
+            192,
+            198
+          ],
+          "match_position": [
+            3,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/controllers/authController.js",
+          "match_lines": [
+            195,
+            198
+          ],
+          "match_position": [
+            22,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/controllers/bookingsController.js",
+          "match_lines": [
+            81,
+            81
+          ],
+          "match_position": [
+            23,
+            70
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-943: Improper Neutralization of Special Elements in Data Query Logic",
+        "description": "Untrusted user input in findOne() function can result in NoSQL Injection.",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    },
+    "node_password": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/bundle.js",
+          "match_lines": [
+            7637,
+            7637
+          ],
+          "match_position": [
+            13,
+            87
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/bundle.js",
+          "match_lines": [
+            7644,
+            7644
+          ],
+          "match_position": [
+            13,
+            89
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/index.js",
+          "match_lines": [
+            92,
+            92
+          ],
+          "match_position": [
+            5,
+            79
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/index.js",
+          "match_lines": [
+            97,
+            98
+          ],
+          "match_position": [
+            5,
+            22
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-798: Use of Hard-coded Credentials",
+        "description": "A hardcoded password in plain text is identified. Store it properly in an environment variable.",
+        "owasp-web": "A3: Sensitive Data Exposure",
+        "severity": "ERROR"
+      }
+    },
+    "node_timing_attack": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/signup.js",
+          "match_lines": [
+            7,
+            8
+          ],
+          "match_position": [
+            3,
+            54
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-208: Observable Timing Discrepancy",
+        "description": "String comparisons using '===', '!==', '!=' and '==' is vulnerable to timing attacks. A timing attack allows the attacker to learn potentially sensitive information by, for example, measuring how long it takes for the application to respond to a request.  More info: https://nodejs.org/en/learn/getting-started/security-best-practices#information-exposure-through-timing-attacks-cwe-208",
+        "owasp-web": "A9: Using Components with Known Vulnerabilities",
+        "severity": "WARNING"
+      }
+    },
+    "regex_dos": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/bundle.js",
+          "match_lines": [
+            2153,
+            2154
+          ],
+          "match_position": [
+            3,
+            75
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-185: Incorrect Regular Expression",
+        "description": "Ensure that the regex used to compare with user supplied input is safe from regular expression denial of service.",
+        "owasp-web": "A6: Security Misconfiguration",
+        "severity": "WARNING"
+      }
+    }
+  },
+  "templates": {}
+}

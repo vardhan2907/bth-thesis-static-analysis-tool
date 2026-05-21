@@ -1,0 +1,543 @@
+{
+  "version": "1.162.0",
+  "results": [
+    {
+      "check_id": "javascript.express.security.audit.express-cookie-settings.express-cookie-session-default-name",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/id.js",
+      "start": {
+        "line": 19,
+        "col": 9,
+        "offset": 606
+      },
+      "end": {
+        "line": 23,
+        "col": 3,
+        "offset": 707
+      },
+      "extra": {
+        "message": "Don\u2019t use the default session cookie name Using the default session cookie name can open your app to attacks. The security issue posed is similar to X-Powered-By: a potential attacker can use it to fingerprint the server and target attacks accordingly.",
+        "metadata": {
+          "cwe": [
+            "CWE-522: Insufficiently Protected Credentials"
+          ],
+          "owasp": [
+            "A02:2017 - Broken Authentication",
+            "A04:2021 - Insecure Design",
+            "A06:2025 - Insecure Design"
+          ],
+          "source-rule-url": "https://expressjs.com/en/advanced/best-practice-security.html",
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "HIGH",
+          "impact": "LOW",
+          "confidence": "MEDIUM",
+          "references": [
+            "https://owasp.org/Top10/A04_2021-Insecure_Design"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cryptographic Issues"
+          ],
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.express-cookie-settings.express-cookie-session-default-name",
+          "shortlink": "https://sg.run/1Z5x"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.express-cookie-settings.express-cookie-session-no-domain",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/id.js",
+      "start": {
+        "line": 19,
+        "col": 9,
+        "offset": 606
+      },
+      "end": {
+        "line": 23,
+        "col": 3,
+        "offset": 707
+      },
+      "extra": {
+        "message": "Default session middleware settings: `domain` not set. It indicates the domain of the cookie; use it to compare against the domain of the server in which the URL is being requested. If they match, then check the path attribute next.",
+        "metadata": {
+          "cwe": [
+            "CWE-522: Insufficiently Protected Credentials"
+          ],
+          "owasp": [
+            "A02:2017 - Broken Authentication",
+            "A04:2021 - Insecure Design",
+            "A06:2025 - Insecure Design"
+          ],
+          "source-rule-url": "https://expressjs.com/en/advanced/best-practice-security.html",
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "HIGH",
+          "impact": "LOW",
+          "confidence": "MEDIUM",
+          "references": [
+            "https://owasp.org/Top10/A04_2021-Insecure_Design"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cryptographic Issues"
+          ],
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.express-cookie-settings.express-cookie-session-no-domain",
+          "shortlink": "https://sg.run/rd41"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.express-cookie-settings.express-cookie-session-no-expires",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/id.js",
+      "start": {
+        "line": 19,
+        "col": 9,
+        "offset": 606
+      },
+      "end": {
+        "line": 23,
+        "col": 3,
+        "offset": 707
+      },
+      "extra": {
+        "message": "Default session middleware settings: `expires` not set. Use it to set expiration date for persistent cookies.",
+        "metadata": {
+          "cwe": [
+            "CWE-522: Insufficiently Protected Credentials"
+          ],
+          "owasp": [
+            "A02:2017 - Broken Authentication",
+            "A04:2021 - Insecure Design",
+            "A06:2025 - Insecure Design"
+          ],
+          "source-rule-url": "https://expressjs.com/en/advanced/best-practice-security.html",
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "HIGH",
+          "impact": "LOW",
+          "confidence": "MEDIUM",
+          "references": [
+            "https://owasp.org/Top10/A04_2021-Insecure_Design"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cryptographic Issues"
+          ],
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.express-cookie-settings.express-cookie-session-no-expires",
+          "shortlink": "https://sg.run/N4eG"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.express-cookie-settings.express-cookie-session-no-httponly",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/id.js",
+      "start": {
+        "line": 19,
+        "col": 9,
+        "offset": 606
+      },
+      "end": {
+        "line": 23,
+        "col": 3,
+        "offset": 707
+      },
+      "extra": {
+        "message": "Default session middleware settings: `httpOnly` not set. It ensures the cookie is sent only over HTTP(S), not client JavaScript, helping to protect against cross-site scripting attacks.",
+        "metadata": {
+          "cwe": [
+            "CWE-522: Insufficiently Protected Credentials"
+          ],
+          "owasp": [
+            "A02:2017 - Broken Authentication",
+            "A04:2021 - Insecure Design",
+            "A06:2025 - Insecure Design"
+          ],
+          "source-rule-url": "https://expressjs.com/en/advanced/best-practice-security.html",
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "HIGH",
+          "impact": "LOW",
+          "confidence": "MEDIUM",
+          "references": [
+            "https://owasp.org/Top10/A04_2021-Insecure_Design"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cryptographic Issues"
+          ],
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.express-cookie-settings.express-cookie-session-no-httponly",
+          "shortlink": "https://sg.run/ydBO"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.express-cookie-settings.express-cookie-session-no-path",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/id.js",
+      "start": {
+        "line": 19,
+        "col": 9,
+        "offset": 606
+      },
+      "end": {
+        "line": 23,
+        "col": 3,
+        "offset": 707
+      },
+      "extra": {
+        "message": "Default session middleware settings: `path` not set. It indicates the path of the cookie; use it to compare against the request path. If this and domain match, then send the cookie in the request.",
+        "metadata": {
+          "cwe": [
+            "CWE-522: Insufficiently Protected Credentials"
+          ],
+          "owasp": [
+            "A02:2017 - Broken Authentication",
+            "A04:2021 - Insecure Design",
+            "A06:2025 - Insecure Design"
+          ],
+          "source-rule-url": "https://expressjs.com/en/advanced/best-practice-security.html",
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "HIGH",
+          "impact": "LOW",
+          "confidence": "MEDIUM",
+          "references": [
+            "https://owasp.org/Top10/A04_2021-Insecure_Design"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cryptographic Issues"
+          ],
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.express-cookie-settings.express-cookie-session-no-path",
+          "shortlink": "https://sg.run/b7pd"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.express-cookie-settings.express-cookie-session-no-secure",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/id.js",
+      "start": {
+        "line": 19,
+        "col": 9,
+        "offset": 606
+      },
+      "end": {
+        "line": 23,
+        "col": 3,
+        "offset": 707
+      },
+      "extra": {
+        "message": "Default session middleware settings: `secure` not set. It ensures the browser only sends the cookie over HTTPS.",
+        "metadata": {
+          "cwe": [
+            "CWE-522: Insufficiently Protected Credentials"
+          ],
+          "owasp": [
+            "A02:2017 - Broken Authentication",
+            "A04:2021 - Insecure Design",
+            "A06:2025 - Insecure Design"
+          ],
+          "source-rule-url": "https://expressjs.com/en/advanced/best-practice-security.html",
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "HIGH",
+          "impact": "LOW",
+          "confidence": "MEDIUM",
+          "references": [
+            "https://owasp.org/Top10/A04_2021-Insecure_Design"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cryptographic Issues"
+          ],
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.express-cookie-settings.express-cookie-session-no-secure",
+          "shortlink": "https://sg.run/9oKz"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    }
+  ],
+  "errors": [
+    {
+      "code": 2,
+      "level": "warn",
+      "type": "Timeout",
+      "rule_id": "javascript.express.security.audit.res-render-injection.res-render-injection",
+      "message": "Timeout when running javascript.express.security.audit.res-render-injection.res-render-injection on /Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme-vendors.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme-vendors.js"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "type": "Timeout",
+      "rule_id": "javascript.express.security.express-insecure-template-usage.express-insecure-template-usage",
+      "message": "Timeout when running javascript.express.security.express-insecure-template-usage.express-insecure-template-usage on /Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme-vendors.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme-vendors.js"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "type": "Timeout",
+      "rule_id": "javascript.express.security.x-frame-options-misconfiguration.x-frame-options-misconfiguration",
+      "message": "Timeout when running javascript.express.security.x-frame-options-misconfiguration.x-frame-options-misconfiguration on /Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme-vendors.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme-vendors.js"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "type": "Timeout",
+      "rule_id": "javascript.express.security.x-frame-options-misconfiguration.x-frame-options-misconfiguration",
+      "message": "Timeout when running javascript.express.security.x-frame-options-misconfiguration.x-frame-options-misconfiguration on /Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/home.b101a8c5.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/home.b101a8c5.js"
+    }
+  ],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme-vendors.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/id.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/libs/sign.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/address.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/eid.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/email.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/ethereum.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/github.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/google.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/linkedin.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/phone.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/twitter.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/app.e8f57262.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/check.16317e0f.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/check~home~identities~search~share.f4c4e6d4.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/check~home~identities~share.8ca15396.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/home.b101a8c5.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/identities.5702dbc6.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/search.28df6a76.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/share.76552677.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/precache-manifest.3c21bf8cf388c1a1423f39a96b096a50.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/service-worker.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/ui/.eslintrc.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/ui/babel.config.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/ui/src/main.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/ui/src/registerServiceWorker.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/ui/src/router/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/ui/vue.config.js"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.12534809112548828,
+    "profiling_times": {
+      "config_time": 0.3535921573638916,
+      "core_time": 15.752289056777954,
+      "ignores_time": 0.00017571449279785156,
+      "total_time": 16.120945930480957
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 40.63994240760803,
+      "per_file_time": {
+        "mean": 1.401377324400277,
+        "std_dev": 10.208198830735371
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.9111935645806358,
+        "count_ratio": 0.20689655172413793
+      },
+      "very_slow_files": [
+        {
+          "fpath": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/app.e8f57262.js",
+          "ftime": 1.7596080303192139
+        },
+        {
+          "fpath": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/check~home~identities~search~share.f4c4e6d4.js",
+          "ftime": 1.999506950378418
+        },
+        {
+          "fpath": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/check~home~identities~share.8ca15396.js",
+          "ftime": 4.192428112030029
+        },
+        {
+          "fpath": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme-vendors.js",
+          "ftime": 5.739515781402588
+        },
+        {
+          "fpath": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme.js",
+          "ftime": 8.469892024993896
+        },
+        {
+          "fpath": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/home.b101a8c5.js",
+          "ftime": 14.869903087615967
+        }
+      ]
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [
+      {
+        "error_type": "Fixpoint timeout",
+        "severity": "warn",
+        "message": "Fixpoint timeout while performing taint analysis at /Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme.js:1:0 [rules: 4, first: javascript.express.security.x-frame-options-misconfiguration.x-frame-options-misconfiguration]",
+        "location": {
+          "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme.js",
+          "start": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          }
+        }
+      },
+      {
+        "error_type": "Fixpoint timeout",
+        "severity": "warn",
+        "message": "Fixpoint timeout while performing taint analysis at /Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/check~home~identities~share.8ca15396.js:1:0 [rules: 6, first: javascript.express.security.x-frame-options-misconfiguration.x-frame-options-misconfiguration]",
+        "location": {
+          "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/check~home~identities~share.8ca15396.js",
+          "start": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          }
+        }
+      },
+      {
+        "error_type": "Fixpoint timeout",
+        "severity": "warn",
+        "message": "Fixpoint timeout while performing taint analysis at /Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/home.b101a8c5.js:1:0 [rules: 4, first: javascript.express.security.cors-misconfiguration.cors-misconfiguration]",
+        "location": {
+          "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/home.b101a8c5.js",
+          "start": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          }
+        }
+      }
+    ],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.08432539682539683,
+      "rules_matched_ratio": 0.08432539682539683
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 1555290624
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

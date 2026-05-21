@@ -1,0 +1,847 @@
+{
+  "errors": [
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running node_ssrf on /Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/torrent/[infoHash].js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/torrent/[infoHash].js",
+      "rule_id": "node_ssrf",
+      "type": "Timeout"
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "message": "Syntax error at line /Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/_app.js:271:\n `&family=Source+Code+Pro:wght@400;500;700&display=swap` was unexpected",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/_app.js",
+      "spans": [
+        {
+          "end": {
+            "col": 133,
+            "line": 271,
+            "offset": 53
+          },
+          "file": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/_app.js",
+          "start": {
+            "col": 80,
+            "line": 271,
+            "offset": 0
+          }
+        }
+      ],
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "end": {
+              "col": 133,
+              "line": 271,
+              "offset": 53
+            },
+            "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/_app.js",
+            "start": {
+              "col": 80,
+              "line": 271,
+              "offset": 0
+            }
+          }
+        ]
+      ]
+    }
+  ],
+  "njsscan_version": "0.4.2",
+  "nodejs": {
+    "express_xss": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/announcement.js",
+          "match_lines": [
+            15,
+            39
+          ],
+          "match_position": [
+            7,
+            22
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/announcement.js",
+          "match_lines": [
+            306,
+            319
+          ],
+          "match_position": [
+            7,
+            35
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            101,
+            177
+          ],
+          "match_position": [
+            9,
+            10
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            104,
+            177
+          ],
+          "match_position": [
+            9,
+            10
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            196,
+            252
+          ],
+          "match_position": [
+            7,
+            8
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            281,
+            309
+          ],
+          "match_position": [
+            5,
+            6
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            730,
+            731
+          ],
+          "match_position": [
+            5,
+            25
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            739,
+            740
+          ],
+          "match_position": [
+            5,
+            36
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/wiki.js",
+          "match_lines": [
+            24,
+            55
+          ],
+          "match_position": [
+            7,
+            22
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+        "description": "Untrusted User Input in Response will result in Reflected Cross Site Scripting Vulnerability.",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    },
+    "generic_error_disclosure": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/_app.js",
+          "match_lines": [
+            228,
+            238
+          ],
+          "match_position": [
+            5,
+            6
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/sitemap.xml.js",
+          "match_lines": [
+            18,
+            34
+          ],
+          "match_position": [
+            5,
+            6
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/upload.js",
+          "match_lines": [
+            240,
+            258
+          ],
+          "match_position": [
+            5,
+            6
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-209: Generation of Error Message Containing Sensitive Information",
+        "description": "Error messages with stack traces may expose sensitive information about the application.",
+        "owasp-web": "A3: Sensitive Data Exposure",
+        "severity": "WARNING"
+      }
+    },
+    "node_nosqli_injection": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/announcement.js",
+          "match_lines": [
+            15,
+            17
+          ],
+          "match_position": [
+            7,
+            67
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/announcement.js",
+          "match_lines": [
+            331,
+            333
+          ],
+          "match_position": [
+            34,
+            9
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/group.js",
+          "match_lines": [
+            74,
+            76
+          ],
+          "match_position": [
+            27,
+            7
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/moderation.js",
+          "match_lines": [
+            12,
+            14
+          ],
+          "match_position": [
+            29,
+            9
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/moderation.js",
+          "match_lines": [
+            46,
+            55
+          ],
+          "match_position": [
+            5,
+            7
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/moderation.js",
+          "match_lines": [
+            46,
+            58
+          ],
+          "match_position": [
+            5,
+            7
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/moderation.js",
+          "match_lines": [
+            46,
+            46
+          ],
+          "match_position": [
+            26,
+            70
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/moderation.js",
+          "match_lines": [
+            53,
+            53
+          ],
+          "match_position": [
+            31,
+            71
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/moderation.js",
+          "match_lines": [
+            56,
+            56
+          ],
+          "match_position": [
+            28,
+            68
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/request.js",
+          "match_lines": [
+            191,
+            193
+          ],
+          "match_position": [
+            27,
+            7
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/request.js",
+          "match_lines": [
+            210,
+            212
+          ],
+          "match_position": [
+            29,
+            9
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/request.js",
+          "match_lines": [
+            240,
+            242
+          ],
+          "match_position": [
+            29,
+            9
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/request.js",
+          "match_lines": [
+            244,
+            249
+          ],
+          "match_position": [
+            29,
+            8
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/request.js",
+          "match_lines": [
+            286,
+            288
+          ],
+          "match_position": [
+            29,
+            9
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/request.js",
+          "match_lines": [
+            297,
+            299
+          ],
+          "match_position": [
+            29,
+            9
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/torrent.js",
+          "match_lines": [
+            68,
+            68
+          ],
+          "match_position": [
+            26,
+            59
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/torrent.js",
+          "match_lines": [
+            74,
+            79
+          ],
+          "match_position": [
+            7,
+            73
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/torrent.js",
+          "match_lines": [
+            117,
+            119
+          ],
+          "match_position": [
+            40,
+            11
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/torrent.js",
+          "match_lines": [
+            404,
+            406
+          ],
+          "match_position": [
+            27,
+            9
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/torrent.js",
+          "match_lines": [
+            432,
+            434
+          ],
+          "match_position": [
+            27,
+            7
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/torrent.js",
+          "match_lines": [
+            855,
+            855
+          ],
+          "match_position": [
+            24,
+            57
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            89,
+            91
+          ],
+          "match_position": [
+            26,
+            9
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            196,
+            196
+          ],
+          "match_position": [
+            26,
+            71
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            270,
+            270
+          ],
+          "match_position": [
+            24,
+            57
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            329,
+            329
+          ],
+          "match_position": [
+            26,
+            59
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            377,
+            377
+          ],
+          "match_position": [
+            26,
+            65
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            420,
+            420
+          ],
+          "match_position": [
+            26,
+            65
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            712,
+            712
+          ],
+          "match_position": [
+            24,
+            57
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            730,
+            730
+          ],
+          "match_position": [
+            24,
+            57
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            739,
+            739
+          ],
+          "match_position": [
+            24,
+            57
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            789,
+            789
+          ],
+          "match_position": [
+            24,
+            71
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            816,
+            816
+          ],
+          "match_position": [
+            26,
+            59
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            898,
+            898
+          ],
+          "match_position": [
+            24,
+            71
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            917,
+            917
+          ],
+          "match_position": [
+            24,
+            57
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            949,
+            949
+          ],
+          "match_position": [
+            26,
+            59
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            993,
+            993
+          ],
+          "match_position": [
+            26,
+            59
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            1031,
+            1031
+          ],
+          "match_position": [
+            26,
+            59
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            1063,
+            1063
+          ],
+          "match_position": [
+            24,
+            57
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/wiki.js",
+          "match_lines": [
+            146,
+            146
+          ],
+          "match_position": [
+            30,
+            70
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/middleware/auth.js",
+          "match_lines": [
+            8,
+            24
+          ],
+          "match_position": [
+            7,
+            8
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/middleware/auth.js",
+          "match_lines": [
+            10,
+            10
+          ],
+          "match_position": [
+            28,
+            61
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/tracker/announce.js",
+          "match_lines": [
+            15,
+            20
+          ],
+          "match_position": [
+            3,
+            58
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/tracker/announce.js",
+          "match_lines": [
+            20,
+            103
+          ],
+          "match_position": [
+            3,
+            12
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/tracker/announce.js",
+          "match_lines": [
+            43,
+            48
+          ],
+          "match_position": [
+            3,
+            61
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/tracker/announce.js",
+          "match_lines": [
+            43,
+            103
+          ],
+          "match_position": [
+            3,
+            12
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/tracker/announce.js",
+          "match_lines": [
+            100,
+            103
+          ],
+          "match_position": [
+            36,
+            5
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-943: Improper Neutralization of Special Elements in Data Query Logic",
+        "description": "Untrusted user input in findOne() function can result in NoSQL Injection.",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    },
+    "node_sha1": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/torrent.js",
+          "match_lines": [
+            74,
+            75
+          ],
+          "match_position": [
+            24,
+            28
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-327: Use of a Broken or Risky Cryptographic Algorithm",
+        "description": "SHA1 is a a weak hash which is known to have collision. Use a strong hashing function.",
+        "owasp-web": "A9: Using Components with Known Vulnerabilities",
+        "severity": "WARNING"
+      }
+    },
+    "node_username": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/register.js",
+          "match_lines": [
+            17,
+            17
+          ],
+          "match_position": [
+            14,
+            47
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-798: Use of Hard-coded Credentials",
+        "description": "A hardcoded username in plain text is identified. Store it properly in an environment variable.",
+        "owasp-web": "A3: Sensitive Data Exposure",
+        "severity": "WARNING"
+      }
+    },
+    "regex_dos": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "match_lines": [
+            94,
+            94
+          ],
+          "match_position": [
+            14,
+            53
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-185: Incorrect Regular Expression",
+        "description": "Ensure that the regex used to compare with user supplied input is safe from regular expression denial of service.",
+        "owasp-web": "A6: Security Misconfiguration",
+        "severity": "WARNING"
+      }
+    }
+  },
+  "templates": {}
+}

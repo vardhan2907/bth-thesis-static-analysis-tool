@@ -1,0 +1,58 @@
+{
+  "project_name": "user-authentication-system",
+  "framework": "express",
+  "scanned_files_count": 4,
+  "findings": [
+    {
+      "rule_id": "EX-HELMET-001",
+      "rule_name": "Helmet middleware not used",
+      "category": "security_headers",
+      "description": "Helmet sets important HTTP security headers (X-Frame-Options, X-Content-Type-Options, HSTS, CSP, etc.). Without it the app is missing baseline browser-level protections. (Heuristic: no helmet() call found in scanned Node.js files.)",
+      "evidence": {
+        "file_path": "app.js, models/user.js",
+        "line": null,
+        "snippet": "No helmet() call found."
+      },
+      "recommendation": "npm install helmet  and add app.use(helmet()) in your Express app setup.",
+      "risk_factors": {
+        "E": 3,
+        "I": 3,
+        "D": 4,
+        "P": 4
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "EX-RATE-001",
+      "rule_name": "No rate limiting on auth routes",
+      "category": "brute_force_protection",
+      "description": "An authentication-related route was found but no rate-limiting middleware (express-rate-limit or similar) was detected anywhere in the project. Without rate limiting, login and registration endpoints are vulnerable to brute-force and credential-stuffing attacks. (Heuristic: route name match; verify middleware is not in a separate file.)",
+      "evidence": {
+        "file_path": "app.js",
+        "line": 65,
+        "snippet": "app.get('/auth/google',"
+      },
+      "recommendation": "Install express-rate-limit and apply it to auth routes: const limiter = rateLimit({ windowMs: 15*60*1000, max: 20 }); router.post('/login', limiter, loginHandler);",
+      "risk_factors": {
+        "E": 4,
+        "I": 3,
+        "D": 3,
+        "P": 4
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    }
+  ],
+  "summary": {
+    "total_findings": 2,
+    "counts_by_severity": {
+      "High": 2
+    },
+    "counts_by_category": {
+      "security_headers": 1,
+      "brute_force_protection": 1
+    }
+  },
+  "errors": []
+}

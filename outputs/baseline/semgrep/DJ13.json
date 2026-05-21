@@ -1,0 +1,537 @@
+{
+  "version": "1.162.0",
+  "results": [
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/authentification/login.html",
+      "start": {
+        "line": 36,
+        "col": 9,
+        "offset": 1343
+      },
+      "end": {
+        "line": 55,
+        "col": 16,
+        "offset": 2370
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/authentification/password_change_form.html",
+      "start": {
+        "line": 24,
+        "col": 9,
+        "offset": 1090
+      },
+      "end": {
+        "line": 39,
+        "col": 16,
+        "offset": 1878
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/integrations/filer/folder_list.html",
+      "start": {
+        "line": 389,
+        "col": 13,
+        "offset": 22907
+      },
+      "end": {
+        "line": 401,
+        "col": 20,
+        "offset": 23621
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.injection.open-redirect.open-redirect",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/views/global_filter_view.py",
+      "start": {
+        "line": 16,
+        "col": 9,
+        "offset": 395
+      },
+      "end": {
+        "line": 16,
+        "col": 64,
+        "offset": 450
+      },
+      "extra": {
+        "message": "Data from request ($DATA) is passed to redirect(). This is an open redirect and could be exploited. Ensure you are redirecting to safe URLs by using django.utils.http.is_safe_url(). See https://cwe.mitre.org/data/definitions/601.html for more information.",
+        "metadata": {
+          "cwe": [
+            "CWE-601: URL Redirection to Untrusted Site ('Open Redirect')"
+          ],
+          "owasp": [
+            "A01:2021 - Broken Access Control",
+            "A01:2025 - Broken Access Control"
+          ],
+          "references": [
+            "https://www.djm.org.uk/posts/djangos-little-protections-word-redirect-dangers/",
+            "https://github.com/django/django/blob/d1b7bd030b1db111e1a3505b1fc029ab964382cc/django/utils/http.py#L231"
+          ],
+          "category": "security",
+          "technology": [
+            "django"
+          ],
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "LOW",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Open Redirect"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.injection.open-redirect.open-redirect",
+          "shortlink": "https://sg.run/Ave2"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.injection.open-redirect.open-redirect",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/views/global_filter_view.py",
+      "start": {
+        "line": 16,
+        "col": 20,
+        "offset": 406
+      },
+      "end": {
+        "line": 16,
+        "col": 64,
+        "offset": 450
+      },
+      "extra": {
+        "message": "Data from request ($DATA) is passed to redirect(). This is an open redirect and could be exploited. Ensure you are redirecting to safe URLs by using django.utils.http.is_safe_url(). See https://cwe.mitre.org/data/definitions/601.html for more information.",
+        "metadata": {
+          "cwe": [
+            "CWE-601: URL Redirection to Untrusted Site ('Open Redirect')"
+          ],
+          "owasp": [
+            "A01:2021 - Broken Access Control",
+            "A01:2025 - Broken Access Control"
+          ],
+          "references": [
+            "https://www.djm.org.uk/posts/djangos-little-protections-word-redirect-dangers/",
+            "https://github.com/django/django/blob/d1b7bd030b1db111e1a3505b1fc029ab964382cc/django/utils/http.py#L231"
+          ],
+          "category": "security",
+          "technology": [
+            "django"
+          ],
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "LOW",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Open Redirect"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.injection.open-redirect.open-redirect",
+          "shortlink": "https://sg.run/Ave2"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    }
+  ],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/runtests.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/actions/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/actions/admin_action_list.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/actions/advanced_filters.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/admin/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/admin/admin_base.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/admin/site.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/admin/widgets.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/audit/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/audit/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/audit/manager.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/audit/migrations/0001_initial.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/audit/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/audit/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/audit/sb_admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/audit/utils/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/audit/utils/diff.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/audit/utils/serialization.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/audit/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/compilemessages.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/engine/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/engine/actions.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/engine/admin_base_view.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/engine/admin_entrypoint_view.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/engine/admin_view.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/engine/configuration.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/engine/const.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/engine/dashboard.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/engine/fake_inline.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/engine/field.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/engine/field_formatter.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/engine/filter_widgets.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/engine/global_filter_form.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/engine/menu_item.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/engine/modal_view.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/engine/request.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/integration/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/integration/django_cms.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/makemessages.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/migrations/0001_initial.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/migrations/0002_auto_20230402_2316.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/migrations/0003_auto_20230402_2328.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/migrations/0004_alter_sbadminlistviewconfiguration_action_and_more.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/migrations/0005_sbadminuserconfiguration.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/migrations/0006_alter_sbadminuserconfiguration_color_scheme.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/monkeypatch/admin_readonly_field_monkeypatch.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/monkeypatch/fake_inline_monkeypatch.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/querysets.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/services/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/services/configuration.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/services/data.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/services/thread_local.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/services/translations.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/services/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/services/xlsx_export.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/change_form.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/change_password.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/dashboard.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/delete_confirmation.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/delete_selected_confirmation.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/list.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/media.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/object_history.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/partials/action_link.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/partials/open_modal_attrs.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/partials/selected_rows_actions.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/partials/tabulator_header_v1.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/partials/tabulator_header_v2.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/partials/translations_status_row.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/translations-detail.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/translations-language-choice.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/translations-list.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/translations.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/actions/tree_list.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/audit/affected.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/audit/changes.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/audit/related_changes.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/audit/summary.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/auth/user/add_form.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/authentification/login.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/authentification/login_base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/authentification/logout.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/authentification/password_change_done.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/authentification/password_change_form.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/authentification/password_reset_complete.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/authentification/password_reset_confirm.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/authentification/password_reset_done.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/authentification/password_reset_email.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/authentification/password_reset_form.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/blank_base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/components/buttons.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/components/columns.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/components/filters.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/components/filters_v2.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/components/inputs.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/config/view.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/dashboard/calendar_widget.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/dashboard/chart_aggregate_sub_widget.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/dashboard/chart_widget.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/dashboard/list_widget.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/dashboard/widget_base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/advanced_filters/autocomplete_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/advanced_filters/boolean_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/advanced_filters/choice_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/advanced_filters/date_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/advanced_filters/multiple_choice_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/advanced_filters/number_range_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/advanced_filters/radio_choice_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/advanced_filters/string_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/advanced_filters/tree_select_filter.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/autocomplete_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/boolean_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/choice_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/date_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/multiple_choice_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/number_range_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/partials/clear.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/radio_choice_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/string_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/filter_widgets/tree_select_filter.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/fonts.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/includes/attrs.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/includes/change_form_title.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/includes/components.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/includes/confirmation.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/includes/fieldset.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/includes/inline_fieldset.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/includes/loading.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/includes/loading_absolute.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/includes/notifications.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/includes/readonly_boolean_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/includes/readonly_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/includes/table_inline_delete_button.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/inlines/stacked_inline.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/inlines/table_inline.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/inlines/table_inline_paginated.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/integrations/cms/page_list.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/integrations/cms/translations_status_row.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/integrations/filer/filer_change_form.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/integrations/filer/folder_list.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/integrations/filer/image_change_form.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/integrations/filer/image_detail_panel.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/navigation.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/partials/messages/alert_base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/partials/messages/alert_close.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/partials/messages/alert_error.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/partials/messages/alert_info.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/partials/messages/alert_success.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/partials/messages/alert_warning.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/partials/modal/modal.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/partials/modal/modal_content.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/sb_admin_base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/sb_admin_base_no_sidebar.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/sb_admin_js_trans.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/submit_line.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/tailwind_whitelist.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/array.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/attributes.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/attrs.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/autocomplete.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/checkbox.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/checkbox_dropdown.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/checkbox_group.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/checkbox_option.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/ckeditor.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/clearable_file_input.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/code.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/color_field.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/date.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/datetime.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/email.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/file.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/filer_file.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/hidden.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/html_read_only.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/includes/field_label.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/includes/help_text.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/includes/related_item_buttons.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/includes/simple_field_label.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/input.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/input_option.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/multiple_hidden.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/multiwidget.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/number.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/pageselectwidget.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/password.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/radio.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/radio_dropdown.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/radio_option.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/read_only_password_hash.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/select.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/select_date.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/select_option.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/splitdatetime.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/splithiddendatetime.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/text.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/textarea.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/time.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/toggle.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/tree_base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/tree_select.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/tree_select_inline.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templates/sb_admin/widgets/url.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templatetags/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templatetags/base.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/templatetags/sb_admin_tags.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/utils.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/views/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/views/dashboard_view.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/views/global_filter_view.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/views/media_view.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/views/translations_view.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/views/user_config_view.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ13/src/django_smartbase_admin/views/view_on_site_redirect_view.py"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.04074907302856445,
+    "profiling_times": {
+      "config_time": 0.2821309566497803,
+      "core_time": 1.455414056777954,
+      "ignores_time": 0.00020503997802734375,
+      "total_time": 1.7497029304504395
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 5.4382312297821045,
+      "per_file_time": {
+        "mean": 0.024719232862645917,
+        "std_dev": 0.005171123899003986
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.04206500956022945,
+      "rules_matched_ratio": 0.04206500956022945
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 355499968
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

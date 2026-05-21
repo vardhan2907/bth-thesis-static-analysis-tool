@@ -1,0 +1,51 @@
+{
+  "errors": [],
+  "njsscan_version": "0.4.2",
+  "nodejs": {
+    "node_nosqli_injection": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/controllers/board.js",
+          "match_lines": [
+            46,
+            46
+          ],
+          "match_position": [
+            25,
+            76
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-943: Improper Neutralization of Special Elements in Data Query Logic",
+        "description": "Untrusted user input in findOne() function can result in NoSQL Injection.",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    },
+    "node_timing_attack": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/controllers/user.js",
+          "match_lines": [
+            45,
+            54
+          ],
+          "match_position": [
+            5,
+            6
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-208: Observable Timing Discrepancy",
+        "description": "String comparisons using '===', '!==', '!=' and '==' is vulnerable to timing attacks. A timing attack allows the attacker to learn potentially sensitive information by, for example, measuring how long it takes for the application to respond to a request.  More info: https://nodejs.org/en/learn/getting-started/security-best-practices#information-exposure-through-timing-attacks-cwe-208",
+        "owasp-web": "A9: Using Components with Known Vulnerabilities",
+        "severity": "WARNING"
+      }
+    }
+  },
+  "templates": {}
+}

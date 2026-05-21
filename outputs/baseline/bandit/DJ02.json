@@ -1,0 +1,959 @@
+{
+  "errors": [
+    {
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/intra_region_diff.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/models.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/views.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/main.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/tests/test_views_stats.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/gflags.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/httplib2/__init__.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/appengine.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/file.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/gce.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/locked_file.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/multistore_file.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/tools.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/tools/uploadopts2wiki.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/update_accounts.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/update_entities.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/upload.py",
+      "reason": "syntax error while parsing AST from file"
+    }
+  ],
+  "generated_at": "2026-05-10T11:40:02Z",
+  "metrics": {
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/admin_tasks.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 19,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/appengine_config.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 29,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/backends.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 7,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/auth_utils.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 137,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/common.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/decorators.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 264,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/engine.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 579,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/exceptions.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 5,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/feeds.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 121,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/intra_region_diff.py": {
+      "loc": 534,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/library.py": {
+      "CONFIDENCE.HIGH": 6,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 6,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 241,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/middleware.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 68,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/models.py": {
+      "loc": 1196,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/patching.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 203,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/patiencediff.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 56,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/responses.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 60,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/urls.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 95,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/utils.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 63,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/views.py": {
+      "loc": 3967,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/main.py": {
+      "loc": 51,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/settings.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 56,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/tests/run_tests.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 12,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/tests/setup.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 33,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/tests/test_auth_utils.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 123,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/tests/test_incomingmail.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 169,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/tests/test_models.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 37,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/tests/test_views.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 176,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/tests/test_views_stats.py": {
+      "loc": 1161,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/tests/utils.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 28,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/gflags.py": {
+      "loc": 1988,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/gflags_validators.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 121,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/httplib2/__init__.py": {
+      "loc": 1293,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/httplib2/iri2uri.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 80,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/httplib2/socks.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 362,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 4,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/anyjson.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 12,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/appengine.py": {
+      "loc": 670,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/client.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 2,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1058,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/clientsecrets.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 108,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/crypt.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 2,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 3,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 265,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/django_orm.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 2,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 91,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/file.py": {
+      "loc": 82,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/gce.py": {
+      "loc": 56,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/keyring_storage.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 70,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/locked_file.py": {
+      "loc": 278,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/multistore_file.py": {
+      "loc": 307,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/tools.py": {
+      "loc": 155,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/util.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 133,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/xsrfutil.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 73,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/tools/remote_api.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 78,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/tools/uploadopts2wiki.py": {
+      "loc": 74,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/update_accounts.py": {
+      "loc": 39,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/update_entities.py": {
+      "loc": 38,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/upload.py": {
+      "loc": 2217,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/urls.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 6,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 14,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 7,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 3,
+      "SEVERITY.LOW": 8,
+      "SEVERITY.MEDIUM": 10,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 19150,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "98 \n99   return django.utils.safestring.mark_safe(ret)\n100 \n",
+      "col_offset": 9,
+      "end_col_offset": 47,
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/library.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 99,
+      "line_range": [
+        99
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "98 \n99   return django.utils.safestring.mark_safe(ret)\n100 \n",
+      "col_offset": 9,
+      "end_col_offset": 47,
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/library.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 99,
+      "line_range": [
+        99
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "119 \n120   return django.utils.safestring.mark_safe(', '.join(\n121       format_approval_text(links[r], a) for r, a in reviewer_list.items()))\n122 \n",
+      "col_offset": 9,
+      "end_col_offset": 75,
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/library.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 120,
+      "line_range": [
+        120,
+        121
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "119 \n120   return django.utils.safestring.mark_safe(', '.join(\n121       format_approval_text(links[r], a) for r, a in reviewer_list.items()))\n122 \n",
+      "col_offset": 9,
+      "end_col_offset": 75,
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/library.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 120,
+      "line_range": [
+        120,
+        121
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "147 \n148   return django.utils.safestring.mark_safe(', '.join(\n149       links[email] for email in email_list))\n150 \n",
+      "col_offset": 9,
+      "end_col_offset": 44,
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/library.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 148,
+      "line_range": [
+        148,
+        149
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "147 \n148   return django.utils.safestring.mark_safe(', '.join(\n149       links[email] for email in email_list))\n150 \n",
+      "col_offset": 9,
+      "end_col_offset": 44,
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/library.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 148,
+      "line_range": [
+        148,
+        149
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "390             raise HTTPError((statuscode, statusline[2]))\n391         self.__proxysockname = (\"0.0.0.0\", 0)\n392         self.__proxypeername = (addr, destport)\n",
+      "col_offset": 32,
+      "end_col_offset": 41,
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/httplib2/socks.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 605,
+        "link": "https://cwe.mitre.org/data/definitions/605.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible binding to all interfaces.",
+      "line_number": 391,
+      "line_range": [
+        391
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b104_hardcoded_bind_all_interfaces.html",
+      "test_id": "B104",
+      "test_name": "hardcoded_bind_all_interfaces"
+    },
+    {
+      "code": "139 try:\n140   from Crypto.PublicKey import RSA\n141   from Crypto.Hash import SHA256\n",
+      "col_offset": 2,
+      "end_col_offset": 34,
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/crypt.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 327,
+        "link": "https://cwe.mitre.org/data/definitions/327.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "The pyCrypto library and its module RSA are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.",
+      "line_number": 140,
+      "line_range": [
+        140
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b413-import-pycrypto",
+      "test_id": "B413",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "140   from Crypto.PublicKey import RSA\n141   from Crypto.Hash import SHA256\n142   from Crypto.Signature import PKCS1_v1_5\n",
+      "col_offset": 2,
+      "end_col_offset": 32,
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/crypt.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 327,
+        "link": "https://cwe.mitre.org/data/definitions/327.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "The pyCrypto library and its module SHA256 are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.",
+      "line_number": 141,
+      "line_range": [
+        141
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b413-import-pycrypto",
+      "test_id": "B413",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "141   from Crypto.Hash import SHA256\n142   from Crypto.Signature import PKCS1_v1_5\n143 \n",
+      "col_offset": 2,
+      "end_col_offset": 41,
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/crypt.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 327,
+        "link": "https://cwe.mitre.org/data/definitions/327.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "The pyCrypto library and its module PKCS1_v1_5 are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.",
+      "line_number": 142,
+      "line_range": [
+        142
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b413-import-pycrypto",
+      "test_id": "B413",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "46       return value\n47     return pickle.loads(base64.b64decode(value))\n48 \n",
+      "col_offset": 11,
+      "end_col_offset": 48,
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/django_orm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 502,
+        "link": "https://cwe.mitre.org/data/definitions/502.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",
+      "line_number": 47,
+      "line_range": [
+        47
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_calls.html#b301-pickle",
+      "test_id": "B301",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "71       return value\n72     return pickle.loads(base64.b64decode(value))\n73 \n",
+      "col_offset": 11,
+      "end_col_offset": 48,
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/django_orm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 502,
+        "link": "https://cwe.mitre.org/data/definitions/502.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",
+      "line_number": 72,
+      "line_range": [
+        72
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_calls.html#b301-pickle",
+      "test_id": "B301",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "55 def default_app_id(directory):\n56   return yaml.load(open(os.path.join(directory, 'app.yaml')))['application']\n57 \n",
+      "col_offset": 9,
+      "end_col_offset": 61,
+      "filename": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/tools/remote_api.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
+      "line_number": 56,
+      "line_range": [
+        56
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b506_yaml_load.html",
+      "test_id": "B506",
+      "test_name": "yaml_load"
+    }
+  ]
+}

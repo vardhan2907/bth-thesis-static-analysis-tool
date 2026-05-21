@@ -1,0 +1,55 @@
+
+
+
+
+
+
+
+,name,url,framework,stars,last_commit,license,notes\
+,,,,,,,
+DJ02,Rietveld Code Review,https://github.com/rietveld-codereview/rietveld,Django,~500,2025-03-01,Apache 2.0,Google's code review tool; CSRF protection; enterprise patterns\
+DJ03,edx-val,https://github.com/openedx/edx-val,Django/DRF,~50,2024-12,AGPL-3.0,OpenEDX media validation; REST Framework integration\
+DJ04,Cute Prep,https://github.com/DSAT-School/cute_prep,Django,0,2025-12-14,None,Modern Django app with Redis; health checks and migrations\
+DJ05,Robo-Poet,https://github.com/BernardUriza/Robo-Poet,Django/DRF,1,2025-09-25,None,Django + Channels async; full CORS and DRF setup\
+DJ06,Multi-Tenant Auth,https://github.com/Jindequan/multi_tenant_auth,Django/DRF,~10,2024-09,None,Enterprise auth system; JWT + Redis caching\
+DJ07,Django Login Register,https://github.com/7s9n/django-login-and-register,Django,~25,2024-11,MIT,Straightforward auth example; registration and activation\
+DJ08,Dj-Store E-commerce,https://github.com/MohamedSalahdj/Dj-Store,Django/DRF,~12,2025-02,MIT,E-commerce; django-allauth OAuth integration\
+DJ09,Django Auth Backend (SvelteKit),https://github.com/Sirneij/django-auth-backend,Django,~45,2024-10,MIT,JWT auth with modern frontend; CI/CD tests\
+DJ10,Django Mail Auth,https://github.com/codingjoe/django-mail-auth,Django,~30,2024-12,MIT,Alternative auth (link-based); customizable patterns\
+EX01,Weird Side of YouTube,https://github.com/mmetro/WeirdSideofYouTube,Express,~15,2017-04-25,None,Express + Passport + Mongoose; session-based auth\
+EX02,RichPanel,https://github.com/Amit7682/RichPanel,Express,~5,2017-10,None,Express + Passport + MongoDB; clean auth routes\
+EX03,Sharey,https://github.com/nishantpatel29/sharey,Express,~8,2025-07-31,None,File sharing; session store in MongoDB; Passport local strategy\
+EX04,Wanderlust,https://github.com/DushyantSinght/Wanderlust-,Express,~20,2025-04-07,MIT,Listing + review app; Passport local + sessions on Atlas\
+EX05,Event Management System,https://github.com/Akashkalasagond/Event-Management-System,Express,~3,2024-08-07,None,Google OAuth + Razorpay payment; modern middleware stack\
+EX06,Scrypta Identity Framework,https://github.com/scryptachain/scrypta-identity-framework,Express,1,2022-12-31,MIT,Multi-provider auth (GitHub," Google"," Twitter"," LinkedIn"," Ethereum)\"
+EX07,MERN-X,https://github.com/rupomsoft/mern-x,Express,~25,2025-02,None,Modern MERN; Helmet," CORS"," rate limiting; professional setup\"
+EX08,Natours,https://github.com/Shivam00123/Natours,Express,~50,2025-01,MIT,Professional tour booking app; XSS protection," rate limiting"," compression\"
+EX09,Ferret,https://github.com/jeshuamaxey/ferret,Express,~12,2017-05,None,Passport middleware; multi-route setup; structured auth\
+EX10,CSE341 Project,https://github.com/amaurisiqueira/cse341_project2,Express,~4,2025-02,None,GitHub OAuth; SwaggerUI docs; modern Express patterns
+DJ11,Django-To-Do-list-with-user-authentication,https://github.com/dennisivy/Django-To-Do-list-with-user-authentication,Django,,,,
+DJ12,CoreProject,https://github.com/coreproject-moe/coreproject,Django,,,,
+DJ13,Django SmartBase Admin,https://github.com/SmartBase-SK/django-smartbase-admin,Django,,,,
+DJ14,Shifter,https://github.com/TobySuch/Shifter,Django,,,,
+DJ15,wg-ui-plus,https://github.com/vijaygill/wg-ui-plus,Django,,,,
+DJ16,example-python-django-oidc,https://github.com/zitadel/example-python-django-oidc,Django,,,,
+DJ17,socnet,https://github.com/monosans/socnet,Django,,,,
+DJ18,tangelo,https://github.com/shacker/tangelo,Django,,,,
+DJ19,django-react-auth,https://github.com/sinansarikaya/django-react-auth,Django,,,,
+DJ20,dj_djoser,https://github.com/lyamaa/dj_djoser,Django,,,,
+EX11,lets-chat,https://github.com/earthcomfy/lets-chat,Express,,,,
+EX12,job-portal,https://github.com/b30wulffz/job-portal,Express,,,,
+EX13,social-media-app,https://github.com/ihtasham42/social-media-app,Express,,,,
+EX14,express-session-authentication-starter,https://github.com/zachgoll/express-session-authentication-starter,Express,,,,
+EX15,todos-express-password,https://github.com/passport/todos-express-password,Express,,,,
+EX16,reddit-clone,https://github.com/puzzlerush/reddit-clone,Express,,,,
+EX17,fullstack-kanban-app,https://github.com/trananhtuat/fullstack-kanban-app,Express,,,,
+EX18,Realtime-Chat,https://github.com/ShakirFarhan/Realtime-Chat,Express,,,,
+EX19,mern-employee-salary-management,https://github.com/berthutapea/mern-employee-salary-management,Express,,,,
+EX20,expressjs-full-course,https://github.com/stuyy/expressjs-full-course,Express,,,,
+EX21,whatsapp-gateway,https://github.com/fawwaz37/whatsapp-gateway,Express,,,,
+EX22,sqtracker,https://github.com/tdjsnelling/sqtracker,Express,,,,
+EX23,shopify-node-express-mongodb-app,https://github.com/kinngh/shopify-node-express-mongodb-app,Express,,,,
+EX24,project-mgmt-graphql,https://github.com/bradtraversy/project-mgmt-graphql,Express,,,,
+EX25,Movie-Library,https://github.com/AmanLM/Movie-Library,Express,,,,
+EX26,User-Authentication-System,https://github.com/Aymen-Nacer/User-Authentication-System,Express,,,,
+EX27,Auth-App-Server-Side-Node-JS,https://github.com/Muhammed-Sahad-c/Auth-App-Server-Side-Node-JS,Express,,,,

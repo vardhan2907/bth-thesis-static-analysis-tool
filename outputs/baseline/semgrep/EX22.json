@@ -1,0 +1,572 @@
+{
+  "version": "1.162.0",
+  "results": [
+    {
+      "check_id": "javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/announcement.js",
+      "start": {
+        "line": 39,
+        "col": 16,
+        "offset": 1054
+      },
+      "end": {
+        "line": 39,
+        "col": 20,
+        "offset": 1058
+      },
+      "extra": {
+        "message": "Detected directly writing to a Response object from user-defined input. This bypasses any HTML escaping and may expose your application to a Cross-Site-scripting (XSS) vulnerability. Instead, use 'resp.render()' to render safely escaped HTML.",
+        "metadata": {
+          "interfile": true,
+          "references": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+          ],
+          "owasp": [
+            "A07:2017 - Cross-Site Scripting (XSS)",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "cwe": [
+            "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          ],
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "vulnerability_class": [
+            "Cross-Site-Scripting (XSS)"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+          "shortlink": "https://sg.run/vzGl"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/announcement.js",
+      "start": {
+        "line": 123,
+        "col": 14,
+        "offset": 3030
+      },
+      "end": {
+        "line": 123,
+        "col": 26,
+        "offset": 3042
+      },
+      "extra": {
+        "message": "Detected directly writing to a Response object from user-defined input. This bypasses any HTML escaping and may expose your application to a Cross-Site-scripting (XSS) vulnerability. Instead, use 'resp.render()' to render safely escaped HTML.",
+        "metadata": {
+          "interfile": true,
+          "references": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+          ],
+          "owasp": [
+            "A07:2017 - Cross-Site Scripting (XSS)",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "cwe": [
+            "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          ],
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "vulnerability_class": [
+            "Cross-Site-Scripting (XSS)"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+          "shortlink": "https://sg.run/vzGl"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/announcement.js",
+      "start": {
+        "line": 319,
+        "col": 16,
+        "offset": 7155
+      },
+      "end": {
+        "line": 319,
+        "col": 33,
+        "offset": 7172
+      },
+      "extra": {
+        "message": "Detected directly writing to a Response object from user-defined input. This bypasses any HTML escaping and may expose your application to a Cross-Site-scripting (XSS) vulnerability. Instead, use 'resp.render()' to render safely escaped HTML.",
+        "metadata": {
+          "interfile": true,
+          "references": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+          ],
+          "owasp": [
+            "A07:2017 - Cross-Site Scripting (XSS)",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "cwe": [
+            "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          ],
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "vulnerability_class": [
+            "Cross-Site-Scripting (XSS)"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+          "shortlink": "https://sg.run/vzGl"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/request.js",
+      "start": {
+        "line": 182,
+        "col": 14,
+        "offset": 4132
+      },
+      "end": {
+        "line": 182,
+        "col": 21,
+        "offset": 4139
+      },
+      "extra": {
+        "message": "Detected directly writing to a Response object from user-defined input. This bypasses any HTML escaping and may expose your application to a Cross-Site-scripting (XSS) vulnerability. Instead, use 'resp.render()' to render safely escaped HTML.",
+        "metadata": {
+          "interfile": true,
+          "references": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+          ],
+          "owasp": [
+            "A07:2017 - Cross-Site Scripting (XSS)",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "cwe": [
+            "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          ],
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "vulnerability_class": [
+            "Cross-Site-Scripting (XSS)"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+          "shortlink": "https://sg.run/vzGl"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+      "start": {
+        "line": 308,
+        "col": 16,
+        "offset": 8752
+      },
+      "end": {
+        "line": 308,
+        "col": 29,
+        "offset": 8765
+      },
+      "extra": {
+        "message": "Detected directly writing to a Response object from user-defined input. This bypasses any HTML escaping and may expose your application to a Cross-Site-scripting (XSS) vulnerability. Instead, use 'resp.render()' to render safely escaped HTML.",
+        "metadata": {
+          "interfile": true,
+          "references": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+          ],
+          "owasp": [
+            "A07:2017 - Cross-Site Scripting (XSS)",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "cwe": [
+            "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          ],
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "vulnerability_class": [
+            "Cross-Site-Scripting (XSS)"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+          "shortlink": "https://sg.run/vzGl"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/wiki.js",
+      "start": {
+        "line": 55,
+        "col": 16,
+        "offset": 1414
+      },
+      "end": {
+        "line": 55,
+        "col": 20,
+        "offset": 1418
+      },
+      "extra": {
+        "message": "Detected directly writing to a Response object from user-defined input. This bypasses any HTML escaping and may expose your application to a Cross-Site-scripting (XSS) vulnerability. Instead, use 'resp.render()' to render safely escaped HTML.",
+        "metadata": {
+          "interfile": true,
+          "references": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+          ],
+          "owasp": [
+            "A07:2017 - Cross-Site Scripting (XSS)",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "cwe": [
+            "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          ],
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "vulnerability_class": [
+            "Cross-Site-Scripting (XSS)"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+          "shortlink": "https://sg.run/vzGl"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    }
+  ],
+  "errors": [
+    {
+      "code": 3,
+      "level": "warn",
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/_app.js",
+            "start": {
+              "line": 271,
+              "col": 80,
+              "offset": 0
+            },
+            "end": {
+              "line": 271,
+              "col": 133,
+              "offset": 53
+            }
+          }
+        ]
+      ],
+      "message": "Syntax error at line /Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/_app.js:271:\n `&family=Source+Code+Pro:wght@400;500;700&display=swap` was unexpected",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/_app.js",
+      "spans": [
+        {
+          "file": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/_app.js",
+          "start": {
+            "line": 271,
+            "col": 80,
+            "offset": 0
+          },
+          "end": {
+            "line": 271,
+            "col": 133,
+            "offset": 53
+          }
+        }
+      ]
+    }
+  ],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/announcement.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/group.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/moderation.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/request.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/rss.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/torrent.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/wiki.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/middleware/auth.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/migrations/torrent-add-fuzzy-name.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/routes/account.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/routes/admin.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/routes/announcement.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/routes/group.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/routes/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/routes/report.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/routes/request.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/routes/torrent.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/routes/user.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/routes/wiki.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/schema/announcement.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/schema/comment.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/schema/group.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/schema/invite.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/schema/progress.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/schema/report.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/schema/request.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/schema/torrent.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/schema/user.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/schema/wiki.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/setup/createAdminUser.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/tracker/announce.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/tracker/routes.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/utils/hitnrun.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/utils/ratio.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/utils/validateConfig.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/components/Box.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/components/Button.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/components/Checkbox.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/components/Comment.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/components/Infobox.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/components/Input.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/components/List.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/components/MarkdownBody.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/components/MarkdownInput.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/components/Modal.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/components/Navigation.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/components/Notifications.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/components/SEO.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/components/Select.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/components/Text.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/components/TorrentList.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/locales/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/next.config.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/404.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/_app.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/_document.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/_error.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/account.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/announcements/[slug]/edit.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/announcements/[slug]/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/announcements/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/announcements/new.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/bookmarks.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/categories/[category].js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/categories/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/login.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/logout.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/register.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/reports/[id].js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/reports/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/requests/[index].js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/requests/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/requests/new.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/reset-password/finalise.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/reset-password/initiate.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/rss.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/search/[[...query]].js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/sitemap.xml.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/stats.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/tags/[tag].js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/torrent/[infoHash].js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/upload.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/user/[username].js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/verify-email.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/wiki/[[...slug]].js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/wiki/new.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/sentry.client.config.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/sentry.edge.config.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/sentry.server.config.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/utils/LoadingContext.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/utils/LocaleContext.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/utils/getReqCookies.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/utils/withAuth.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/config.example.js"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.06749987602233887,
+    "profiling_times": {
+      "config_time": 0.3206019401550293,
+      "core_time": 3.497123956680298,
+      "ignores_time": 0.00020003318786621094,
+      "total_time": 3.8309178352355957
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 13.12683892250061,
+      "per_file_time": {
+        "mean": 0.13532823631443927,
+        "std_dev": 0.07683877071960883
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.2574050655315863,
+        "count_ratio": 0.020618556701030927
+      },
+      "very_slow_files": [
+        {
+          "fpath": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/controllers/user.js",
+          "ftime": 1.5953168869018555
+        },
+        {
+          "fpath": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/api/src/index.js",
+          "ftime": 1.7835979461669922
+        }
+      ]
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [
+      {
+        "error_type": "Fixpoint timeout",
+        "severity": "warn",
+        "message": "Fixpoint timeout while performing taint analysis at /Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/account.js:1:0 [rules: 1, first: javascript.express.security.cors-misconfiguration.cors-misconfiguration]",
+        "location": {
+          "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX22/client/pages/account.js",
+          "start": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          }
+        }
+      }
+    ],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.07187857961053837,
+      "rules_matched_ratio": 0.07187857961053837
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 398093888
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

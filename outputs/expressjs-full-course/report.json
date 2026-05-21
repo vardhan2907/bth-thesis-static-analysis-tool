@@ -1,0 +1,37 @@
+{
+  "project_name": "expressjs-full-course",
+  "framework": "express",
+  "scanned_files_count": 6,
+  "findings": [
+    {
+      "rule_id": "EX-HELMET-001",
+      "rule_name": "Helmet middleware not used",
+      "category": "security_headers",
+      "description": "Helmet sets important HTTP security headers (X-Frame-Options, X-Content-Type-Options, HSTS, CSP, etc.). Without it the app is missing baseline browser-level protections. (Heuristic: no helmet() call found in scanned Node.js files.)",
+      "evidence": {
+        "file_path": "src/__tests__/users.spec.js, src/e2e/index.spec.js, src/e2e/user.spec.js",
+        "line": null,
+        "snippet": "No helmet() call found."
+      },
+      "recommendation": "npm install helmet  and add app.use(helmet()) in your Express app setup.",
+      "risk_factors": {
+        "E": 3,
+        "I": 3,
+        "D": 4,
+        "P": 4
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    }
+  ],
+  "summary": {
+    "total_findings": 1,
+    "counts_by_severity": {
+      "High": 1
+    },
+    "counts_by_category": {
+      "security_headers": 1
+    }
+  },
+  "errors": []
+}

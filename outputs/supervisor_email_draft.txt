@@ -1,0 +1,92 @@
+To: [Supervisor Name]
+From: [Your Name]
+Subject: Thesis Progress Update — Tool, Dataset & Evaluation Results
+
+Dear [Supervisor Name],
+
+I wanted to share a progress update on my thesis. Here is a brief summary of what has been completed so far.
+
+
+WHAT WE BUILT
+
+A command-line static analysis tool in Python that scans Django and Express.js repositories
+for security misconfigurations. It implements 12 rules (7 Django, 5 Express) covering issues
+such as DEBUG mode enabled, hardcoded SECRET_KEY, missing Helmet middleware, no rate limiting
+on authentication routes, and insecure session cookie settings. Each finding is assigned a
+risk score using a four-factor model (Exploitability, Impact, Discoverability, Prevalence)
+computed as (E + I + D + P) / 2, producing a ranked output for triage.
+
+
+DATASET
+
+46 open-source GitHub repositories — 19 Django, 27 Express.js — selected based on the
+presence of authentication or session management code, covering a range of project types
+(e-commerce, social media, API backends, OAuth systems). The dataset was assembled in two
+phases: an initial set of 20 repositories (DJ02–DJ10, EX01–EX10) followed by an extended
+set of 26 additional repositories (DJ11–DJ20, EX11–EX27), bringing the total to 46 projects
+across both frameworks. Repository size ranged from single-developer tutorial projects to
+actively maintained open-source tools with hundreds of stars, with no minimum star count or
+recency filter applied. 37 of the 46 produced at least one finding; the remaining 9 returned
+zero findings (7 due to framework detection failures caused by non-standard project structure,
+2 genuinely clean configurations).
+
+
+RQ1 — MISCONFIGURATION FREQUENCY AND DISTRIBUTION
+
+112 findings were produced across 37 projects. All findings fell in the High to Critical
+severity range. The most frequently detected misconfigurations by finding count were:
+
+  No rate limiting on auth routes          20 findings  13/19 Express projects  (68%)
+  Missing Helmet middleware                16 findings  16/19 Express projects  (84%)
+  JSON body parser without size limit      16 findings  15/19 Express projects  (79%)
+  SESSION_COOKIE_SECURE not set            15 findings  15/18 Django projects   (83%)
+  DEBUG mode enabled                       10 findings  10/18 Django projects   (56%)
+  ALLOWED_HOSTS empty or wildcard          10 findings  10/18 Django projects   (56%)
+  Hardcoded SECRET_KEY                      9 findings   9/18 Django projects   (50%)
+
+The prevalence rates show that missing Helmet (84%) and SESSION_COOKIE_SECURE (83%) are
+the most widespread misconfigurations in their respective frameworks. By category, security
+misconfiguration and brute force protection were the most common (17.9% each), followed by
+session security and security headers (~15% each). Django and Express produced a near-equal
+split of findings (53 vs 59) with comparable averages per project (2.9 vs 3.1).
+
+
+RQ2 — ACCURACY AND RANKING EVALUATION
+
+Accuracy: 100 findings were manually validated against the actual source files (89% of the
+full dataset, stratified by severity, seed=42 for reproducibility).
+
+  True Positives (TP):                 71
+  True Positives in test config only:  15
+  False Positives (FP):                14
+
+  Overall precision: 83.5% (strict) / 86.0% (including test configs)
+  Django precision:  91.4%  —  DEBUG, SECRET_KEY, and CSRF rules all at 100%
+  Express precision: 78.0%  —  Helmet rule at 69%, authorization rule at 25%
+
+The main sources of false positives are the file collector scanning frontend JavaScript in
+fullstack monorepos instead of the Express server, and the authorization rule (EX-AUTHZ-001)
+matching page-render routes rather than credential-handling endpoints.
+
+Ranking: The ranked output (sorted by risk score descending) was compared against a Monte
+Carlo random baseline (10,000 shuffles):
+
+  Precision@10:      100.0% ranked  vs  86.1% random  (+13.9%)
+  Precision@20:       90.0% ranked  vs  86.1% random  (+3.9%)
+  Average Precision:  89.5% ranked  vs  86.6% random  (+2.8 percentage points)
+
+The top 17 ranked findings are all confirmed true positives (Critical tier, score 8.0).
+However, EX-AUTHZ-001 is assigned a score of 7.5 (second highest) despite having only 25%
+precision — a clear over-scoring issue that will be discussed as a limitation.
+
+
+NEXT STEPS
+
+Writing the methodology chapter, results chapter (covering both RQs), limitations discussion,
+and conclusion. I would appreciate your feedback on whether Precision@K and Average Precision
+are sufficient to answer the ranking part of RQ2, or if additional analysis is needed.
+
+
+
+Best regards,
+[Your Name]

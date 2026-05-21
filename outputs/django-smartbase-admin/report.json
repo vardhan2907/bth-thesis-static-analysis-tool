@@ -1,0 +1,59 @@
+{
+  "project_name": "django-smartbase-admin",
+  "framework": "django",
+  "scanned_files_count": 132,
+  "findings": [
+    {
+      "rule_id": "DJ-SECRET-001",
+      "rule_name": "Hardcoded SECRET_KEY",
+      "category": "secrets_management",
+      "description": "A literal string value is used as Django's SECRET_KEY. If this file is committed to version control the secret is exposed. SECRET_KEY must be loaded from an environment variable or secrets manager.",
+      "evidence": {
+        "file_path": "tests/settings.py",
+        "line": 10,
+        "snippet": "SECRET_KEY = \"test-secret-key-not-for-production\""
+      },
+      "recommendation": "Load SECRET_KEY from the environment: SECRET_KEY = os.environ['DJANGO_SECRET_KEY']",
+      "risk_factors": {
+        "E": 5,
+        "I": 5,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 8.0,
+      "severity": "Critical"
+    },
+    {
+      "rule_id": "DJ-COOKIE-001",
+      "rule_name": "SESSION_COOKIE_SECURE not set",
+      "category": "session_security",
+      "description": "SESSION_COOKIE_SECURE is not present in any settings file. Django defaults to False, which allows the session cookie to be transmitted over plain HTTP, enabling session hijacking.",
+      "evidence": {
+        "file_path": "tests/settings.py",
+        "line": null,
+        "snippet": "SESSION_COOKIE_SECURE not found in settings."
+      },
+      "recommendation": "Add SESSION_COOKIE_SECURE = True to your production settings.",
+      "risk_factors": {
+        "E": 3,
+        "I": 3,
+        "D": 3,
+        "P": 4
+      },
+      "risk_score": 6.5,
+      "severity": "High"
+    }
+  ],
+  "summary": {
+    "total_findings": 2,
+    "counts_by_severity": {
+      "Critical": 1,
+      "High": 1
+    },
+    "counts_by_category": {
+      "secrets_management": 1,
+      "session_security": 1
+    }
+  },
+  "errors": []
+}

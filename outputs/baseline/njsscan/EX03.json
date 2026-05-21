@@ -1,0 +1,246 @@
+{
+  "errors": [],
+  "njsscan_version": "0.4.2",
+  "nodejs": {
+    "cookie_session_default": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX03/df.js",
+          "match_lines": [
+            47,
+            47
+          ],
+          "match_position": [
+            11,
+            33
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX03/index.js",
+          "match_lines": [
+            39,
+            39
+          ],
+          "match_position": [
+            9,
+            31
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-522: Insufficiently Protected Credentials",
+        "description": "Consider changing the default session cookie name. An attacker can use it to fingerprint the server and target attacks accordingly.",
+        "owasp-web": "A2: Broken Authentication",
+        "severity": "INFO"
+      }
+    },
+    "cookie_session_no_domain": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX03/df.js",
+          "match_lines": [
+            47,
+            47
+          ],
+          "match_position": [
+            11,
+            33
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX03/index.js",
+          "match_lines": [
+            39,
+            39
+          ],
+          "match_position": [
+            9,
+            31
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-522: Insufficiently Protected Credentials",
+        "description": "Default session middleware settings: `domain` not set. It indicates the domain of the cookie; use it to compare against the domain of the server in which the URL is being requested. If they match, then check the path attribute next.",
+        "owasp-web": "A2: Broken Authentication",
+        "severity": "INFO"
+      }
+    },
+    "cookie_session_no_path": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX03/df.js",
+          "match_lines": [
+            47,
+            47
+          ],
+          "match_position": [
+            11,
+            33
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX03/index.js",
+          "match_lines": [
+            39,
+            39
+          ],
+          "match_position": [
+            9,
+            31
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-522: Insufficiently Protected Credentials",
+        "description": "Default session middleware settings: `path` not set. It indicates the path of the cookie; use it to compare against the request path. If this and domain match, then send the cookie in the request.",
+        "owasp-web": "A2: Broken Authentication",
+        "severity": "INFO"
+      }
+    },
+    "cookie_session_no_samesite": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX03/df.js",
+          "match_lines": [
+            47,
+            47
+          ],
+          "match_position": [
+            11,
+            33
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX03/index.js",
+          "match_lines": [
+            39,
+            39
+          ],
+          "match_position": [
+            9,
+            31
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "cwe-1275",
+        "description": "Default session middleware settings: `sameSite` attribute is not configured to strict or lax. These configurations provides protection against Cross Site Request Forgery attacks.",
+        "owasp-web": "A2: Broken Authentication",
+        "severity": "WARNING"
+      }
+    },
+    "cookie_session_no_secure": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX03/df.js",
+          "match_lines": [
+            47,
+            47
+          ],
+          "match_position": [
+            11,
+            33
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX03/index.js",
+          "match_lines": [
+            39,
+            39
+          ],
+          "match_position": [
+            9,
+            31
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "cwe-614",
+        "description": "Default session middleware settings: `secure` not set. It ensures the browser only sends the cookie over HTTPS.",
+        "owasp-web": "A2: Broken Authentication",
+        "severity": "WARNING"
+      }
+    },
+    "express_lfr_warning": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX03/df.js",
+          "match_lines": [
+            75,
+            76
+          ],
+          "match_position": [
+            5,
+            30
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX03/index.js",
+          "match_lines": [
+            60,
+            62
+          ],
+          "match_position": [
+            3,
+            25
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX03/index.js",
+          "match_lines": [
+            69,
+            74
+          ],
+          "match_position": [
+            3,
+            27
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-23: Relative Path Traversal",
+        "description": "Untrusted user input in express render() function can result in arbitrary file read if hbs templating is used.",
+        "owasp-web": "A5: Broken Access Control",
+        "severity": "WARNING"
+      }
+    }
+  },
+  "templates": {
+    "ejs_ect_template": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX03/views/layouts/boilerplate.ejs",
+          "match_lines": [
+            17,
+            17
+          ],
+          "match_position": [
+            856,
+            865
+          ],
+          "match_string": "<%-body%>"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+        "description": "The EJS/ECT template has an unescaped variable. Untrusted user input passed to this variable results in Cross Site Scripting (XSS).",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    }
+  }
+}

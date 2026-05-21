@@ -1,0 +1,215 @@
+{
+  "errors": [],
+  "njsscan_version": "0.4.2",
+  "nodejs": {
+    "express_xss": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/comments.js",
+          "match_lines": [
+            129,
+            131
+          ],
+          "match_position": [
+            5,
+            29
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/posts.js",
+          "match_lines": [
+            148,
+            149
+          ],
+          "match_position": [
+            5,
+            26
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/users.js",
+          "match_lines": [
+            161,
+            163
+          ],
+          "match_position": [
+            5,
+            34
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+        "description": "Untrusted User Input in Response will result in Reflected Cross Site Scripting Vulnerability.",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    },
+    "node_timing_attack": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/users.js",
+          "match_lines": [
+            123,
+            123
+          ],
+          "match_position": [
+            49,
+            71
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/RegisterPage.js",
+          "match_lines": [
+            44,
+            46
+          ],
+          "match_position": [
+            7,
+            8
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-208: Observable Timing Discrepancy",
+        "description": "String comparisons using '===', '!==', '!=' and '==' is vulnerable to timing attacks. A timing attack allows the attacker to learn potentially sensitive information by, for example, measuring how long it takes for the application to respond to a request.  More info: https://nodejs.org/en/learn/getting-started/security-best-practices#information-exposure-through-timing-attacks-cwe-208",
+        "owasp-web": "A9: Using Components with Known Vulnerabilities",
+        "severity": "WARNING"
+      }
+    },
+    "node_username": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/db/prepare-test-data.js",
+          "match_lines": [
+            171,
+            175
+          ],
+          "match_position": [
+            11,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/users.js",
+          "match_lines": [
+            19,
+            24
+          ],
+          "match_position": [
+            9,
+            3
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/users.js",
+          "match_lines": [
+            42,
+            42
+          ],
+          "match_position": [
+            11,
+            67
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/users.js",
+          "match_lines": [
+            66,
+            70
+          ],
+          "match_position": [
+            11,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/users.js",
+          "match_lines": [
+            96,
+            96
+          ],
+          "match_position": [
+            11,
+            73
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/users.js",
+          "match_lines": [
+            124,
+            128
+          ],
+          "match_position": [
+            9,
+            3
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/users.js",
+          "match_lines": [
+            136,
+            140
+          ],
+          "match_position": [
+            9,
+            3
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/users.js",
+          "match_lines": [
+            171,
+            171
+          ],
+          "match_position": [
+            11,
+            77
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-798: Use of Hard-coded Credentials",
+        "description": "A hardcoded username in plain text is identified. Store it properly in an environment variable.",
+        "owasp-web": "A3: Sensitive Data Exposure",
+        "severity": "WARNING"
+      }
+    },
+    "regex_dos": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/votes.js",
+          "match_lines": [
+            19,
+            19
+          ],
+          "match_position": [
+            8,
+            29
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-185: Incorrect Regular Expression",
+        "description": "Ensure that the regex used to compare with user supplied input is safe from regular expression denial of service.",
+        "owasp-web": "A6: Security Misconfiguration",
+        "severity": "WARNING"
+      }
+    }
+  },
+  "templates": {}
+}

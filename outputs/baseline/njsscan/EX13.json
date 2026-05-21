@@ -1,0 +1,167 @@
+{
+  "errors": [],
+  "njsscan_version": "0.4.2",
+  "nodejs": {
+    "node_insecure_random_generator": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/controllers/userControllers.js",
+          "match_lines": [
+            238,
+            238
+          ],
+          "match_position": [
+            37,
+            50
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-327: Use of a Broken or Risky Cryptographic Algorithm",
+        "description": "crypto.pseudoRandomBytes()/Math.random() is a cryptographically weak random number generator.",
+        "owasp-web": "A9: Using Components with Known Vulnerabilities",
+        "severity": "WARNING"
+      }
+    },
+    "node_nosqli_injection": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/controllers/messageController.js",
+          "match_lines": [
+            8,
+            21
+          ],
+          "match_position": [
+            5,
+            7
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/controllers/postControllers.js",
+          "match_lines": [
+            239,
+            248
+          ],
+          "match_position": [
+            5,
+            72
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/controllers/postControllers.js",
+          "match_lines": [
+            271,
+            280
+          ],
+          "match_position": [
+            5,
+            72
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/controllers/userControllers.js",
+          "match_lines": [
+            33,
+            39
+          ],
+          "match_position": [
+            5,
+            7
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/controllers/userControllers.js",
+          "match_lines": [
+            67,
+            69
+          ],
+          "match_position": [
+            5,
+            64
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/controllers/userControllers.js",
+          "match_lines": [
+            176,
+            178
+          ],
+          "match_position": [
+            5,
+            70
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-943: Improper Neutralization of Special Elements in Data Query Logic",
+        "description": "Untrusted user input in findOne() function can result in NoSQL Injection.",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    },
+    "node_password": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/views/SignupView.js",
+          "match_lines": [
+            62,
+            62
+          ],
+          "match_position": [
+            7,
+            61
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-798: Use of Hard-coded Credentials",
+        "description": "A hardcoded password in plain text is identified. Store it properly in an environment variable.",
+        "owasp-web": "A3: Sensitive Data Exposure",
+        "severity": "ERROR"
+      }
+    },
+    "node_username": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/views/SignupView.js",
+          "match_lines": [
+            54,
+            54
+          ],
+          "match_position": [
+            7,
+            67
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/views/SignupView.js",
+          "match_lines": [
+            58,
+            58
+          ],
+          "match_position": [
+            7,
+            61
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-798: Use of Hard-coded Credentials",
+        "description": "A hardcoded username in plain text is identified. Store it properly in an environment variable.",
+        "owasp-web": "A3: Sensitive Data Exposure",
+        "severity": "WARNING"
+      }
+    }
+  },
+  "templates": {}
+}

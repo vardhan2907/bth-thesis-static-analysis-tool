@@ -1,0 +1,159 @@
+{
+  "version": "1.162.0",
+  "results": [],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/App.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/api/messages.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/api/posts.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/api/users.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/Comment.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/CommentBrowser.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/CommentEditor.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/Comments.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/ContentDetails.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/ContentSelect.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/ContentUpdateEditor.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/Copyright.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/CreatePost.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/ErrorAlert.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/FetchFail.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/FindUsers.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/Footer.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/GoBack.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/GridLayout.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/LikeBox.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/Loading.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/Markdown.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/Message.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/Messages.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/MobileProfile.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/Navbar.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/PostBrowser.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/PostCard.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/PostContentBox.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/PostEditor.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/PrivateRoute.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/Profile.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/ProfileTabs.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/SendMessage.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/Sidebar.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/SortBySelect.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/TopPosts.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/UserAvatar.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/UserEntry.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/UserLikeModal.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/UserLikePreview.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/UserMessengerEntries.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/UserMessengerEntry.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/util/HorizontalStack.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/views/CreatePostView.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/views/ExploreView.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/views/LoginView.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/views/MessengerView.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/views/PostView.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/views/ProfileView.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/views/SearchView.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/components/views/SignupView.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/config.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/helpers/authHelper.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/helpers/socketHelper.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/client/src/theme.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/controllers/commentControllers.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/controllers/messageController.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/controllers/postControllers.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/controllers/userControllers.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/middleware/auth.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/models/Comment.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/models/Conversation.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/models/Follow.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/models/Message.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/models/Post.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/models/PostLike.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/models/User.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/routes/comments.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/routes/messages.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/routes/posts.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/routes/users.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/server.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/socketServer.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/util/filter.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX13/util/paginate.js"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.05890798568725586,
+    "profiling_times": {
+      "config_time": 0.6100540161132812,
+      "core_time": 0.8186821937561035,
+      "ignores_time": 0.00013518333435058594,
+      "total_time": 1.437798023223877
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 1.2884163856506348,
+      "per_file_time": {
+        "mean": 0.016732680333125128,
+        "std_dev": 0.0006661977053042406
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.025613275613275612,
+      "rules_matched_ratio": 0.025613275613275612
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 256165440
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

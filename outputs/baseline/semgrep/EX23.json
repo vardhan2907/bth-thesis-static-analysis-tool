@@ -1,0 +1,120 @@
+{
+  "version": "1.162.0",
+  "results": [],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/_developer/declarativeWriter.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/_developer/tomlWriter.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/_developer/types/2025-04/webhooks.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/_developer/types/declarative.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/_developer/types/toml.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/_developer/types/webhookTopics.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/_developer/webhookWriter.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/client/App.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/client/Routes.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/client/entry-client.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/client/pages/Index.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/client/pages/debug/Billing.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/client/pages/debug/Data.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/client/pages/debug/Index.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/client/pages/debug/Scopes.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/client/providers/AppBridgeProvider.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/client/vite.config.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/server/controllers/gdpr.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/server/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/server/middleware/csp.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/server/middleware/isInitialLoad.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/server/middleware/verifyCheckout.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/server/middleware/verifyHmac.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/server/middleware/verifyProxy.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/server/middleware/verifyRequest.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/server/routes/app_proxy/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/server/routes/checkout/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/server/routes/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/server/webhooks/_index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/server/webhooks/app_uninstalled.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/utils/clientProvider.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/utils/freshInstall.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/utils/models/SessionModel.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/utils/models/StoreModel.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/utils/sessionHandler.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/utils/setupCheck.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/utils/shopify.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/utils/validateJWT.js"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.0808570384979248,
+    "profiling_times": {
+      "config_time": 0.4244699478149414,
+      "core_time": 1.3148047924041748,
+      "ignores_time": 0.0002529621124267578,
+      "total_time": 1.7554047107696533
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 3.875454902648926,
+      "per_file_time": {
+        "mean": 0.10198565533286648,
+        "std_dev": 0.019229920013941713
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.062134502923976605,
+      "rules_matched_ratio": 0.062134502923976605
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 377114112
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

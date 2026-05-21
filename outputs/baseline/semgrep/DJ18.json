@@ -1,0 +1,120 @@
+{
+  "version": "1.162.0",
+  "results": [],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/context_processors.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/forms.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/management/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/management/commands/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/management/commands/nuclear.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/migrations/0001_initial.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/migrations/0002_simplepage_slug.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/migrations/0003_image_taken.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/migrations/0004_alter_album_options_image_image_api_data.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/migrations/0005_remove_image_description.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/templatetags/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/templatetags/album_thumb.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/templatetags/image_thumb.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/tests.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/utils.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/gallery/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/manage.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/tangelo/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/tangelo/asgi.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/tangelo/config/config.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/tangelo/config/settings.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/tangelo/templates/404.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/tangelo/templates/about.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/tangelo/templates/album.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/tangelo/templates/base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/tangelo/templates/contact.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/tangelo/templates/contact_success.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/tangelo/templates/home.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/tangelo/templates/image.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/tangelo/templates/thumbnails/album_thumb.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/tangelo/templates/thumbnails/image_thumb.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/tangelo/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ18/tangelo/wsgi.py"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.07164716720581055,
+    "profiling_times": {
+      "config_time": 0.318828821182251,
+      "core_time": 0.8703117370605469,
+      "ignores_time": 0.00020503997802734375,
+      "total_time": 1.2018239498138428
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 1.2086505889892578,
+      "per_file_time": {
+        "mean": 0.03180659444708572,
+        "std_dev": 0.0012686656436559688
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.010443864229765013,
+      "rules_matched_ratio": 0.010443864229765013
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 239444608
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

@@ -1,0 +1,99 @@
+{
+  "version": "1.162.0",
+  "results": [],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ20/src/accounts/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ20/src/accounts/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ20/src/accounts/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ20/src/accounts/migrations/0001_initial.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ20/src/accounts/migrations/0002_alter_customuser_username.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ20/src/accounts/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ20/src/accounts/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ20/src/accounts/serializers.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ20/src/accounts/tests.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ20/src/accounts/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ20/src/accounts/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ20/src/core/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ20/src/core/asgi.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ20/src/core/settings.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ20/src/core/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ20/src/core/wsgi.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ20/src/manage.py"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.036026954650878906,
+    "profiling_times": {
+      "config_time": 0.4045441150665283,
+      "core_time": 0.6324551105499268,
+      "ignores_time": 0.00042319297790527344,
+      "total_time": 1.055577039718628
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 1.124610185623169,
+      "per_file_time": {
+        "mean": 0.06615354033077464,
+        "std_dev": 0.002373041107659704
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.006535947712418301,
+      "rules_matched_ratio": 0.006535947712418301
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 223161984
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

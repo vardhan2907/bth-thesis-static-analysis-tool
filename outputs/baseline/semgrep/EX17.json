@@ -1,0 +1,125 @@
+{
+  "version": "1.162.0",
+  "results": [],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/App.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/api/authApi.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/api/axiosClient.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/api/boardApi.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/api/sectionApi.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/api/taskApi.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/assets/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/components/common/EmojiPicker.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/components/common/FavouriteList.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/components/common/Kanban.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/components/common/Loading.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/components/common/Sidebar.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/components/common/TaskModal.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/components/layout/AppLayout.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/components/layout/AuthLayout.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/pages/Board.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/pages/Home.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/pages/Login.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/pages/Signup.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/redux/features/boardSlice.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/redux/features/favouriteSlice.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/redux/features/userSlice.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/redux/store.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/client/src/utils/authUtils.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/app.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/bin/www.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/controllers/board.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/controllers/section.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/controllers/task.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/controllers/user.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/handlers/tokenHandler.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/handlers/validation.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/models/board.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/models/modelOptions.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/models/section.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/models/task.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/models/user.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/routes/auth.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/routes/board.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/routes/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/routes/section.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX17/server/src/v1/routes/task.js"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.09628891944885254,
+    "profiling_times": {
+      "config_time": 1.0600676536560059,
+      "core_time": 1.409303903579712,
+      "ignores_time": 0.0002079010009765625,
+      "total_time": 2.484581708908081
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 4.3769965171813965,
+      "per_file_time": {
+        "mean": 0.10179061667863709,
+        "std_dev": 0.0154591818156742
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.03811369509043928,
+      "rules_matched_ratio": 0.03811369509043928
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 233928576
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

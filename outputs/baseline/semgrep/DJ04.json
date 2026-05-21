@@ -1,0 +1,339 @@
+{
+  "version": "1.162.0",
+  "results": [
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/admin/user_management.html",
+      "start": {
+        "line": 164,
+        "col": 45,
+        "offset": 10050
+      },
+      "end": {
+        "line": 177,
+        "col": 52,
+        "offset": 11547
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/auth/login.html",
+      "start": {
+        "line": 72,
+        "col": 17,
+        "offset": 3015
+      },
+      "end": {
+        "line": 84,
+        "col": 24,
+        "offset": 4342
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/auth/signup.html",
+      "start": {
+        "line": 72,
+        "col": 17,
+        "offset": 3075
+      },
+      "end": {
+        "line": 84,
+        "col": 24,
+        "offset": 4401
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    }
+  ],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/adapters.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/admin_delta.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/ai_chat_views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/context_processors.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/decorators.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/error_handlers.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/forms.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/forms_instructor.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/management/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/management/commands/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/management/commands/init_roles.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/management/commands/setup_delta_rules.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/middleware.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/migrations/0001_initial.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/migrations/0002_user_timezone.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/migrations/0003_alter_user_options_user_users_email_4b85f2_idx_and_more.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/migrations/0004_delta_coin_system.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/migrations/0005_permission_role_user_role.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/migrations/0006_delete_permission_alter_role_weight.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/models_delta.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/serializers.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/serializers_delta.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/services_delta.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/signals.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/tasks.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/urls_delta.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/utils/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/utils/timezone.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/views_ai_question_extractor.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/views_delta.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/views_question_dashboard.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/core/views_rbac.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/management/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/management/commands/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/management/commands/import_questions.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/management/commands/update_difficulty.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/migrations/0001_initial.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/migrations/0002_practicesession_useranswer_and_more.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/migrations/0003_markedquestion.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/migrations/0004_masteredquestion.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/migrations/0005_question_spr_answer.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/migrations/0006_question_difficulty.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/migrations/0007_practicesession_current_difficulty_level_and_more.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/templatetags/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/templatetags/practice_filters.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/tests.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/config/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/config/asgi.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/config/celery.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/config/settings/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/config/settings/base.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/config/settings/dev.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/config/settings/prod.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/config/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/config/wsgi.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/manage.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/run.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/scripts/test_gemini.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/setup_google_oauth.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/account/base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/admin/instructor_dashboard.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/admin/instructor_question_form.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/admin/instructor_question_list.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/admin/permission_list.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/admin/question_dashboard.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/admin/rbac_dashboard.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/admin/role_list.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/admin/user_management.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/admin/user_role_management.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/ai_chat/chat.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/auth/login.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/auth/signup.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/base_dashboard.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/components/footer.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/components/navbar.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/components/sidebar.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/dashboard.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/delta/store.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/errors/403.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/errors/404.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/errors/500.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/home.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/landing.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/practice/mistake_log.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/practice/modules.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/practice/practice.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/practice/results.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/profile.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/templates/socialaccount/base.html"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.03204703330993652,
+    "profiling_times": {
+      "config_time": 0.5183291435241699,
+      "core_time": 1.3472740650177002,
+      "ignores_time": 0.000202178955078125,
+      "total_time": 1.878877878189087
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 4.990926504135132,
+      "per_file_time": {
+        "mean": 0.047532633372715544,
+        "std_dev": 0.011971295376547574
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [
+      {
+        "error_type": "Fixpoint timeout",
+        "severity": "warn",
+        "message": "Fixpoint timeout while performing taint analysis at /Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/views.py:234:4 [rules: 1, first: python.django.security.injection.raw-html-format.raw-html-format]",
+        "location": {
+          "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ04/apps/practice/views.py",
+          "start": {
+            "line": 234,
+            "col": 5,
+            "offset": 8771
+          },
+          "end": {
+            "line": 234,
+            "col": 18,
+            "offset": 8784
+          }
+        }
+      }
+    ],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.02365697387875801,
+      "rules_matched_ratio": 0.02365697387875801
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 341133952
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

@@ -1,0 +1,397 @@
+{
+  "errors": [],
+  "njsscan_version": "0.4.2",
+  "nodejs": {
+    "generic_error_disclosure": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/TransaksiController.js",
+          "match_lines": [
+            270,
+            288
+          ],
+          "match_position": [
+            3,
+            4
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/TransaksiController.js",
+          "match_lines": [
+            296,
+            313
+          ],
+          "match_position": [
+            3,
+            4
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/TransaksiController.js",
+          "match_lines": [
+            319,
+            361
+          ],
+          "match_position": [
+            3,
+            4
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/TransaksiController.js",
+          "match_lines": [
+            366,
+            381
+          ],
+          "match_position": [
+            3,
+            4
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/TransaksiController.js",
+          "match_lines": [
+            387,
+            476
+          ],
+          "match_position": [
+            3,
+            4
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-209: Generation of Error Message Containing Sensitive Information",
+        "description": "Error messages with stack traces may expose sensitive information about the application.",
+        "owasp-web": "A3: Sensitive Data Exposure",
+        "severity": "WARNING"
+      }
+    },
+    "node_nosqli_injection": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/Auth.js",
+          "match_lines": [
+            7,
+            11
+          ],
+          "match_position": [
+            25,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/Auth.js",
+          "match_lines": [
+            45,
+            50
+          ],
+          "match_position": [
+            25,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/Auth.js",
+          "match_lines": [
+            65,
+            71
+          ],
+          "match_position": [
+            3,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/DataJabatan.js",
+          "match_lines": [
+            36,
+            43
+          ],
+          "match_position": [
+            32,
+            11
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/DataJabatan.js",
+          "match_lines": [
+            90,
+            94
+          ],
+          "match_position": [
+            31,
+            11
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/DataJabatan.js",
+          "match_lines": [
+            124,
+            128
+          ],
+          "match_position": [
+            31,
+            11
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/DataPegawai.js",
+          "match_lines": [
+            24,
+            33
+          ],
+          "match_position": [
+            32,
+            11
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/DataPegawai.js",
+          "match_lines": [
+            47,
+            56
+          ],
+          "match_position": [
+            32,
+            11
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/DataPegawai.js",
+          "match_lines": [
+            71,
+            80
+          ],
+          "match_position": [
+            32,
+            11
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/DataPegawai.js",
+          "match_lines": [
+            156,
+            160
+          ],
+          "match_position": [
+            27,
+            7
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/DataPegawai.js",
+          "match_lines": [
+            193,
+            197
+          ],
+          "match_position": [
+            27,
+            7
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/DataPegawai.js",
+          "match_lines": [
+            233,
+            237
+          ],
+          "match_position": [
+            27,
+            7
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/Pegawai.js",
+          "match_lines": [
+            10,
+            21
+          ],
+          "match_position": [
+            5,
+            7
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/Pegawai.js",
+          "match_lines": [
+            30,
+            35
+          ],
+          "match_position": [
+            3,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/Pegawai.js",
+          "match_lines": [
+            40,
+            47
+          ],
+          "match_position": [
+            30,
+            9
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/Pegawai.js",
+          "match_lines": [
+            80,
+            85
+          ],
+          "match_position": [
+            3,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/TransaksiController.js",
+          "match_lines": [
+            64,
+            80
+          ],
+          "match_position": [
+            33,
+            7
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/TransaksiController.js",
+          "match_lines": [
+            224,
+            229
+          ],
+          "match_position": [
+            32,
+            7
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/TransaksiController.js",
+          "match_lines": [
+            577,
+            582
+          ],
+          "match_position": [
+            28,
+            7
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/middleware/AuthUser.js",
+          "match_lines": [
+            8,
+            12
+          ],
+          "match_position": [
+            31,
+            11
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/middleware/AuthUser.js",
+          "match_lines": [
+            25,
+            29
+          ],
+          "match_position": [
+            31,
+            11
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-943: Improper Neutralization of Special Elements in Data Query Logic",
+        "description": "Untrusted user input in findOne() function can result in NoSQL Injection.",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    },
+    "node_timing_attack": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/Auth.js",
+          "match_lines": [
+            75,
+            75
+          ],
+          "match_position": [
+            3,
+            119
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/DataPegawai.js",
+          "match_lines": [
+            100,
+            102
+          ],
+          "match_position": [
+            5,
+            6
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Backend/controllers/DataPegawai.js",
+          "match_lines": [
+            204,
+            204
+          ],
+          "match_position": [
+            5,
+            121
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX19/Frontend/src/config/redux/action/ubahPasswordAction/index.js",
+          "match_lines": [
+            23,
+            26
+          ],
+          "match_position": [
+            5,
+            6
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-208: Observable Timing Discrepancy",
+        "description": "String comparisons using '===', '!==', '!=' and '==' is vulnerable to timing attacks. A timing attack allows the attacker to learn potentially sensitive information by, for example, measuring how long it takes for the application to respond to a request.  More info: https://nodejs.org/en/learn/getting-started/security-best-practices#information-exposure-through-timing-attacks-cwe-208",
+        "owasp-web": "A9: Using Components with Known Vulnerabilities",
+        "severity": "WARNING"
+      }
+    }
+  },
+  "templates": {}
+}

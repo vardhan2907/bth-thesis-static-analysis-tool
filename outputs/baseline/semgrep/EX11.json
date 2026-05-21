@@ -1,0 +1,120 @@
+{
+  "version": "1.162.0",
+  "results": [],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/postcss.config.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/App.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/components/accounts/Login.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/components/accounts/Logout.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/components/accounts/Profile.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/components/accounts/Register.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/components/chat/AllUsers.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/components/chat/ChatForm.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/components/chat/ChatRoom.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/components/chat/Contact.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/components/chat/Message.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/components/chat/SearchUsers.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/components/chat/Welcome.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/components/layouts/ChatLayout.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/components/layouts/ErrorMessage.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/components/layouts/Header.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/components/layouts/ThemeToggler.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/components/layouts/UserLayout.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/config/firebase.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/contexts/AuthContext.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/services/ChatService.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/utils/GenerateAvatar.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/utils/WelcomeSVG.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/src/utils/WithPrivateRoute.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/frontend/tailwind.config.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/server/config/firebase-config.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/server/config/mongo.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/server/controllers/chatMessage.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/server/controllers/chatRoom.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/server/controllers/user.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/server/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/server/middlewares/VerifyToken.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/server/models/ChatMessage.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/server/models/ChatRoom.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/server/routes/chatMessage.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/server/routes/chatRoom.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX11/server/routes/user.js"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.07037997245788574,
+    "profiling_times": {
+      "config_time": 0.5073568820953369,
+      "core_time": 0.5895137786865234,
+      "ignores_time": 0.00014090538024902344,
+      "total_time": 1.1104578971862793
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 0.4427361488342285,
+      "per_file_time": {
+        "mean": 0.011650951285111275,
+        "std_dev": 0.00012583998660489073
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.013157894736842105,
+      "rules_matched_ratio": 0.013157894736842105
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 203323264
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

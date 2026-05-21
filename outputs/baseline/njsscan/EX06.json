@@ -1,0 +1,470 @@
+{
+  "errors": [
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running node_insecure_random_generator on /Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme-vendors.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme-vendors.js",
+      "rule_id": "node_insecure_random_generator",
+      "type": "Timeout"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running node_ssrf on /Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme-vendors.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme-vendors.js",
+      "rule_id": "node_ssrf",
+      "type": "Timeout"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running regex_dos on /Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme-vendors.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme-vendors.js",
+      "rule_id": "regex_dos",
+      "type": "Timeout"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running node_insecure_random_generator on /Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme.js",
+      "rule_id": "node_insecure_random_generator",
+      "type": "Timeout"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running node_ssrf on /Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme.js",
+      "rule_id": "node_ssrf",
+      "type": "Timeout"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running regex_dos on /Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/_website/assets/js/theme.js",
+      "rule_id": "regex_dos",
+      "type": "Timeout"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running node_md5 on /Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/home.b101a8c5.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/home.b101a8c5.js",
+      "rule_id": "node_md5",
+      "type": "Timeout"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running node_sha1 on /Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/home.b101a8c5.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/home.b101a8c5.js",
+      "rule_id": "node_sha1",
+      "type": "Timeout"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running node_ssrf on /Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/home.b101a8c5.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/home.b101a8c5.js",
+      "rule_id": "node_ssrf",
+      "type": "Timeout"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running node_ssrf on /Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/identities.5702dbc6.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/identities.5702dbc6.js",
+      "rule_id": "node_ssrf",
+      "type": "Timeout"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running regex_dos on /Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/identities.5702dbc6.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/public/js/identities.5702dbc6.js",
+      "rule_id": "regex_dos",
+      "type": "Timeout"
+    }
+  ],
+  "njsscan_version": "0.4.2",
+  "nodejs": {
+    "cookie_session_default": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/id.js",
+          "match_lines": [
+            19,
+            23
+          ],
+          "match_position": [
+            9,
+            3
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-522: Insufficiently Protected Credentials",
+        "description": "Consider changing the default session cookie name. An attacker can use it to fingerprint the server and target attacks accordingly.",
+        "owasp-web": "A2: Broken Authentication",
+        "severity": "INFO"
+      }
+    },
+    "cookie_session_no_domain": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/id.js",
+          "match_lines": [
+            19,
+            23
+          ],
+          "match_position": [
+            9,
+            3
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-522: Insufficiently Protected Credentials",
+        "description": "Default session middleware settings: `domain` not set. It indicates the domain of the cookie; use it to compare against the domain of the server in which the URL is being requested. If they match, then check the path attribute next.",
+        "owasp-web": "A2: Broken Authentication",
+        "severity": "INFO"
+      }
+    },
+    "cookie_session_no_maxage": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/id.js",
+          "match_lines": [
+            19,
+            23
+          ],
+          "match_position": [
+            9,
+            3
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-613: Insufficient Session Expiration",
+        "description": "Session middleware settings: `maxAge` not set. Use it to set expiration date for cookies.",
+        "owasp-web": "A2: Broken Authentication",
+        "severity": "INFO"
+      }
+    },
+    "cookie_session_no_path": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/id.js",
+          "match_lines": [
+            19,
+            23
+          ],
+          "match_position": [
+            9,
+            3
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-522: Insufficiently Protected Credentials",
+        "description": "Default session middleware settings: `path` not set. It indicates the path of the cookie; use it to compare against the request path. If this and domain match, then send the cookie in the request.",
+        "owasp-web": "A2: Broken Authentication",
+        "severity": "INFO"
+      }
+    },
+    "cookie_session_no_samesite": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/id.js",
+          "match_lines": [
+            19,
+            23
+          ],
+          "match_position": [
+            9,
+            3
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "cwe-1275",
+        "description": "Default session middleware settings: `sameSite` attribute is not configured to strict or lax. These configurations provides protection against Cross Site Request Forgery attacks.",
+        "owasp-web": "A2: Broken Authentication",
+        "severity": "WARNING"
+      }
+    },
+    "cookie_session_no_secure": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/id.js",
+          "match_lines": [
+            19,
+            23
+          ],
+          "match_position": [
+            9,
+            3
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "cwe-614",
+        "description": "Default session middleware settings: `secure` not set. It ensures the browser only sends the cookie over HTTPS.",
+        "owasp-web": "A2: Broken Authentication",
+        "severity": "WARNING"
+      }
+    },
+    "generic_os_command_exec": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/eid.js",
+          "match_lines": [
+            14,
+            118
+          ],
+          "match_position": [
+            9,
+            12
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/eid.js",
+          "match_lines": [
+            15,
+            118
+          ],
+          "match_position": [
+            9,
+            12
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+        "description": "User controlled data in 'child_process.exec()' can result in Remote OS Command Execution.",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    },
+    "generic_path_traversal": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/eid.js",
+          "match_lines": [
+            14,
+            118
+          ],
+          "match_position": [
+            9,
+            12
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/eid.js",
+          "match_lines": [
+            15,
+            118
+          ],
+          "match_position": [
+            9,
+            12
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-23: Relative Path Traversal",
+        "description": "Untrusted user input in createReadStream()/readFile()/readFileSync()/readFileAsync() can end up in Directory Traversal Attack. A Directory Traversal Attack (also known as Path Traversal Attack) is a type of security vulnerability that occurs when an attacker is able to access files or directories on a server that are outside the intended directory structure. This attack leverages insufficient validation or sanitization of user inputs in applications that interact with the file system. Strictly validate user inputs. Ensure that user-supplied paths do not include sequences like ../ or ..\\\\ that could traverse directories. In Node.js, use the path module to safely handle and resolve file paths. The path.normalize() function can be used to ensure that paths do not go outside the intended directory.",
+        "owasp-web": "A5: Broken Access Control",
+        "severity": "ERROR"
+      }
+    },
+    "node_insecure_random_generator": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/email.js",
+          "match_lines": [
+            20,
+            20
+          ],
+          "match_position": [
+            29,
+            42
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/phone.js",
+          "match_lines": [
+            18,
+            18
+          ],
+          "match_position": [
+            29,
+            42
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-327: Use of a Broken or Risky Cryptographic Algorithm",
+        "description": "crypto.pseudoRandomBytes()/Math.random() is a cryptographically weak random number generator.",
+        "owasp-web": "A9: Using Components with Known Vulnerabilities",
+        "severity": "WARNING"
+      }
+    },
+    "node_ssrf": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/email.js",
+          "match_lines": [
+            36,
+            47
+          ],
+          "match_position": [
+            21,
+            23
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/email.js",
+          "match_lines": [
+            40,
+            40
+          ],
+          "match_position": [
+            21,
+            45
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/email.js",
+          "match_lines": [
+            60,
+            60
+          ],
+          "match_position": [
+            13,
+            37
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/phone.js",
+          "match_lines": [
+            27,
+            39
+          ],
+          "match_position": [
+            21,
+            23
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/phone.js",
+          "match_lines": [
+            32,
+            32
+          ],
+          "match_position": [
+            21,
+            46
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/phone.js",
+          "match_lines": [
+            54,
+            54
+          ],
+          "match_position": [
+            13,
+            38
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-918: Server-Side Request Forgery (SSRF)",
+        "description": "User controlled URL in http client libraries can result in Server Side Request Forgery (SSRF).",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    },
+    "node_timing_attack": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/github.js",
+          "match_lines": [
+            55,
+            61
+          ],
+          "match_position": [
+            5,
+            6
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/google.js",
+          "match_lines": [
+            53,
+            55
+          ],
+          "match_position": [
+            5,
+            6
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/linkedin.js",
+          "match_lines": [
+            60,
+            62
+          ],
+          "match_position": [
+            5,
+            6
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX06/providers/twitter.js",
+          "match_lines": [
+            53,
+            55
+          ],
+          "match_position": [
+            5,
+            6
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-208: Observable Timing Discrepancy",
+        "description": "String comparisons using '===', '!==', '!=' and '==' is vulnerable to timing attacks. A timing attack allows the attacker to learn potentially sensitive information by, for example, measuring how long it takes for the application to respond to a request.  More info: https://nodejs.org/en/learn/getting-started/security-best-practices#information-exposure-through-timing-attacks-cwe-208",
+        "owasp-web": "A9: Using Components with Known Vulnerabilities",
+        "severity": "WARNING"
+      }
+    }
+  },
+  "templates": {}
+}

@@ -1,0 +1,75 @@
+{
+  "errors": [],
+  "njsscan_version": "0.4.2",
+  "nodejs": {
+    "node_insecure_random_generator": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX27/controllers/authControllers.js",
+          "match_lines": [
+            21,
+            21
+          ],
+          "match_position": [
+            21,
+            34
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-327: Use of a Broken or Risky Cryptographic Algorithm",
+        "description": "crypto.pseudoRandomBytes()/Math.random() is a cryptographically weak random number generator.",
+        "owasp-web": "A9: Using Components with Known Vulnerabilities",
+        "severity": "WARNING"
+      }
+    },
+    "node_nosqli_injection": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX27/controllers/authControllers.js",
+          "match_lines": [
+            175,
+            176
+          ],
+          "match_position": [
+            5,
+            60
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX27/controllers/authControllers.js",
+          "match_lines": [
+            182,
+            182
+          ],
+          "match_position": [
+            33,
+            77
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX27/controllers/authControllers.js",
+          "match_lines": [
+            205,
+            206
+          ],
+          "match_position": [
+            7,
+            70
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-943: Improper Neutralization of Special Elements in Data Query Logic",
+        "description": "Untrusted user input in findOne() function can result in NoSQL Injection.",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    }
+  },
+  "templates": {}
+}

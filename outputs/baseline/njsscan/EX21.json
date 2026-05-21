@@ -1,0 +1,472 @@
+{
+  "errors": [
+    {
+      "code": 3,
+      "level": "warn",
+      "message": "Syntax error at line /Users/charan/Documents/vardhan_thesis_docs/data/EX21/public/mazer/assets/js/app.js:2:\n `01>` was unexpected",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/public/mazer/assets/js/app.js",
+      "spans": [
+        {
+          "end": {
+            "col": 107054,
+            "line": 2,
+            "offset": 3
+          },
+          "file": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/public/mazer/assets/js/app.js",
+          "start": {
+            "col": 107051,
+            "line": 2,
+            "offset": 0
+          }
+        },
+        {
+          "end": {
+            "col": 107168,
+            "line": 2,
+            "offset": 17
+          },
+          "file": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/public/mazer/assets/js/app.js",
+          "start": {
+            "col": 107151,
+            "line": 2,
+            "offset": 0
+          }
+        }
+      ],
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "end": {
+              "col": 107054,
+              "line": 2,
+              "offset": 3
+            },
+            "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/public/mazer/assets/js/app.js",
+            "start": {
+              "col": 107051,
+              "line": 2,
+              "offset": 0
+            }
+          },
+          {
+            "end": {
+              "col": 107168,
+              "line": 2,
+              "offset": 17
+            },
+            "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/public/mazer/assets/js/app.js",
+            "start": {
+              "col": 107151,
+              "line": 2,
+              "offset": 0
+            }
+          }
+        ]
+      ]
+    }
+  ],
+  "njsscan_version": "0.4.2",
+  "nodejs": {
+    "eval_nodejs": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/public/mazer/assets/js/app.js",
+          "match_lines": [
+            2,
+            2
+          ],
+          "match_position": [
+            94032,
+            94154
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-95: Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')",
+        "description": "User controlled data in eval() or similar functions may result in Server Side Injection or Remote Code Injection",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    },
+    "express_xss": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/router/api/api.controller.js",
+          "match_lines": [
+            50,
+            59
+          ],
+          "match_position": [
+            4,
+            84
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/router/api/api.controller.js",
+          "match_lines": [
+            68,
+            77
+          ],
+          "match_position": [
+            4,
+            84
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/router/api/api.controller.js",
+          "match_lines": [
+            86,
+            118
+          ],
+          "match_position": [
+            4,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/router/api/api.controller.js",
+          "match_lines": [
+            127,
+            155
+          ],
+          "match_position": [
+            4,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/router/api/api.controller.js",
+          "match_lines": [
+            164,
+            196
+          ],
+          "match_position": [
+            4,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/router/api/api.controller.js",
+          "match_lines": [
+            205,
+            247
+          ],
+          "match_position": [
+            4,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/router/api/api.controller.js",
+          "match_lines": [
+            256,
+            318
+          ],
+          "match_position": [
+            4,
+            84
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/router/api/api.controller.js",
+          "match_lines": [
+            327,
+            349
+          ],
+          "match_position": [
+            4,
+            84
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/router/dashboard/AutoReply/autoReply.controller.js",
+          "match_lines": [
+            10,
+            22
+          ],
+          "match_position": [
+            4,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/router/dashboard/AutoReply/autoReply.controller.js",
+          "match_lines": [
+            31,
+            36
+          ],
+          "match_position": [
+            4,
+            111
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/router/dashboard/AutoReply/autoReply.controller.js",
+          "match_lines": [
+            45,
+            50
+          ],
+          "match_position": [
+            4,
+            99
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/router/session/session.controller.js",
+          "match_lines": [
+            37,
+            52
+          ],
+          "match_position": [
+            4,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/router/session/session.controller.js",
+          "match_lines": [
+            61,
+            77
+          ],
+          "match_position": [
+            4,
+            5
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+        "description": "Untrusted User Input in Response will result in Reflected Cross Site Scripting Vulnerability.",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    },
+    "node_insecure_random_generator": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/lib/helper.js",
+          "match_lines": [
+            36,
+            36
+          ],
+          "match_position": [
+            63,
+            76
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/public/mazer/assets/js/app.js",
+          "match_lines": [
+            2,
+            2
+          ],
+          "match_position": [
+            79641,
+            79654
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-327: Use of a Broken or Risky Cryptographic Algorithm",
+        "description": "crypto.pseudoRandomBytes()/Math.random() is a cryptographically weak random number generator.",
+        "owasp-web": "A9: Using Components with Known Vulnerabilities",
+        "severity": "WARNING"
+      }
+    },
+    "node_nosqli_injection": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/database/db/messageRespon.db.js",
+          "match_lines": [
+            29,
+            34
+          ],
+          "match_position": [
+            3,
+            4
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/database/db/messageRespon.db.js",
+          "match_lines": [
+            31,
+            32
+          ],
+          "match_position": [
+            4,
+            76
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/database/db/messageRespon.db.js",
+          "match_lines": [
+            32,
+            32
+          ],
+          "match_position": [
+            21,
+            76
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/database/db/messageRespon.db.js",
+          "match_lines": [
+            108,
+            113
+          ],
+          "match_position": [
+            3,
+            4
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/database/db/messageRespon.db.js",
+          "match_lines": [
+            110,
+            111
+          ],
+          "match_position": [
+            4,
+            75
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/database/db/messageRespon.db.js",
+          "match_lines": [
+            111,
+            111
+          ],
+          "match_position": [
+            21,
+            75
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/database/db/messageRespon.db.js",
+          "match_lines": [
+            117,
+            125
+          ],
+          "match_position": [
+            3,
+            4
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/database/db/messageRespon.db.js",
+          "match_lines": [
+            119,
+            121
+          ],
+          "match_position": [
+            4,
+            75
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/server/database/db/messageRespon.db.js",
+          "match_lines": [
+            121,
+            121
+          ],
+          "match_position": [
+            21,
+            75
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-943: Improper Neutralization of Special Elements in Data Query Logic",
+        "description": "Untrusted user input in findOne() function can result in NoSQL Injection.",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    }
+  },
+  "templates": {
+    "ejs_ect_template": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/views/layouts/alert.ejs",
+          "match_lines": [
+            7,
+            7
+          ],
+          "match_position": [
+            175,
+            191
+          ],
+          "match_string": "<%- error_msg %>"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/views/layouts/alert.ejs",
+          "match_lines": [
+            13,
+            13
+          ],
+          "match_position": [
+            298,
+            309
+          ],
+          "match_string": "<%- side %>"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/views/layouts/alert.ejs",
+          "match_lines": [
+            3,
+            3
+          ],
+          "match_position": [
+            63,
+            81
+          ],
+          "match_string": "<%- success_msg %>"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX21/views/layouts/main.ejs",
+          "match_lines": [
+            31,
+            31
+          ],
+          "match_position": [
+            1400,
+            1411
+          ],
+          "match_string": "<%- body %>"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+        "description": "The EJS/ECT template has an unescaped variable. Untrusted user input passed to this variable results in Cross Site Scripting (XSS).",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    }
+  }
+}

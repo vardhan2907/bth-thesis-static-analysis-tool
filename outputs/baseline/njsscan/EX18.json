@@ -1,0 +1,123 @@
+{
+  "errors": [],
+  "njsscan_version": "0.4.2",
+  "nodejs": {
+    "express_xss": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/controllers/chatControllers.js",
+          "match_lines": [
+            69,
+            79
+          ],
+          "match_position": [
+            5,
+            27
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+        "description": "Untrusted User Input in Response will result in Reflected Cross Site Scripting Vulnerability.",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    },
+    "node_nosqli_injection": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/controllers/chatControllers.js",
+          "match_lines": [
+            69,
+            77
+          ],
+          "match_position": [
+            5,
+            43
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/controllers/chatControllers.js",
+          "match_lines": [
+            75,
+            75
+          ],
+          "match_position": [
+            31,
+            62
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/controllers/user.js",
+          "match_lines": [
+            43,
+            44
+          ],
+          "match_position": [
+            29,
+            40
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/middleware/user.js",
+          "match_lines": [
+            9,
+            12
+          ],
+          "match_position": [
+            7,
+            29
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/middleware/user.js",
+          "match_lines": [
+            10,
+            11
+          ],
+          "match_position": [
+            30,
+            43
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/middleware/user.js",
+          "match_lines": [
+            18,
+            21
+          ],
+          "match_position": [
+            7,
+            29
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/middleware/user.js",
+          "match_lines": [
+            19,
+            20
+          ],
+          "match_position": [
+            32,
+            47
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-943: Improper Neutralization of Special Elements in Data Query Logic",
+        "description": "Untrusted user input in findOne() function can result in NoSQL Injection.",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    }
+  },
+  "templates": {}
+}

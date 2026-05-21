@@ -1,0 +1,111 @@
+{
+  "version": "1.162.0",
+  "results": [],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/api/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/cli.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/conf.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/config.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/constants.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/db.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/decorators.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/examples/basic_saas_project.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/exceptions.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/management/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/management/commands/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/management/commands/check_auth_config.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/management/commands/create_auth_admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/management/commands/init_auth.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/migrations/migrator.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/models/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/models/audit.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/models/base.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/models/team.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/models/user.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/models/workspace.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/services/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/services/auth_service.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/services/permission_service.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/services/team_service.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ06/setup.py"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.039675235748291016,
+    "profiling_times": {
+      "config_time": 0.3514888286590576,
+      "core_time": 0.5923621654510498,
+      "ignores_time": 0.00016427040100097656,
+      "total_time": 0.9513959884643555
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 1.2971079349517822,
+      "per_file_time": {
+        "mean": 0.04472785982592354,
+        "std_dev": 0.0007281741807244763
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.011494252873563218,
+      "rules_matched_ratio": 0.011494252873563218
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 251461248
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

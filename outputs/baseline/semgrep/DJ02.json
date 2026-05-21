@@ -1,0 +1,1076 @@
+{
+  "version": "1.162.0",
+  "results": [
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/admin_update_stats.html",
+      "start": {
+        "line": 14,
+        "col": 1,
+        "offset": 359
+      },
+      "end": {
+        "line": 19,
+        "col": 8,
+        "offset": 546
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/block_user.html",
+      "start": {
+        "line": 13,
+        "col": 1,
+        "offset": 408
+      },
+      "end": {
+        "line": 19,
+        "col": 8,
+        "offset": 664
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/branch_edit.html",
+      "start": {
+        "line": 6,
+        "col": 1,
+        "offset": 164
+      },
+      "end": {
+        "line": 12,
+        "col": 8,
+        "offset": 403
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/branch_edit.html",
+      "start": {
+        "line": 16,
+        "col": 1,
+        "offset": 411
+      },
+      "end": {
+        "line": 21,
+        "col": 8,
+        "offset": 648
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/branch_new.html",
+      "start": {
+        "line": 6,
+        "col": 1,
+        "offset": 147
+      },
+      "end": {
+        "line": 12,
+        "col": 8,
+        "offset": 383
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/diff.html",
+      "start": {
+        "line": 17,
+        "col": 1,
+        "offset": 323
+      },
+      "end": {
+        "line": 33,
+        "col": 8,
+        "offset": 1193
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/edit.html",
+      "start": {
+        "line": 5,
+        "col": 1,
+        "offset": 133
+      },
+      "end": {
+        "line": 12,
+        "col": 8,
+        "offset": 402
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/edit.html",
+      "start": {
+        "line": 31,
+        "col": 1,
+        "offset": 841
+      },
+      "end": {
+        "line": 35,
+        "col": 8,
+        "offset": 1143
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/inline_comment.html",
+      "start": {
+        "line": 35,
+        "col": 1,
+        "offset": 2121
+      },
+      "end": {
+        "line": 53,
+        "col": 8,
+        "offset": 3446
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/issue.html",
+      "start": {
+        "line": 189,
+        "col": 5,
+        "offset": 6360
+      },
+      "end": {
+        "line": 201,
+        "col": 12,
+        "offset": 7032
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/migrate_entities.html",
+      "start": {
+        "line": 14,
+        "col": 3,
+        "offset": 377
+      },
+      "end": {
+        "line": 20,
+        "col": 10,
+        "offset": 650
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/new.html",
+      "start": {
+        "line": 15,
+        "col": 1,
+        "offset": 398
+      },
+      "end": {
+        "line": 22,
+        "col": 8,
+        "offset": 667
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/patch.html",
+      "start": {
+        "line": 17,
+        "col": 1,
+        "offset": 323
+      },
+      "end": {
+        "line": 33,
+        "col": 8,
+        "offset": 1193
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/patchset.html",
+      "start": {
+        "line": 24,
+        "col": 9,
+        "offset": 828
+      },
+      "end": {
+        "line": 30,
+        "col": 16,
+        "offset": 1217
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/publish.html",
+      "start": {
+        "line": 56,
+        "col": 1,
+        "offset": 1560
+      },
+      "end": {
+        "line": 60,
+        "col": 8,
+        "offset": 1885
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/repo_new.html",
+      "start": {
+        "line": 6,
+        "col": 1,
+        "offset": 122
+      },
+      "end": {
+        "line": 12,
+        "col": 8,
+        "offset": 348
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/set_client_id_and_secret.html",
+      "start": {
+        "line": 12,
+        "col": 1,
+        "offset": 237
+      },
+      "end": {
+        "line": 19,
+        "col": 8,
+        "offset": 538
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/settings.html",
+      "start": {
+        "line": 9,
+        "col": 1,
+        "offset": 228
+      },
+      "end": {
+        "line": 15,
+        "col": 8,
+        "offset": 470
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/settings.html",
+      "start": {
+        "line": 20,
+        "col": 1,
+        "offset": 516
+      },
+      "end": {
+        "line": 25,
+        "col": 8,
+        "offset": 795
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/use_uploadpy.html",
+      "start": {
+        "line": 24,
+        "col": 1,
+        "offset": 732
+      },
+      "end": {
+        "line": 28,
+        "col": 8,
+        "offset": 947
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    }
+  ],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/admin_tasks.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/appengine_config.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/backends.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/auth_utils.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/common.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/decorators.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/engine.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/exceptions.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/feeds.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/intra_region_diff.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/library.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/middleware.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/patching.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/patiencediff.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/responses.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/utils.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/main.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/settings.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/404.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/500.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/admin_update_stats.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/all.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/block_user.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/branch_edit.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/branch_new.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/diff.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/diff2.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/diff_missing.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/diff_navigation.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/draft_message.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/edit.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/exception.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/feeds/all_description.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/feeds/all_title.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/feeds/closed_description.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/feeds/closed_title.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/feeds/issue_description.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/feeds/issue_title.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/feeds/mine_description.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/feeds/mine_title.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/feeds/reviews_description.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/feeds/reviews_title.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/feeds/template_description.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/feeds/template_title.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/file_navigation.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/inline_comment.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/issue.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/issue_base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/issue_heading.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/issue_pagination.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/issue_row.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/issue_star.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/leaderboard.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/migrate_entities.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/new.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/patch.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/patchset.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/publish.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/repo_new.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/repos.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/repos_base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/search.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/search_results.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/set_client_id_and_secret.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/settings.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/settings_base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/starred.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/use_uploadpy.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/user.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/user_popup.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/user_stats.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/templates/view_details_select.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/gflags.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/gflags_validators.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/httplib2/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/httplib2/iri2uri.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/httplib2/socks.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/anyjson.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/appengine.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/client.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/clientsecrets.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/crypt.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/django_orm.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/file.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/gce.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/keyring_storage.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/locked_file.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/multistore_file.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/tools.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/util.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/third_party/oauth2client/xsrfutil.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/tools/remote_api.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/tools/uploadopts2wiki.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/update_accounts.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/update_entities.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/upload.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/urls.py"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.045165061950683594,
+    "profiling_times": {
+      "config_time": 0.5848159790039062,
+      "core_time": 4.213711977005005,
+      "ignores_time": 0.00015807151794433594,
+      "total_time": 4.80685019493103
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 10.58718466758728,
+      "per_file_time": {
+        "mean": 0.1017998525729546,
+        "std_dev": 0.1368037821768651
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.45404196665796737,
+        "count_ratio": 0.019230769230769232
+      },
+      "very_slow_files": [
+        {
+          "fpath": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/upload.py",
+          "ftime": 1.5873751640319824
+        },
+        {
+          "fpath": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ02/codereview/views.py",
+          "ftime": 3.219650983810425
+        }
+      ]
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.07764876632801161,
+      "rules_matched_ratio": 0.07764876632801161
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 478117376
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

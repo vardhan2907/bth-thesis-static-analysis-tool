@@ -1,0 +1,112 @@
+{
+  "version": "1.162.0",
+  "results": [],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/api.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/config/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/config/waffle.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/exceptions.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/migrations/0001_squashed_0016_add_transcript_credentials_model.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/migrations/0002_add_error_description_field.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/migrations/0003_delete_transcriptcredentials.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/migrations/0004_add_edx_ai_translations_provider.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/pacts/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/pacts/middleware.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/pacts/utils.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/pacts/verify_pact.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/pacts/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/serializers.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/settings/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/settings/base.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/settings/pact.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/settings/test.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/transcript_utils.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/utils.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/edxval/wsgi.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/manage.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/setup.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ03/urls.py"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.04090094566345215,
+    "profiling_times": {
+      "config_time": 0.3685898780822754,
+      "core_time": 0.8620660305023193,
+      "ignores_time": 0.00020194053649902344,
+      "total_time": 1.245837926864624
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 1.4728472232818604,
+      "per_file_time": {
+        "mean": 0.04909490744272869,
+        "std_dev": 0.004454324968554537
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.019753086419753086,
+      "rules_matched_ratio": 0.019753086419753086
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 261280768
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

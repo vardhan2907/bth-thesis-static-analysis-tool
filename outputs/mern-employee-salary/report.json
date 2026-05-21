@@ -1,0 +1,12 @@
+{
+  "project_name": "mern-employee-salary",
+  "framework": "unknown",
+  "scanned_files_count": 55,
+  "findings": [],
+  "summary": {
+    "total_findings": 0,
+    "counts_by_severity": {},
+    "counts_by_category": {}
+  },
+  "errors": []
+}

@@ -1,0 +1,418 @@
+{
+  "project_name": "healthchecks",
+  "framework": "django",
+  "scanned_files_count": 708,
+  "findings": [
+    {
+      "rule_id": "DJ-COOKIE-001",
+      "rule_name": "SESSION_COOKIE_SECURE not set",
+      "category": "session_security",
+      "description": "SESSION_COOKIE_SECURE is not present in any settings file. Django defaults to False, which allows the session cookie to be transmitted over plain HTTP, enabling session hijacking.",
+      "evidence": {
+        "file_path": "hc/integrations/trello/tests/test_settings.py",
+        "line": null,
+        "snippet": "SESSION_COOKIE_SECURE not found in settings."
+      },
+      "recommendation": "Add SESSION_COOKIE_SECURE = True to your production settings.",
+      "risk_factors": {
+        "E": 3,
+        "I": 3,
+        "D": 3,
+        "P": 4
+      },
+      "risk_score": 6.5,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/accounts/views.py",
+        "line": 640,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/api/views.py",
+        "line": 178,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/api/views.py",
+        "line": 246,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/api/views.py",
+        "line": 450,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/api/views.py",
+        "line": 460,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/api/views.py",
+        "line": 478,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/api/views.py",
+        "line": 531,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/api/views.py",
+        "line": 544,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/api/views.py",
+        "line": 571,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/api/views.py",
+        "line": 593,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/api/views.py",
+        "line": 619,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/api/views.py",
+        "line": 668,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/api/views.py",
+        "line": 676,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/api/views.py",
+        "line": 686,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/api/views.py",
+        "line": 809,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/api/views.py",
+        "line": 876,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/front/views.py",
+        "line": 499,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/integrations/email/views.py",
+        "line": 84,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "hc/integrations/telegram/views.py",
+        "line": 52,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    }
+  ],
+  "summary": {
+    "total_findings": 20,
+    "counts_by_severity": {
+      "High": 20
+    },
+    "counts_by_category": {
+      "session_security": 1,
+      "csrf_protection": 19
+    }
+  },
+  "errors": []
+}

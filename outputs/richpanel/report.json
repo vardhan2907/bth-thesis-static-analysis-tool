@@ -1,0 +1,12 @@
+{
+  "project_name": "richpanel",
+  "framework": "unknown",
+  "scanned_files_count": 3,
+  "findings": [],
+  "summary": {
+    "total_findings": 0,
+    "counts_by_severity": {},
+    "counts_by_category": {}
+  },
+  "errors": []
+}

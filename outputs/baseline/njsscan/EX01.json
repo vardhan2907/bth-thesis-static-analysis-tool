@@ -1,0 +1,335 @@
+{
+  "errors": [
+    {
+      "code": 3,
+      "level": "warn",
+      "message": "Syntax error at line /Users/charan/Documents/vardhan_thesis_docs/data/EX01/tools/vid_stats.js:11:\n `$sum:` was unexpected",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/tools/vid_stats.js",
+      "spans": [
+        {
+          "end": {
+            "col": 39,
+            "line": 11,
+            "offset": 5
+          },
+          "file": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/tools/vid_stats.js",
+          "start": {
+            "col": 34,
+            "line": 11,
+            "offset": 0
+          }
+        },
+        {
+          "end": {
+            "col": 40,
+            "line": 12,
+            "offset": 5
+          },
+          "file": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/tools/vid_stats.js",
+          "start": {
+            "col": 35,
+            "line": 12,
+            "offset": 0
+          }
+        },
+        {
+          "end": {
+            "col": 39,
+            "line": 13,
+            "offset": 5
+          },
+          "file": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/tools/vid_stats.js",
+          "start": {
+            "col": 34,
+            "line": 13,
+            "offset": 0
+          }
+        },
+        {
+          "end": {
+            "col": 33,
+            "line": 15,
+            "offset": 1
+          },
+          "file": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/tools/vid_stats.js",
+          "start": {
+            "col": 32,
+            "line": 15,
+            "offset": 0
+          }
+        }
+      ],
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "end": {
+              "col": 39,
+              "line": 11,
+              "offset": 5
+            },
+            "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/tools/vid_stats.js",
+            "start": {
+              "col": 34,
+              "line": 11,
+              "offset": 0
+            }
+          },
+          {
+            "end": {
+              "col": 40,
+              "line": 12,
+              "offset": 5
+            },
+            "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/tools/vid_stats.js",
+            "start": {
+              "col": 35,
+              "line": 12,
+              "offset": 0
+            }
+          },
+          {
+            "end": {
+              "col": 39,
+              "line": 13,
+              "offset": 5
+            },
+            "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/tools/vid_stats.js",
+            "start": {
+              "col": 34,
+              "line": 13,
+              "offset": 0
+            }
+          },
+          {
+            "end": {
+              "col": 33,
+              "line": 15,
+              "offset": 1
+            },
+            "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/tools/vid_stats.js",
+            "start": {
+              "col": 32,
+              "line": 15,
+              "offset": 0
+            }
+          }
+        ]
+      ]
+    }
+  ],
+  "njsscan_version": "0.4.2",
+  "nodejs": {
+    "cookie_session_default": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/app.js",
+          "match_lines": [
+            28,
+            32
+          ],
+          "match_position": [
+            9,
+            3
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-522: Insufficiently Protected Credentials",
+        "description": "Consider changing the default session cookie name. An attacker can use it to fingerprint the server and target attacks accordingly.",
+        "owasp-web": "A2: Broken Authentication",
+        "severity": "INFO"
+      }
+    },
+    "cookie_session_no_domain": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/app.js",
+          "match_lines": [
+            28,
+            32
+          ],
+          "match_position": [
+            9,
+            3
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-522: Insufficiently Protected Credentials",
+        "description": "Default session middleware settings: `domain` not set. It indicates the domain of the cookie; use it to compare against the domain of the server in which the URL is being requested. If they match, then check the path attribute next.",
+        "owasp-web": "A2: Broken Authentication",
+        "severity": "INFO"
+      }
+    },
+    "cookie_session_no_maxage": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/app.js",
+          "match_lines": [
+            28,
+            32
+          ],
+          "match_position": [
+            9,
+            3
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-613: Insufficient Session Expiration",
+        "description": "Session middleware settings: `maxAge` not set. Use it to set expiration date for cookies.",
+        "owasp-web": "A2: Broken Authentication",
+        "severity": "INFO"
+      }
+    },
+    "cookie_session_no_path": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/app.js",
+          "match_lines": [
+            28,
+            32
+          ],
+          "match_position": [
+            9,
+            3
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-522: Insufficiently Protected Credentials",
+        "description": "Default session middleware settings: `path` not set. It indicates the path of the cookie; use it to compare against the request path. If this and domain match, then send the cookie in the request.",
+        "owasp-web": "A2: Broken Authentication",
+        "severity": "INFO"
+      }
+    },
+    "cookie_session_no_samesite": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/app.js",
+          "match_lines": [
+            28,
+            32
+          ],
+          "match_position": [
+            9,
+            3
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "cwe-1275",
+        "description": "Default session middleware settings: `sameSite` attribute is not configured to strict or lax. These configurations provides protection against Cross Site Request Forgery attacks.",
+        "owasp-web": "A2: Broken Authentication",
+        "severity": "WARNING"
+      }
+    },
+    "cookie_session_no_secure": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/app.js",
+          "match_lines": [
+            28,
+            32
+          ],
+          "match_position": [
+            9,
+            3
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "cwe-614",
+        "description": "Default session middleware settings: `secure` not set. It ensures the browser only sends the cookie over HTTPS.",
+        "owasp-web": "A2: Broken Authentication",
+        "severity": "WARNING"
+      }
+    },
+    "node_api_key": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/controllers/api.js",
+          "match_lines": [
+            244,
+            244
+          ],
+          "match_position": [
+            7,
+            64
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/controllers/pruner.js",
+          "match_lines": [
+            31,
+            31
+          ],
+          "match_position": [
+            11,
+            68
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-798: Use of Hard-coded Credentials",
+        "description": "A hardcoded API Key is identified. Store it properly in an environment variable.",
+        "owasp-web": "A3: Sensitive Data Exposure",
+        "severity": "ERROR"
+      }
+    },
+    "node_nosqli_injection": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/controllers/api.js",
+          "match_lines": [
+            84,
+            93
+          ],
+          "match_position": [
+            7,
+            9
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-943: Improper Neutralization of Special Elements in Data Query Logic",
+        "description": "Untrusted user input in findOne() function can result in NoSQL Injection.",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    },
+    "node_ssrf": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX01/controllers/api.js",
+          "match_lines": [
+            245,
+            251
+          ],
+          "match_position": [
+            3,
+            5
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-918: Server-Side Request Forgery (SSRF)",
+        "description": "User controlled URL in http client libraries can result in Server Side Request Forgery (SSRF).",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    }
+  },
+  "templates": {}
+}

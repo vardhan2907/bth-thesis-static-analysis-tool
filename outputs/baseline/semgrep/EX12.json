@@ -1,0 +1,329 @@
+{
+  "version": "1.162.0",
+  "results": [
+    {
+      "check_id": "javascript.express.security.audit.express-path-join-resolve-traversal.express-path-join-resolve-traversal",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/downloadRoutes.js",
+      "start": {
+        "line": 8,
+        "col": 40,
+        "offset": 210
+      },
+      "end": {
+        "line": 8,
+        "col": 75,
+        "offset": 245
+      },
+      "extra": {
+        "message": "Possible writing outside of the destination, make sure that the target path is nested in the intended destination",
+        "metadata": {
+          "owasp": [
+            "A05:2017 - Broken Access Control",
+            "A01:2021 - Broken Access Control",
+            "A01:2025 - Broken Access Control"
+          ],
+          "cwe": [
+            "CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+          ],
+          "category": "security",
+          "references": [
+            "https://owasp.org/www-community/attacks/Path_Traversal"
+          ],
+          "technology": [
+            "express",
+            "node.js"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "HIGH",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Path Traversal"
+          ],
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.express-path-join-resolve-traversal.express-path-join-resolve-traversal",
+          "shortlink": "https://sg.run/weRn"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.express-res-sendfile.express-res-sendfile",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/downloadRoutes.js",
+      "start": {
+        "line": 16,
+        "col": 18,
+        "offset": 417
+      },
+      "end": {
+        "line": 16,
+        "col": 25,
+        "offset": 424
+      },
+      "extra": {
+        "message": "The application processes user-input, this is passed to res.sendFile which can allow an attacker to arbitrarily read files on the system through path traversal. It is recommended to perform input validation in addition to canonicalizing the path. This allows you to validate the path against the intended directory it should be accessing.",
+        "metadata": {
+          "references": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html"
+          ],
+          "technology": [
+            "express"
+          ],
+          "category": "security",
+          "cwe": [
+            "CWE-73: External Control of File Name or Path"
+          ],
+          "owasp": [
+            "A04:2021 - Insecure Design",
+            "A06:2025 - Insecure Design"
+          ],
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "HIGH",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Path Traversal"
+          ],
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.express-res-sendfile.express-res-sendfile",
+          "shortlink": "https://sg.run/7DJk"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.express-path-join-resolve-traversal.express-path-join-resolve-traversal",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/downloadRoutes.js",
+      "start": {
+        "line": 21,
+        "col": 40,
+        "offset": 522
+      },
+      "end": {
+        "line": 21,
+        "col": 76,
+        "offset": 558
+      },
+      "extra": {
+        "message": "Possible writing outside of the destination, make sure that the target path is nested in the intended destination",
+        "metadata": {
+          "owasp": [
+            "A05:2017 - Broken Access Control",
+            "A01:2021 - Broken Access Control",
+            "A01:2025 - Broken Access Control"
+          ],
+          "cwe": [
+            "CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+          ],
+          "category": "security",
+          "references": [
+            "https://owasp.org/www-community/attacks/Path_Traversal"
+          ],
+          "technology": [
+            "express",
+            "node.js"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "HIGH",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Path Traversal"
+          ],
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.express-path-join-resolve-traversal.express-path-join-resolve-traversal",
+          "shortlink": "https://sg.run/weRn"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.express-res-sendfile.express-res-sendfile",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/downloadRoutes.js",
+      "start": {
+        "line": 29,
+        "col": 18,
+        "offset": 730
+      },
+      "end": {
+        "line": 29,
+        "col": 25,
+        "offset": 737
+      },
+      "extra": {
+        "message": "The application processes user-input, this is passed to res.sendFile which can allow an attacker to arbitrarily read files on the system through path traversal. It is recommended to perform input validation in addition to canonicalizing the path. This allows you to validate the path against the intended directory it should be accessing.",
+        "metadata": {
+          "references": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html"
+          ],
+          "technology": [
+            "express"
+          ],
+          "category": "security",
+          "cwe": [
+            "CWE-73: External Control of File Name or Path"
+          ],
+          "owasp": [
+            "A04:2021 - Insecure Design",
+            "A06:2025 - Insecure Design"
+          ],
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "HIGH",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Path Traversal"
+          ],
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.express-res-sendfile.express-res-sendfile",
+          "shortlink": "https://sg.run/7DJk"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    }
+  ],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/db/Application.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/db/Job.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/db/JobApplicant.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/db/Rating.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/db/Recruiter.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/db/User.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/lib/authKeys.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/lib/jwtAuth.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/lib/passportConfig.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/authRoutes.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/downloadRoutes.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/uploadRoutes.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/server.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/App.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/App.test.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/component/Applications.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/component/Home.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/component/Login.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/component/Logout.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/component/Navbar.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/component/Profile.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/component/Signup.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/component/Welcome.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/component/recruiter/AcceptedApplicants.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/component/recruiter/CreateJobs.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/component/recruiter/JobApplications.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/component/recruiter/MyJobs.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/component/recruiter/Profile.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/lib/EmailInput.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/lib/FileUploadInput.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/lib/MessagePopup.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/lib/PasswordInput.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/lib/apiList.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/lib/isAuth.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/reportWebVitals.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/frontend/src/setupTests.js"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.1564340591430664,
+    "profiling_times": {
+      "config_time": 0.3571908473968506,
+      "core_time": 1.754089117050171,
+      "ignores_time": 0.0002391338348388672,
+      "total_time": 2.128056049346924
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 4.849779367446899,
+      "per_file_time": {
+        "mean": 0.12762577282755,
+        "std_dev": 0.030445187974584106
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.05043859649122807,
+      "rules_matched_ratio": 0.05043859649122807
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 343416192
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

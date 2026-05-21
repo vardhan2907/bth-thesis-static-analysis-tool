@@ -1,0 +1,118 @@
+{
+  "version": "1.162.0",
+  "results": [],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/django_auth/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/django_auth/asgi.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/django_auth/celery.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/django_auth/settings.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/django_auth/storage_backends.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/django_auth/test_settings.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/django_auth/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/django_auth/wsgi.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/manage.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/templates/password_reset_email.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/templates/test.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/templates/verification_email.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/migrations/0002_series_articles.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/migrations/01_added_user_and_profile_model.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/tasks.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/token.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/utils.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/views/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/views/confirm.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/views/current_user.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/views/login.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/views/logout.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/views/password/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/views/password/change_password.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/views/password/confirm_change_request.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/views/password/request_change.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/views/profile_update.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/views/regenerate.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/views/register.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ09/src/users/views/series.py"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.03374791145324707,
+    "profiling_times": {
+      "config_time": 0.541208028793335,
+      "core_time": 0.7178268432617188,
+      "ignores_time": 0.00023221969604492188,
+      "total_time": 1.2687020301818848
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 1.956538200378418,
+      "per_file_time": {
+        "mean": 0.05434828334384496,
+        "std_dev": 0.0022159485743445872
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.025727069351230425,
+      "rules_matched_ratio": 0.025727069351230425
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 256855744
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

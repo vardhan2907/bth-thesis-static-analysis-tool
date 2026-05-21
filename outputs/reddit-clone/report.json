@@ -1,0 +1,12 @@
+{
+  "project_name": "reddit-clone",
+  "framework": "unknown",
+  "scanned_files_count": 78,
+  "findings": [],
+  "summary": {
+    "total_findings": 0,
+    "counts_by_severity": {},
+    "counts_by_category": {}
+  },
+  "errors": []
+}

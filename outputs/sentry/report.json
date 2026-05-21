@@ -1,0 +1,499 @@
+{
+  "project_name": "sentry",
+  "framework": "django",
+  "scanned_files_count": 9156,
+  "findings": [
+    {
+      "rule_id": "DJ-COOKIE-001",
+      "rule_name": "SESSION_COOKIE_SECURE not set",
+      "category": "session_security",
+      "description": "SESSION_COOKIE_SECURE is not present in any settings file. Django defaults to False, which allows the session cookie to be transmitted over plain HTTP, enabling session hijacking.",
+      "evidence": {
+        "file_path": "fixtures/page_objects/organization_integration_settings.py",
+        "line": null,
+        "snippet": "SESSION_COOKIE_SECURE not found in settings."
+      },
+      "recommendation": "Add SESSION_COOKIE_SECURE = True to your production settings.",
+      "risk_factors": {
+        "E": 3,
+        "I": 3,
+        "D": 3,
+        "P": 4
+      },
+      "risk_score": 6.5,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "src/sentry/api/base.py",
+        "line": 362,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "src/sentry/api/endpoints/catchall.py",
+        "line": 12,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "src/sentry/feedback/endpoints/error_page_embed.py",
+        "line": 122,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "src/sentry/integrations/bitbucket/installed.py",
+        "line": 25,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "src/sentry/integrations/bitbucket/uninstalled.py",
+        "line": 30,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "src/sentry/integrations/discord/webhooks/base.py",
+        "line": 54,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "src/sentry/integrations/jira/webhooks/base.py",
+        "line": 39,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "src/sentry/integrations/jira_server/webhooks.py",
+        "line": 73,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "src/sentry/integrations/msteams/webhook.py",
+        "line": 216,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "src/sentry/integrations/vercel/webhook.py",
+        "line": 165,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "src/sentry/web/frontend/base.py",
+        "line": 385,
+        "snippet": "1. We need to mark this method as @csrf_exempt so that when the CSRF"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "src/sentry/web/frontend/csrf_failure.py",
+        "line": 17,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "src/sentry/web/frontend/oauth_device_authorization.py",
+        "line": 53,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "src/sentry/web/frontend/oauth_token.py",
+        "line": 62,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "src/social_auth/views.py",
+        "line": 59,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-ERROR-001",
+      "rule_name": "traceback.format_exc() in application code",
+      "category": "error_handling",
+      "description": "traceback.format_exc() captures the full stack trace as a string. If this value is included in an HTTP response it leaks internal file paths, library versions, and application logic to users. (Heuristic: verify the result is only written to logs, not responses.)",
+      "evidence": {
+        "file_path": "src/sentry/api/base.py",
+        "line": 322,
+        "snippet": "sys.stderr.write(traceback.format_exc())"
+      },
+      "recommendation": "Log the traceback server-side only (e.g. logger.exception(...)). Return a generic error message to the client.",
+      "risk_factors": {
+        "E": 2,
+        "I": 3,
+        "D": 3,
+        "P": 4
+      },
+      "risk_score": 6.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-ERROR-001",
+      "rule_name": "traceback.format_exc() in application code",
+      "category": "error_handling",
+      "description": "traceback.format_exc() captures the full stack trace as a string. If this value is included in an HTTP response it leaks internal file paths, library versions, and application logic to users. (Heuristic: verify the result is only written to logs, not responses.)",
+      "evidence": {
+        "file_path": "src/sentry/api/utils.py",
+        "line": 347,
+        "snippet": "sys.stderr.write(traceback.format_exc())"
+      },
+      "recommendation": "Log the traceback server-side only (e.g. logger.exception(...)). Return a generic error message to the client.",
+      "risk_factors": {
+        "E": 2,
+        "I": 3,
+        "D": 3,
+        "P": 4
+      },
+      "risk_score": 6.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-ERROR-001",
+      "rule_name": "traceback.format_exc() in application code",
+      "category": "error_handling",
+      "description": "traceback.format_exc() captures the full stack trace as a string. If this value is included in an HTTP response it leaks internal file paths, library versions, and application logic to users. (Heuristic: verify the result is only written to logs, not responses.)",
+      "evidence": {
+        "file_path": "src/sentry/backup/services/import_export/impl.py",
+        "line": 401,
+        "snippet": "reason=f\"Unknown internal error occurred: {traceback.format_exc()}\","
+      },
+      "recommendation": "Log the traceback server-side only (e.g. logger.exception(...)). Return a generic error message to the client.",
+      "risk_factors": {
+        "E": 2,
+        "I": 3,
+        "D": 3,
+        "P": 4
+      },
+      "risk_score": 6.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-ERROR-001",
+      "rule_name": "traceback.format_exc() in application code",
+      "category": "error_handling",
+      "description": "traceback.format_exc() captures the full stack trace as a string. If this value is included in an HTTP response it leaks internal file paths, library versions, and application logic to users. (Heuristic: verify the result is only written to logs, not responses.)",
+      "evidence": {
+        "file_path": "src/sentry/backup/services/import_export/impl.py",
+        "line": 427,
+        "snippet": "reason=f\"Unknown internal error occurred: {traceback.format_exc()}\","
+      },
+      "recommendation": "Log the traceback server-side only (e.g. logger.exception(...)). Return a generic error message to the client.",
+      "risk_factors": {
+        "E": 2,
+        "I": 3,
+        "D": 3,
+        "P": 4
+      },
+      "risk_score": 6.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-ERROR-001",
+      "rule_name": "traceback.format_exc() in application code",
+      "category": "error_handling",
+      "description": "traceback.format_exc() captures the full stack trace as a string. If this value is included in an HTTP response it leaks internal file paths, library versions, and application logic to users. (Heuristic: verify the result is only written to logs, not responses.)",
+      "evidence": {
+        "file_path": "src/sentry/backup/services/import_export/impl.py",
+        "line": 576,
+        "snippet": "reason=f\"Unknown internal error occurred: {traceback.format_exc()}\","
+      },
+      "recommendation": "Log the traceback server-side only (e.g. logger.exception(...)). Return a generic error message to the client.",
+      "risk_factors": {
+        "E": 2,
+        "I": 3,
+        "D": 3,
+        "P": 4
+      },
+      "risk_score": 6.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-ERROR-001",
+      "rule_name": "traceback.format_exc() in application code",
+      "category": "error_handling",
+      "description": "traceback.format_exc() captures the full stack trace as a string. If this value is included in an HTTP response it leaks internal file paths, library versions, and application logic to users. (Heuristic: verify the result is only written to logs, not responses.)",
+      "evidence": {
+        "file_path": "src/sentry/integrations/api/bases/integration.py",
+        "line": 31,
+        "snippet": "sys.stderr.write(traceback.format_exc())"
+      },
+      "recommendation": "Log the traceback server-side only (e.g. logger.exception(...)). Return a generic error message to the client.",
+      "risk_factors": {
+        "E": 2,
+        "I": 3,
+        "D": 3,
+        "P": 4
+      },
+      "risk_score": 6.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-ERROR-001",
+      "rule_name": "traceback.format_exc() in application code",
+      "category": "error_handling",
+      "description": "traceback.format_exc() captures the full stack trace as a string. If this value is included in an HTTP response it leaks internal file paths, library versions, and application logic to users. (Heuristic: verify the result is only written to logs, not responses.)",
+      "evidence": {
+        "file_path": "src/sentry/runner/initializer.py",
+        "line": 50,
+        "snippet": "click.echo(f\"Failed to load plugin {ep.name!r}:\\n{traceback.format_exc()}\", err=True)"
+      },
+      "recommendation": "Log the traceback server-side only (e.g. logger.exception(...)). Return a generic error message to the client.",
+      "risk_factors": {
+        "E": 2,
+        "I": 3,
+        "D": 3,
+        "P": 4
+      },
+      "risk_score": 6.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-ERROR-001",
+      "rule_name": "traceback.format_exc() in application code",
+      "category": "error_handling",
+      "description": "traceback.format_exc() captures the full stack trace as a string. If this value is included in an HTTP response it leaks internal file paths, library versions, and application logic to users. (Heuristic: verify the result is only written to logs, not responses.)",
+      "evidence": {
+        "file_path": "src/sentry/runner/initializer.py",
+        "line": 69,
+        "snippet": "f\"Failed to load integration {integration_path!r}:\\n{traceback.format_exc()}\","
+      },
+      "recommendation": "Log the traceback server-side only (e.g. logger.exception(...)). Return a generic error message to the client.",
+      "risk_factors": {
+        "E": 2,
+        "I": 3,
+        "D": 3,
+        "P": 4
+      },
+      "risk_score": 6.0,
+      "severity": "High"
+    }
+  ],
+  "summary": {
+    "total_findings": 24,
+    "counts_by_severity": {
+      "High": 24
+    },
+    "counts_by_category": {
+      "session_security": 1,
+      "csrf_protection": 15,
+      "error_handling": 8
+    }
+  },
+  "errors": []
+}

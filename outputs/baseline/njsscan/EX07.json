@@ -1,0 +1,76 @@
+{
+  "errors": [
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running node_ssrf on /Users/charan/Documents/vardhan_thesis_docs/data/EX07/dist/assets/index-CJBxkZHF.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/dist/assets/index-CJBxkZHF.js",
+      "rule_id": "node_ssrf",
+      "type": "Timeout"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running regex_dos on /Users/charan/Documents/vardhan_thesis_docs/data/EX07/dist/assets/index-CJBxkZHF.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/dist/assets/index-CJBxkZHF.js",
+      "rule_id": "regex_dos",
+      "type": "Timeout"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running regex_injection_dos on /Users/charan/Documents/vardhan_thesis_docs/data/EX07/dist/assets/index-CJBxkZHF.js:\n ",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/dist/assets/index-CJBxkZHF.js",
+      "rule_id": "regex_injection_dos",
+      "type": "Timeout"
+    }
+  ],
+  "njsscan_version": "0.4.2",
+  "nodejs": {
+    "node_secret": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/app/config/config.js",
+          "match_lines": [
+            3,
+            3
+          ],
+          "match_position": [
+            14,
+            58
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-798: Use of Hard-coded Credentials",
+        "description": "A hardcoded secret is identified. Store it properly in an environment variable.",
+        "owasp-web": "A3: Sensitive Data Exposure",
+        "severity": "ERROR"
+      }
+    },
+    "node_timing_attack": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/app/utility/validationUtility.js",
+          "match_lines": [
+            67,
+            67
+          ],
+          "match_position": [
+            9,
+            45
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-208: Observable Timing Discrepancy",
+        "description": "String comparisons using '===', '!==', '!=' and '==' is vulnerable to timing attacks. A timing attack allows the attacker to learn potentially sensitive information by, for example, measuring how long it takes for the application to respond to a request.  More info: https://nodejs.org/en/learn/getting-started/security-best-practices#information-exposure-through-timing-attacks-cwe-208",
+        "owasp-web": "A9: Using Components with Known Vulnerabilities",
+        "severity": "WARNING"
+      }
+    }
+  },
+  "templates": {}
+}

@@ -1,0 +1,149 @@
+{
+  "version": "1.162.0",
+  "results": [],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/Routes/bookingsRoutes.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/Routes/reviewRoutes.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/Routes/tourRoutes.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/Routes/userRoutes.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/Routes/viewRoutes.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/app.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/controllers/authController.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/controllers/bookingsController.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/controllers/errorController.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/controllers/handlerFactory.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/controllers/reviewController.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/controllers/tourController.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/controllers/userController.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/controllers/viewController.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/data/import-json.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/models/bookingModel.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/models/reviewModel.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/models/tourModel.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/models/userModel.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/alert.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/bookTour.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/bundle.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/cancelBooking.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/forgotPassword.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/resendOTP.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/resetPassword.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/sendReview.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/signIn.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/signup.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/toursMap.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/updateSetting.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/verifyOTP.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/server.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/utils/apiFeatures.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/utils/catchAsync.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/utils/email.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/utils/errorHandler.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/utils/fetchApi.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/utils/filterOutUnwantedTags.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/utils/generateOTP.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/utils/jsonWebToken.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/utils/keys.js"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.07453012466430664,
+    "profiling_times": {
+      "config_time": 0.31560587882995605,
+      "core_time": 15.658220052719116,
+      "ignores_time": 0.0001647472381591797,
+      "total_time": 15.98141098022461
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 16.589898586273193,
+      "per_file_time": {
+        "mean": 0.38581159502960893,
+        "std_dev": 5.159461559356309
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.9104152736675432,
+        "count_ratio": 0.023255813953488372
+      },
+      "very_slow_files": [
+        {
+          "fpath": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/bundle.js",
+          "ftime": 15.103697061538696
+        }
+      ]
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [
+      {
+        "error_type": "Fixpoint timeout",
+        "severity": "warn",
+        "message": "Fixpoint timeout while performing taint analysis at /Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/bundle.js:1:0 [rules: 3, first: javascript.express.security.injection.raw-html-format.raw-html-format]",
+        "location": {
+          "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX08/public/js/bundle.js",
+          "start": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          }
+        }
+      }
+    ],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.05167958656330749,
+      "rules_matched_ratio": 0.05167958656330749
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 852900800
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

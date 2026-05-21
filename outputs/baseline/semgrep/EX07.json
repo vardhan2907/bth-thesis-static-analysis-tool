@@ -1,0 +1,151 @@
+{
+  "version": "1.162.0",
+  "results": [
+    {
+      "check_id": "problem-based-packs.insecure-transport.js-node.bypass-tls-verification.bypass-tls-verification",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/app/utility/emailUtility.js",
+      "start": {
+        "line": 13,
+        "col": 14,
+        "offset": 437
+      },
+      "end": {
+        "line": 15,
+        "col": 10,
+        "offset": 486
+      },
+      "extra": {
+        "message": "Checks for setting the environment variable NODE_TLS_REJECT_UNAUTHORIZED to 0, which disables TLS verification. This should only be used for debugging purposes. Setting the option rejectUnauthorized to false bypasses verification against the list of trusted CAs, which also leads to insecure transport. These options lead to vulnerability to MTM attacks, and should not be used.",
+        "metadata": {
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "category": "security",
+          "cwe": "CWE-319: Cleartext Transmission of Sensitive Information",
+          "owasp": "A03:2017 - Sensitive Data Exposure",
+          "references": [
+            "https://nodejs.org/api/https.html#https_https_request_options_callback",
+            "https://stackoverflow.com/questions/20433287/node-js-request-cert-has-expired#answer-29397100"
+          ],
+          "subcategory": [
+            "vuln"
+          ],
+          "technology": [
+            "node.js"
+          ],
+          "vulnerability": "Insecure Transport",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Mishandled Sensitive Information"
+          ],
+          "source": "https://semgrep.dev/r/problem-based-packs.insecure-transport.js-node.bypass-tls-verification.bypass-tls-verification",
+          "shortlink": "https://sg.run/9oxr"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    }
+  ],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/app/config/cli.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/app/config/config.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/app/controllers/todoController.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/app/middlewares/authMiddleware.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/app/models/todosModel.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/app/utility/emailUtility.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/app/utility/tokenUtility.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/app/utility/validationUtility.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/app.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/postcss.config.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/routes/api.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/routes/web.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/tailwind.config.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/views/components/CreateForm.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/views/components/List.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/views/layout/AppLayout.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/views/loader/ListLoader.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/views/main.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/views/pages/CreatePage.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/views/pages/ListPage.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX07/vite.config.js"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.06226301193237305,
+    "profiling_times": {
+      "config_time": 1.0118968486785889,
+      "core_time": 0.5842716693878174,
+      "ignores_time": 0.00015091896057128906,
+      "total_time": 1.604706048965454
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 0.5931096076965332,
+      "per_file_time": {
+        "mean": 0.028243314652215874,
+        "std_dev": 0.0011945967506112115
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.027777777777777776,
+      "rules_matched_ratio": 0.027777777777777776
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 215364800
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

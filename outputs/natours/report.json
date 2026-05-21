@@ -1,0 +1,79 @@
+{
+  "project_name": "natours",
+  "framework": "express",
+  "scanned_files_count": 48,
+  "findings": [
+    {
+      "rule_id": "EX-HELMET-001",
+      "rule_name": "Helmet middleware not used",
+      "category": "security_headers",
+      "description": "Helmet sets important HTTP security headers (X-Frame-Options, X-Content-Type-Options, HSTS, CSP, etc.). Without it the app is missing baseline browser-level protections. (Heuristic: no helmet() call found in scanned Node.js files.)",
+      "evidence": {
+        "file_path": "Routes/bookingsRoutes.js, Routes/reviewRoutes.js, Routes/tourRoutes.js, Routes/userRoutes.js, Routes/viewRoutes.js",
+        "line": null,
+        "snippet": "No helmet() call found."
+      },
+      "recommendation": "npm install helmet  and add app.use(helmet()) in your Express app setup.",
+      "risk_factors": {
+        "E": 3,
+        "I": 3,
+        "D": 4,
+        "P": 4
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "EX-COOKIE-001",
+      "rule_name": "Cookie missing security attributes",
+      "category": "session_security",
+      "description": "res.cookie() is called but the following security flags were not found in this file: secure, sameSite. Missing httpOnly exposes cookies to XSS; missing secure allows transmission over plain HTTP; missing sameSite enables CSRF attacks. (Heuristic: checks for flag presence anywhere in the file.)",
+      "evidence": {
+        "file_path": "utils/jsonWebToken.js",
+        "line": 33,
+        "snippet": "res.cookie(\"jwt\", this.token, this.cookieOptionsControl(req));"
+      },
+      "recommendation": "Set all three flags: res.cookie('name', value, { httpOnly: true, secure: true, sameSite: 'Strict' })",
+      "risk_factors": {
+        "E": 3,
+        "I": 3,
+        "D": 3,
+        "P": 4
+      },
+      "risk_score": 6.5,
+      "severity": "High"
+    },
+    {
+      "rule_id": "EX-AUTHZ-001",
+      "rule_name": "Sensitive route without auth middleware",
+      "category": "authorization",
+      "description": "A route with a sensitive path (admin, dashboard, users, profile, etc.) was found in a file that contains no recognizable authentication middleware (isAuthenticated, verifyToken, passport, jwt.verify, etc.). (Heuristic: checks file-level presence of auth middleware.)",
+      "evidence": {
+        "file_path": "app.js",
+        "line": 44,
+        "snippet": "// app.options(\"/api/v1/users\",cors()) allow only for this api"
+      },
+      "recommendation": "Add authentication middleware to all sensitive routes: router.get('/admin', verifyToken, adminHandler)",
+      "risk_factors": {
+        "E": 4,
+        "I": 5,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.5,
+      "severity": "High"
+    }
+  ],
+  "summary": {
+    "total_findings": 3,
+    "counts_by_severity": {
+      "High": 3
+    },
+    "counts_by_category": {
+      "security_headers": 1,
+      "session_security": 1,
+      "authorization": 1
+    }
+  },
+  "errors": []
+}

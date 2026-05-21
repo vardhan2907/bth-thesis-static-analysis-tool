@@ -1,0 +1,180 @@
+{
+  "version": "1.162.0",
+  "results": [
+    {
+      "check_id": "javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/controllers/chatControllers.js",
+      "start": {
+        "line": 79,
+        "col": 14,
+        "offset": 2326
+      },
+      "end": {
+        "line": 79,
+        "col": 25,
+        "offset": 2337
+      },
+      "extra": {
+        "message": "Detected directly writing to a Response object from user-defined input. This bypasses any HTML escaping and may expose your application to a Cross-Site-scripting (XSS) vulnerability. Instead, use 'resp.render()' to render safely escaped HTML.",
+        "metadata": {
+          "interfile": true,
+          "references": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+          ],
+          "owasp": [
+            "A07:2017 - Cross-Site Scripting (XSS)",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "cwe": [
+            "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          ],
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "vulnerability_class": [
+            "Cross-Site-Scripting (XSS)"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+          "shortlink": "https://sg.run/vzGl"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    }
+  ],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/App.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/App.test.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/apis/auth.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/apis/chat.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/apis/messages.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/components/Contacts.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/components/Group.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/components/MessageHistory.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/components/Model.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/components/Profile.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/components/Start.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/components/group/Search.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/components/profile/InputEdit.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/components/ui/Loading.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/components/ui/NoContacts.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/components/ui/SkeletonLoading.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/components/ui/Typing.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/pages/Chat.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/pages/Home.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/pages/Login.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/pages/Regsiter.jsx",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/redux/activeUserSlice.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/redux/chatsSlice.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/redux/profileSlice.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/redux/searchSlice.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/reportWebVitals.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/setupTests.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/store.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/src/utils/logics.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/clients/tailwind.config.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/controllers/chatControllers.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/controllers/messageControllers.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/controllers/user.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/middleware/user.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/models/chatModel.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/models/messageModel.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/models/userModel.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/mongoDB/connection.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/routes/chat.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/routes/message.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX18/server/routes/user.js"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.10622501373291016,
+    "profiling_times": {
+      "config_time": 0.44848084449768066,
+      "core_time": 1.2729167938232422,
+      "ignores_time": 0.00022602081298828125,
+      "total_time": 1.7357089519500732
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 1.8351526260375977,
+      "per_file_time": {
+        "mean": 0.042677968047385995,
+        "std_dev": 0.004604021996490148
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.034237726098191215,
+      "rules_matched_ratio": 0.034237726098191215
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 230464960
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

@@ -1,0 +1,271 @@
+{
+  "version": "1.162.0",
+  "results": [],
+  "errors": [
+    {
+      "code": 3,
+      "level": "warn",
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/config/factory.py",
+            "start": {
+              "line": 206,
+              "col": 21,
+              "offset": 0
+            },
+            "end": {
+              "line": 206,
+              "col": 22,
+              "offset": 1
+            }
+          }
+        ]
+      ],
+      "message": "Syntax error at line /Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/config/factory.py:206:\n `)` was unexpected",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/config/factory.py",
+      "spans": [
+        {
+          "file": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/config/factory.py",
+          "start": {
+            "line": 206,
+            "col": 21,
+            "offset": 0
+          },
+          "end": {
+            "line": 206,
+            "col": 22,
+            "offset": 1
+          }
+        }
+      ]
+    }
+  ],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/api/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/api/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/api/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/api/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/api/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/api/tests.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/api/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/dashboard/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/dashboard/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/dashboard/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/dashboard/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/dashboard/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/dashboard/tests.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/dashboard/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/generation/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/generation/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/generation/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/generation/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/generation/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/generation/tests.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/generation/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/manage.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/robo_poet.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/robo_poet_web/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/robo_poet_web/asgi.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/robo_poet_web/settings.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/robo_poet_web/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/robo_poet_web/wsgi.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/scripts/cleanup_models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/scripts/demos/demo_multi_corpus.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/scripts/fix_all_emojis.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/scripts/fix_emojis.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/scripts/setup_claude.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/scripts/setup_django.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/scripts/tools/auto_cleanup.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/scripts/tools/clean_gutenberg_text.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/scripts/tools/cleanup_project.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/scripts/tools/robo_poet_clean.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/scripts/tools/simple_robo_poet.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/scripts/train_real_gpu.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/scripts/train_with_claude.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/setup_django.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/analysis/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/application/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/application/commands/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/application/commands/training_commands.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/application/event_handlers/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/application/event_handlers/training_event_handlers.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/application/message_bus.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/application/queries/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/application/queries/query_handlers.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/application/queries/training_queries.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/application/services/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/application/services/cli_service.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/application/services/generation_service.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/application/services/telares/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/application/services/telares/telares_service.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/application/services/telares/training_service.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/application/services/training_service.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/attention/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/config/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/config/adapters.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/config/factory.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/config/secrets.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/config/settings.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/config.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/core/exceptions.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/core/unified_config.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/data/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/data_processor.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/domain/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/domain/entities/generation_model.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/domain/entities/text_corpus.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/domain/events/generation_events.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/domain/events/training_events.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/domain/exceptions.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/domain/repositories.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/domain/telares/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/domain/telares/entities.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/domain/telares/value_objects.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/domain/value_objects/generation_params.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/domain/value_objects/model_config.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/evaluation/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/evaluation/early_stopping.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/evaluation/metrics.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/generation/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/gpu_optimization/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/i18n.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/infrastructure/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/infrastructure/container.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/infrastructure/django_integration.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/infrastructure/persistence/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/infrastructure/persistence/repositories/corpus_repository.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/infrastructure/persistence/repositories/event_repository.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/infrastructure/persistence/repositories/model_repository.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/infrastructure/persistence/sqlalchemy_models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/infrastructure/persistence/unit_of_work.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/infrastructure/telares/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/infrastructure/telares/data_loader.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/infrastructure/telares/ml_detector.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/intelligence/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/intelligence/claude_integration.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/interface/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/interface/cli_controller.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/interface/generation_modes.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/interface/menu_system.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/interface/phase1_training.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/interface/phase2_generation.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/interface/phase3_intelligent_cycle.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/interface/telares_detector_phase.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/legacy/archive/legacy/robo_poet_original_backup.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/legacy/robo-poet-pytorch/main.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/legacy/robo-poet-pytorch/src/generation/generate.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/legacy/robo-poet-pytorch/src/training/train.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/legacy/robo-poet-pytorch/src/utils/create_vocab.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/logger.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/model_pytorch.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/monitoring/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/orchestrator.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/robo_train.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/testing/module2_test_suite.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/utils/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/utils/async_io_optimizer.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/utils/demo_simple.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/utils/display_utils.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/utils/file_manager.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/utils/file_viewer.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/utils/input_validator.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/utils/logging_integration.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/utils/run_module2_tests.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/utils/secure_file_manager.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/utils/structured_logger.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/utils/test_file_viewer.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/src/vocabulary_builder.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/templates/base/base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/templates/dashboard/index.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/test_training_integration.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/training/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/training/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/training/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/training/consumers.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/training/migrations/0001_initial.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/training/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/training/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/training/routing.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/training/tests.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/training/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ05/training/views.py"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.03448295593261719,
+    "profiling_times": {
+      "config_time": 0.3801281452178955,
+      "core_time": 1.6663110256195068,
+      "ignores_time": 0.00015115737915039062,
+      "total_time": 2.061366081237793
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 7.67607569694519,
+      "per_file_time": {
+        "mean": 0.05151728655667914,
+        "std_dev": 0.0037063689531842865
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.014857718458826491,
+      "rules_matched_ratio": 0.014857718458826491
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 302751360
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

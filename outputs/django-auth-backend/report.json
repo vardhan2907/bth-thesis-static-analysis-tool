@@ -1,0 +1,37 @@
+{
+  "project_name": "django-auth-backend",
+  "framework": "django",
+  "scanned_files_count": 53,
+  "findings": [
+    {
+      "rule_id": "DJ-COOKIE-001",
+      "rule_name": "SESSION_COOKIE_SECURE not set",
+      "category": "session_security",
+      "description": "SESSION_COOKIE_SECURE is not present in any settings file. Django defaults to False, which allows the session cookie to be transmitted over plain HTTP, enabling session hijacking.",
+      "evidence": {
+        "file_path": "src/django_auth/settings.py",
+        "line": null,
+        "snippet": "SESSION_COOKIE_SECURE not found in settings."
+      },
+      "recommendation": "Add SESSION_COOKIE_SECURE = True to your production settings.",
+      "risk_factors": {
+        "E": 3,
+        "I": 3,
+        "D": 3,
+        "P": 4
+      },
+      "risk_score": 6.5,
+      "severity": "High"
+    }
+  ],
+  "summary": {
+    "total_findings": 1,
+    "counts_by_severity": {
+      "High": 1
+    },
+    "counts_by_category": {
+      "session_security": 1
+    }
+  },
+  "errors": []
+}

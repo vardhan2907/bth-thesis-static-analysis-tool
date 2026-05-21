@@ -1,0 +1,58 @@
+{
+  "project_name": "lets-chat",
+  "framework": "express",
+  "scanned_files_count": 45,
+  "findings": [
+    {
+      "rule_id": "EX-HELMET-001",
+      "rule_name": "Helmet middleware not used",
+      "category": "security_headers",
+      "description": "Helmet sets important HTTP security headers (X-Frame-Options, X-Content-Type-Options, HSTS, CSP, etc.). Without it the app is missing baseline browser-level protections. (Heuristic: no helmet() call found in scanned Node.js files.)",
+      "evidence": {
+        "file_path": "frontend/postcss.config.js, frontend/src/App.js, frontend/src/components/accounts/Login.js, frontend/src/components/accounts/Logout.js, frontend/src/components/accounts/Profile.js",
+        "line": null,
+        "snippet": "No helmet() call found."
+      },
+      "recommendation": "npm install helmet  and add app.use(helmet()) in your Express app setup.",
+      "risk_factors": {
+        "E": 3,
+        "I": 3,
+        "D": 4,
+        "P": 4
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    },
+    {
+      "rule_id": "EX-JSON-001",
+      "rule_name": "JSON body parser has no size limit",
+      "category": "denial_of_service",
+      "description": "express.json() or bodyParser.json() is configured without a size limit. An attacker can send arbitrarily large request bodies, exhausting server memory and causing denial of service.",
+      "evidence": {
+        "file_path": "server/index.js",
+        "line": 18,
+        "snippet": "app.use(express.json());"
+      },
+      "recommendation": "Set an explicit body size limit: app.use(express.json({ limit: '10kb' }))",
+      "risk_factors": {
+        "E": 3,
+        "I": 3,
+        "D": 4,
+        "P": 3
+      },
+      "risk_score": 6.5,
+      "severity": "High"
+    }
+  ],
+  "summary": {
+    "total_findings": 2,
+    "counts_by_severity": {
+      "High": 2
+    },
+    "counts_by_category": {
+      "security_headers": 1,
+      "denial_of_service": 1
+    }
+  },
+  "errors": []
+}

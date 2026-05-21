@@ -1,0 +1,12 @@
+{
+  "project_name": "mern-x",
+  "framework": "express",
+  "scanned_files_count": 15,
+  "findings": [],
+  "summary": {
+    "total_findings": 0,
+    "counts_by_severity": {},
+    "counts_by_category": {}
+  },
+  "errors": []
+}

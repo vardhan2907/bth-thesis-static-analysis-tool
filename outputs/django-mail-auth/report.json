@@ -1,0 +1,100 @@
+{
+  "project_name": "django-mail-auth",
+  "framework": "django",
+  "scanned_files_count": 50,
+  "findings": [
+    {
+      "rule_id": "DJ-DEBUG-001",
+      "rule_name": "DEBUG mode enabled",
+      "category": "security_misconfiguration",
+      "description": "Django's DEBUG=True exposes full stack traces, local variables, and settings to any user who triggers an error. Must be False in production.",
+      "evidence": {
+        "file_path": "tests/testapp/settings.py",
+        "line": 27,
+        "snippet": "DEBUG = True"
+      },
+      "recommendation": "Set DEBUG = False for all production deployments.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 4,
+        "P": 4
+      },
+      "risk_score": 8.0,
+      "severity": "Critical"
+    },
+    {
+      "rule_id": "DJ-SECRET-001",
+      "rule_name": "Hardcoded SECRET_KEY",
+      "category": "secrets_management",
+      "description": "A literal string value is used as Django's SECRET_KEY. If this file is committed to version control the secret is exposed. SECRET_KEY must be loaded from an environment variable or secrets manager.",
+      "evidence": {
+        "file_path": "tests/testapp/settings.py",
+        "line": 24,
+        "snippet": "SECRET_KEY = \"supersecret\"  # noqa: S105"
+      },
+      "recommendation": "Load SECRET_KEY from the environment: SECRET_KEY = os.environ['DJANGO_SECRET_KEY']",
+      "risk_factors": {
+        "E": 5,
+        "I": 5,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 8.0,
+      "severity": "Critical"
+    },
+    {
+      "rule_id": "DJ-HOSTS-001",
+      "rule_name": "ALLOWED_HOSTS empty",
+      "category": "security_misconfiguration",
+      "description": "ALLOWED_HOSTS = [] is only safe while DEBUG=True. In production with DEBUG=False it rejects all requests and is a sign the value has not been configured for deployment.",
+      "evidence": {
+        "file_path": "tests/testapp/settings.py",
+        "line": 29,
+        "snippet": "ALLOWED_HOSTS = []"
+      },
+      "recommendation": "Set ALLOWED_HOSTS to your explicit domain list before deploying.",
+      "risk_factors": {
+        "E": 3,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 6.5,
+      "severity": "High"
+    },
+    {
+      "rule_id": "DJ-COOKIE-001",
+      "rule_name": "SESSION_COOKIE_SECURE not set",
+      "category": "session_security",
+      "description": "SESSION_COOKIE_SECURE is not present in any settings file. Django defaults to False, which allows the session cookie to be transmitted over plain HTTP, enabling session hijacking.",
+      "evidence": {
+        "file_path": "tests/testapp/settings.py",
+        "line": null,
+        "snippet": "SESSION_COOKIE_SECURE not found in settings."
+      },
+      "recommendation": "Add SESSION_COOKIE_SECURE = True to your production settings.",
+      "risk_factors": {
+        "E": 3,
+        "I": 3,
+        "D": 3,
+        "P": 4
+      },
+      "risk_score": 6.5,
+      "severity": "High"
+    }
+  ],
+  "summary": {
+    "total_findings": 4,
+    "counts_by_severity": {
+      "Critical": 2,
+      "High": 2
+    },
+    "counts_by_category": {
+      "security_misconfiguration": 2,
+      "secrets_management": 1,
+      "session_security": 1
+    }
+  },
+  "errors": []
+}

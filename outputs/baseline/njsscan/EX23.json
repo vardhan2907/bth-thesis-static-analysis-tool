@@ -1,0 +1,51 @@
+{
+  "errors": [],
+  "njsscan_version": "0.4.2",
+  "nodejs": {
+    "generic_error_disclosure": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/server/middleware/verifyRequest.js",
+          "match_lines": [
+            70,
+            94
+          ],
+          "match_position": [
+            3,
+            4
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-209: Generation of Error Message Containing Sensitive Information",
+        "description": "Error messages with stack traces may expose sensitive information about the application.",
+        "owasp-web": "A3: Sensitive Data Exposure",
+        "severity": "WARNING"
+      }
+    },
+    "node_nosqli_injection": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX23/server/middleware/isInitialLoad.js",
+          "match_lines": [
+            36,
+            38
+          ],
+          "match_position": [
+            36,
+            9
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-943: Improper Neutralization of Special Elements in Data Query Logic",
+        "description": "Untrusted user input in findOne() function can result in NoSQL Injection.",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    }
+  },
+  "templates": {}
+}

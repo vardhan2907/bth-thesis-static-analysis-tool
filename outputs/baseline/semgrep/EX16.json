@@ -1,0 +1,622 @@
+{
+  "version": "1.162.0",
+  "results": [
+    {
+      "check_id": "problem-based-packs.insecure-transport.js-node.bypass-tls-verification.bypass-tls-verification",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/db/index.js",
+      "start": {
+        "line": 13,
+        "col": 8,
+        "offset": 300
+      },
+      "end": {
+        "line": 13,
+        "col": 37,
+        "offset": 329
+      },
+      "extra": {
+        "message": "Checks for setting the environment variable NODE_TLS_REJECT_UNAUTHORIZED to 0, which disables TLS verification. This should only be used for debugging purposes. Setting the option rejectUnauthorized to false bypasses verification against the list of trusted CAs, which also leads to insecure transport. These options lead to vulnerability to MTM attacks, and should not be used.",
+        "metadata": {
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "category": "security",
+          "cwe": "CWE-319: Cleartext Transmission of Sensitive Information",
+          "owasp": "A03:2017 - Sensitive Data Exposure",
+          "references": [
+            "https://nodejs.org/api/https.html#https_https_request_options_callback",
+            "https://stackoverflow.com/questions/20433287/node-js-request-cert-has-expired#answer-29397100"
+          ],
+          "subcategory": [
+            "vuln"
+          ],
+          "technology": [
+            "node.js"
+          ],
+          "vulnerability": "Insecure Transport",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Mishandled Sensitive Information"
+          ],
+          "source": "https://semgrep.dev/r/problem-based-packs.insecure-transport.js-node.bypass-tls-verification.bypass-tls-verification",
+          "shortlink": "https://sg.run/9oxr"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/comments.js",
+      "start": {
+        "line": 131,
+        "col": 14,
+        "offset": 4258
+      },
+      "end": {
+        "line": 131,
+        "col": 28,
+        "offset": 4272
+      },
+      "extra": {
+        "message": "Detected directly writing to a Response object from user-defined input. This bypasses any HTML escaping and may expose your application to a Cross-Site-scripting (XSS) vulnerability. Instead, use 'resp.render()' to render safely escaped HTML.",
+        "metadata": {
+          "interfile": true,
+          "references": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+          ],
+          "owasp": [
+            "A07:2017 - Cross-Site Scripting (XSS)",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "cwe": [
+            "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          ],
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "vulnerability_class": [
+            "Cross-Site-Scripting (XSS)"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+          "shortlink": "https://sg.run/vzGl"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/moderators.js",
+      "start": {
+        "line": 27,
+        "col": 14,
+        "offset": 936
+      },
+      "end": {
+        "line": 27,
+        "col": 18,
+        "offset": 940
+      },
+      "extra": {
+        "message": "Detected directly writing to a Response object from user-defined input. This bypasses any HTML escaping and may expose your application to a Cross-Site-scripting (XSS) vulnerability. Instead, use 'resp.render()' to render safely escaped HTML.",
+        "metadata": {
+          "interfile": true,
+          "references": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+          ],
+          "owasp": [
+            "A07:2017 - Cross-Site Scripting (XSS)",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "cwe": [
+            "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          ],
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "vulnerability_class": [
+            "Cross-Site-Scripting (XSS)"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+          "shortlink": "https://sg.run/vzGl"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/posts.js",
+      "start": {
+        "line": 149,
+        "col": 14,
+        "offset": 4664
+      },
+      "end": {
+        "line": 149,
+        "col": 25,
+        "offset": 4675
+      },
+      "extra": {
+        "message": "Detected directly writing to a Response object from user-defined input. This bypasses any HTML escaping and may expose your application to a Cross-Site-scripting (XSS) vulnerability. Instead, use 'resp.render()' to render safely escaped HTML.",
+        "metadata": {
+          "interfile": true,
+          "references": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+          ],
+          "owasp": [
+            "A07:2017 - Cross-Site Scripting (XSS)",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "cwe": [
+            "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          ],
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "vulnerability_class": [
+            "Cross-Site-Scripting (XSS)"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+          "shortlink": "https://sg.run/vzGl"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/users.js",
+      "start": {
+        "line": 132,
+        "col": 12,
+        "offset": 3507
+      },
+      "end": {
+        "line": 132,
+        "col": 16,
+        "offset": 3511
+      },
+      "extra": {
+        "message": "Detected directly writing to a Response object from user-defined input. This bypasses any HTML escaping and may expose your application to a Cross-Site-scripting (XSS) vulnerability. Instead, use 'resp.render()' to render safely escaped HTML.",
+        "metadata": {
+          "interfile": true,
+          "references": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+          ],
+          "owasp": [
+            "A07:2017 - Cross-Site Scripting (XSS)",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "cwe": [
+            "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          ],
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "vulnerability_class": [
+            "Cross-Site-Scripting (XSS)"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+          "shortlink": "https://sg.run/vzGl"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/users.js",
+      "start": {
+        "line": 144,
+        "col": 12,
+        "offset": 3809
+      },
+      "end": {
+        "line": 144,
+        "col": 16,
+        "offset": 3813
+      },
+      "extra": {
+        "message": "Detected directly writing to a Response object from user-defined input. This bypasses any HTML escaping and may expose your application to a Cross-Site-scripting (XSS) vulnerability. Instead, use 'resp.render()' to render safely escaped HTML.",
+        "metadata": {
+          "interfile": true,
+          "references": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+          ],
+          "owasp": [
+            "A07:2017 - Cross-Site Scripting (XSS)",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "cwe": [
+            "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          ],
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "vulnerability_class": [
+            "Cross-Site-Scripting (XSS)"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+          "shortlink": "https://sg.run/vzGl"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/users.js",
+      "start": {
+        "line": 163,
+        "col": 14,
+        "offset": 4438
+      },
+      "end": {
+        "line": 163,
+        "col": 33,
+        "offset": 4457
+      },
+      "extra": {
+        "message": "Detected directly writing to a Response object from user-defined input. This bypasses any HTML escaping and may expose your application to a Cross-Site-scripting (XSS) vulnerability. Instead, use 'resp.render()' to render safely escaped HTML.",
+        "metadata": {
+          "interfile": true,
+          "references": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+          ],
+          "owasp": [
+            "A07:2017 - Cross-Site Scripting (XSS)",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "cwe": [
+            "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          ],
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "vulnerability_class": [
+            "Cross-Site-Scripting (XSS)"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+          "shortlink": "https://sg.run/vzGl"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/users.js",
+      "start": {
+        "line": 178,
+        "col": 14,
+        "offset": 4874
+      },
+      "end": {
+        "line": 178,
+        "col": 33,
+        "offset": 4893
+      },
+      "extra": {
+        "message": "Detected directly writing to a Response object from user-defined input. This bypasses any HTML escaping and may expose your application to a Cross-Site-scripting (XSS) vulnerability. Instead, use 'resp.render()' to render safely escaped HTML.",
+        "metadata": {
+          "interfile": true,
+          "references": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+          ],
+          "owasp": [
+            "A07:2017 - Cross-Site Scripting (XSS)",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "cwe": [
+            "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          ],
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "vulnerability_class": [
+            "Cross-Site-Scripting (XSS)"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+          "shortlink": "https://sg.run/vzGl"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/votes.js",
+      "start": {
+        "line": 44,
+        "col": 14,
+        "offset": 1226
+      },
+      "end": {
+        "line": 44,
+        "col": 18,
+        "offset": 1230
+      },
+      "extra": {
+        "message": "Detected directly writing to a Response object from user-defined input. This bypasses any HTML escaping and may expose your application to a Cross-Site-scripting (XSS) vulnerability. Instead, use 'resp.render()' to render safely escaped HTML.",
+        "metadata": {
+          "interfile": true,
+          "references": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+          ],
+          "owasp": [
+            "A07:2017 - Cross-Site Scripting (XSS)",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "cwe": [
+            "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          ],
+          "category": "security",
+          "technology": [
+            "express"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "confidence": "MEDIUM",
+          "vulnerability_class": [
+            "Cross-Site-Scripting (XSS)"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "source": "https://semgrep.dev/r/javascript.express.security.audit.xss.direct-response-write.direct-response-write",
+          "shortlink": "https://sg.run/vzGl"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    }
+  ],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/migrations/20210422010902-seed.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/migrations/20210422022645-add-comment-votes.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/migrations/20210502234618-allow-null-title.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/db/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/db/prepare-test-data.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/db/utils.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/middleware/auth.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/comments.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/moderators.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/posts.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/subreddits.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/users.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/backend/src/routers/votes.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/App.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/ColorModeSwitcher.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/Logo.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/actions/auth.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/actions/comments.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/actions/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/actions/post.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/actions/postList.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/actions/subreddits.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/axios-config.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/ChakraMarkdown.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/Comment.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/CommentsPage.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/CommentsThread.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/CreatePostPage.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/CreateSubredditPage.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/DeleteButton.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/EditBox.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/HomePage.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/LoginAndRegisterButtons.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/LoginPage.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/Navbar.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/Post.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/PostList.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/PrivateRoute.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/PublicRoute.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/RegisterPage.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/ThemedBox.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/UpvoteBar.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/components/WriteCommentBox.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/localStorage.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/reducers/auth.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/reducers/comments.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/reducers/error.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/reducers/loading.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/reducers/post.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/reducers/postList.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/reducers/subreddits.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/reportWebVitals.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/selectors/index.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/serviceWorker.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/setupTests.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/store/configureStore.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/test-utils.js",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/EX16/frontend/src/theme.js"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.06006789207458496,
+    "profiling_times": {
+      "config_time": 0.3798868656158447,
+      "core_time": 0.9428188800811768,
+      "ignores_time": 0.0002148151397705078,
+      "total_time": 1.3400778770446777
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 2.907094955444336,
+      "per_file_time": {
+        "mean": 0.04845158259073893,
+        "std_dev": 0.0034714396614042983
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.05138888888888889,
+      "rules_matched_ratio": 0.05138888888888889
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 261673280
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

@@ -1,0 +1,141 @@
+{
+  "version": "1.162.0",
+  "results": [],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/common.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/management/commands/backup_db_before_upgrade.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/management/commands/clear_cache.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/management/commands/db_init_db_on_start.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/management/commands/wg_generate_config.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/management/commands/wg_restart.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/migrations/0001_initial.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/migrations/0002_auto_20240526_2225.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/migrations/0003_alter_target_ip_address.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/migrations/0004_serverconfiguration_allow_check_updates.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/migrations/0005_peer_email_address.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/migrations/0006_serverconfiguration_ip_address.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/migrations/0007_serverconfiguration_strict_allowed_ips_in_peer_config.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/migrations/0008_alter_serverconfiguration_last_changed_datetime.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/migrations/0009_serverconfiguration_wireguard_config_change_datetime.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/migrations/0010_alter_serverconfiguration_last_changed_datetime.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/migrations/0011_remove_serverconfiguration_wireguard_config_change_datetime.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/migrations/0012_alter_serverconfiguration_last_changed_datetime.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/serializers.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/server_helper.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/util.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_app/wireguardhelper.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_project/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_project/asgi.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_project/settings.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_project/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/api_project/wsgi.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/api_project/manage.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/app-about/app-about.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/app-sidepanel/app-sidepanel.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/app.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/authorized-view/authorized-view.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/crud-container/crud-container.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/home/home.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/login/login.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/manage-peer-groups/manage-peer-groups.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/manage-peer-groups-editor/manage-peer-groups-editor.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/manage-peer-groups-list/manage-peer-groups-list.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/manage-peers/manage-peers.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/manage-peers-editor/manage-peers-editor.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/manage-peers-list/manage-peers-list.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/manage-server-configuration/manage-server-configuration.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/manage-targets/manage-targets.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/manage-targets-editor/manage-targets-editor.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/manage-targets-list/manage-targets-list.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/server-monitor-iptables/server-monitor-iptables.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/server-monitor-peers/server-monitor-peers.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/server-vpn-layout/server-vpn-layout.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/testpage/testpage.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/app/validation-errors-display/validation-errors-display.component.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/clientapp/src/index.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ15/src/test_sample-tests.py"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.036316871643066406,
+    "profiling_times": {
+      "config_time": 0.37346816062927246,
+      "core_time": 0.6050519943237305,
+      "ignores_time": 0.0001418590545654297,
+      "total_time": 0.9876489639282227
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 1.0109565258026123,
+      "per_file_time": {
+        "mean": 0.017134856369535798,
+        "std_dev": 0.00043039061375847504
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.008040201005025126,
+      "rules_matched_ratio": 0.008040201005025126
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 253792640
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

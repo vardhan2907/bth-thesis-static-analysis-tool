@@ -1,0 +1,351 @@
+{
+  "errors": [],
+  "njsscan_version": "0.4.2",
+  "nodejs": {
+    "join_resolve_path_traversal": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/downloadRoutes.js",
+          "match_lines": [
+            8,
+            8
+          ],
+          "match_position": [
+            19,
+            78
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/downloadRoutes.js",
+          "match_lines": [
+            21,
+            21
+          ],
+          "match_position": [
+            19,
+            79
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')",
+        "description": "Path constructed with user input can result in Path Traversal. Ensure that user input does not reach `join()` or `resolve()`. ",
+        "owasp-web": "A5: Broken Access Control",
+        "severity": "WARNING"
+      }
+    },
+    "node_nosqli_injection": {
+      "files": [
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            225,
+            225
+          ],
+          "match_position": [
+            3,
+            38
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            242,
+            283
+          ],
+          "match_position": [
+            3,
+            8
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            249,
+            252
+          ],
+          "match_position": [
+            3,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            317,
+            346
+          ],
+          "match_position": [
+            3,
+            4
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            319,
+            319
+          ],
+          "match_position": [
+            5,
+            44
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            333,
+            333
+          ],
+          "match_position": [
+            5,
+            47
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            351,
+            351
+          ],
+          "match_position": [
+            3,
+            39
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            361,
+            361
+          ],
+          "match_position": [
+            9,
+            52
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            375,
+            375
+          ],
+          "match_position": [
+            9,
+            55
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            397,
+            470
+          ],
+          "match_position": [
+            3,
+            4
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            400,
+            400
+          ],
+          "match_position": [
+            5,
+            44
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            432,
+            432
+          ],
+          "match_position": [
+            5,
+            47
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            475,
+            586
+          ],
+          "match_position": [
+            3,
+            8
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            483,
+            586
+          ],
+          "match_position": [
+            3,
+            8
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            491,
+            497
+          ],
+          "match_position": [
+            3,
+            5
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            688,
+            875
+          ],
+          "match_position": [
+            3,
+            4
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            689,
+            875
+          ],
+          "match_position": [
+            3,
+            4
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            707,
+            710
+          ],
+          "match_position": [
+            7,
+            9
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            719,
+            722
+          ],
+          "match_position": [
+            11,
+            13
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            986,
+            1324
+          ],
+          "match_position": [
+            3,
+            4
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            987,
+            1324
+          ],
+          "match_position": [
+            3,
+            4
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            990,
+            994
+          ],
+          "match_position": [
+            5,
+            7
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            1157,
+            1161
+          ],
+          "match_position": [
+            5,
+            7
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            1329,
+            1344
+          ],
+          "match_position": [
+            3,
+            6
+          ],
+          "match_string": "requires login"
+        },
+        {
+          "file_path": "/Users/charan/Documents/vardhan_thesis_docs/data/EX12/backend/routes/apiRoutes.js",
+          "match_lines": [
+            1330,
+            1334
+          ],
+          "match_position": [
+            3,
+            5
+          ],
+          "match_string": "requires login"
+        }
+      ],
+      "metadata": {
+        "cwe": "CWE-943: Improper Neutralization of Special Elements in Data Query Logic",
+        "description": "Untrusted user input in findOne() function can result in NoSQL Injection.",
+        "owasp-web": "A1: Injection",
+        "severity": "ERROR"
+      }
+    }
+  },
+  "templates": {}
+}

@@ -1,0 +1,357 @@
+{
+  "version": "1.162.0",
+  "results": [
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/templates/registration/password_reset_confirm.html",
+      "start": {
+        "line": 6,
+        "col": 9,
+        "offset": 147
+      },
+      "end": {
+        "line": 24,
+        "col": 16,
+        "offset": 882
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-using-request-post-after-is-valid.django-using-request-post-after-is-valid",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/views.py",
+      "start": {
+        "line": 19,
+        "col": 21,
+        "offset": 602
+      },
+      "end": {
+        "line": 19,
+        "col": 46,
+        "offset": 627
+      },
+      "extra": {
+        "message": "Use form.cleaned_data[] instead of request.POST[] after form.is_valid() has been executed to only access sanitized data",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-20: Improper Input Validation",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/ref/forms/api/#accessing-clean-data"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Improper Validation"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-using-request-post-after-is-valid.django-using-request-post-after-is-valid",
+          "shortlink": "https://sg.run/kJn7"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/templates/product/product_detail.html",
+      "start": {
+        "line": 88,
+        "col": 29,
+        "offset": 4756
+      },
+      "end": {
+        "line": 101,
+        "col": 36,
+        "offset": 5721
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/templates/base.html",
+      "start": {
+        "line": 78,
+        "col": 33,
+        "offset": 3517
+      },
+      "end": {
+        "line": 91,
+        "col": 40,
+        "offset": 4592
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    }
+  ],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/backends.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/forms.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/migrations/0001_initial.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/migrations/0002_alter_address_user_alter_contactnumber_user_and_more.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/tasks.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/templates/accounts/activate.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/templates/accounts/profile.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/templates/accounts/register.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/templates/auth_base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/templates/registration/login.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/templates/registration/password_change_done.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/templates/registration/password_change_form.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/templates/registration/password_reset_complete.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/templates/registration/password_reset_confirm.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/templates/registration/password_reset_done.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/templates/registration/password_reset_email.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/templates/registration/password_reset_form.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/templates/registration/reset-password.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/tests.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/accounts/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/dummy_data.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/manage.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/api.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/cart_context_processors.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/migrations/0001_initial.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/migrations/0002_alter_order_code.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/migrations/0003_alter_order_code.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/migrations/0004_rename_product_orderdetail_product_alter_order_code.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/migrations/0005_alter_order_code_alter_order_status.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/migrations/0006_alter_cartdetail_quantity_alter_order_code.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/migrations/0007_rename_cupon_coupon_remove_cart_cupon_and_more.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/migrations/0008_alter_order_code_alter_order_status.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/migrations/0009_alter_order_code.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/migrations/0010_rename_total_with_cupon_cart_total_with_coupon_and_more.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/migrations/0011_alter_order_code.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/migrations/0012_alter_order_code.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/migrations/0013_alter_order_code.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/serializers.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/templates/orders/checkout.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/templates/orders/order_list.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/tests.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/orders/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/api.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/custom_pagination.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/filter_by_price_name.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/migrations/0001_initial.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/migrations/0002_product_tags.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/migrations/0003_product_slug.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/migrations/0004_brand_slug.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/serializers.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/templates/product/brand_detail.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/templates/product/brand_list.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/templates/product/debug.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/templates/product/includes/product_review.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/templates/product/product_detail.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/templates/product/product_list.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/product/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/project/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/project/asgi.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/project/celery.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/project/settings.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/project/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/project/wsgi.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/settings/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/settings/admin.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/settings/apps.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/settings/company_context_processors.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/settings/migrations/0001_initial.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/settings/migrations/__init__.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/settings/models.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/settings/templates/settings/home.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/settings/tests.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/settings/urls.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/settings/views.py",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/static/ar/fonts/flaticon/flaticon.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/static/ar/fonts/icofont/demo.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/static/en/fonts/flaticon/flaticon.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/static/en/fonts/icofont/demo.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/templates/base.html",
+      "/Users/charan/Documents/vardhan_thesis_docs/data/DJ08/utils/generate_caode.py"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.03824019432067871,
+    "profiling_times": {
+      "config_time": 0.42754697799682617,
+      "core_time": 0.7958981990814209,
+      "ignores_time": 0.0001881122589111328,
+      "total_time": 1.2490408420562744
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 1.9674782752990723,
+      "per_file_time": {
+        "mean": 0.020076308931623193,
+        "std_dev": 0.0004198237480587912
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.01131687242798354,
+      "rules_matched_ratio": 0.01131687242798354
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 294693184
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

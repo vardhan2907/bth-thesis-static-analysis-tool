@@ -1,0 +1,37 @@
+{
+  "project_name": "cute_prep",
+  "framework": "django",
+  "scanned_files_count": 87,
+  "findings": [
+    {
+      "rule_id": "DJ-CSRF-001",
+      "rule_name": "@csrf_exempt decorator used",
+      "category": "csrf_protection",
+      "description": "@csrf_exempt disables Django's CSRF protection for this view. State-changing endpoints (POST/PUT/DELETE) without CSRF protection are vulnerable to cross-site request forgery. (Heuristic: review whether this exemption is intentional and safe.)",
+      "evidence": {
+        "file_path": "apps/core/views.py",
+        "line": 197,
+        "snippet": "@csrf_exempt"
+      },
+      "recommendation": "Remove @csrf_exempt and use Django's CSRF middleware. For REST APIs, use token-based auth (DRF SessionAuthentication or JWT) instead of exempting CSRF.",
+      "risk_factors": {
+        "E": 4,
+        "I": 4,
+        "D": 3,
+        "P": 3
+      },
+      "risk_score": 7.0,
+      "severity": "High"
+    }
+  ],
+  "summary": {
+    "total_findings": 1,
+    "counts_by_severity": {
+      "High": 1
+    },
+    "counts_by_category": {
+      "csrf_protection": 1
+    }
+  },
+  "errors": []
+}
